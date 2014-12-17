@@ -1,7 +1,6 @@
 <?php
 return [
-    //'name'=>'Index',
-    //'defaultController'=>'Index',
+    
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',

@@ -14,20 +14,16 @@ use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
 /**
- * Site controller
+ * Index controller
  */
 class IndexController extends Controller
 {
     public function __construct($id, $module, $config = array()) {
         parent::__construct($id, $module, $config);
-        //echo 1234;die;
     }
 
     public function actionIndex()
     {
-        //echo 1234;die;
-        return $this->render('index');
+        return $this->renderPartial('index');
     }
-
-   
 }

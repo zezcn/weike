@@ -1,277 +1,10 @@
-<!DOCTYPE HTML>
-<!--[if lt IE 7]> <html dir="ltr" lang="zh-cn" id="ie6"> <![endif]-->
-<!--[if IE 7]>    <html dir="ltr" lang="zh-cn" id="ie7"> <![endif]-->
-<!--[if IE 8]>    <html dir="ltr" lang="zh-cn" id="ie8"> <![endif]-->
-<!--[if gt IE 8]><!--> <html dir="ltr" lang="zh-cn"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<title>客客出品专业威客系统</title>
-<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE,chrome=1">
-<meta name="keywords" content="客客出品专业威客系统">
-<meta name="description" content="客客出品专业威客系统">
-<meta name="generator" content="客客出品 2.2" />
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style” content=black" /> 
-<meta name="author" content="kekezu" />
-<meta name="copyright" content="Copyright &#169; 2010 -2013 kekezu. All rights reserved" />
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="apple-touch-icon" href="favicon.ico"/>
-<script type="text/javascript">
-var SITEURL= "http://localhost/weike_demo",
-    SKIN_PATH = 'tpl/default',
-LANG       = 'cn',
-    INDEX      = 'index',
-    CHARSET    = "utf-8";
-</script>
-<link href="/css/reset.css" rel="stylesheet" charset="utf-8">
-<!--公用样式-->
-<link href="/css/base.css" rel="stylesheet" charset="utf-8">
-<!--布局样式-->
-
-<link rel="stylesheet" media="all" href="/css/layout/960.min.css" charset="utf-8">
-
-
-<!--box样式-->
-<link href="/css/box.css" rel="stylesheet" charset="utf-8">
-
-<link href="/css/animate.css" rel="stylesheet" charset="utf-8">
-<link href="tpl/default/css/common.css" rel="stylesheet" charset="utf-8">
-<link href="tpl/default/theme/blue/css/blue_style.css" rel="stylesheet" charset="utf-8">
-<link href="/js/jqplugins/tipsy/tipsy.css" rel="stylesheet">
-<link href="/css/button/stylesheets/css3buttons.css" rel="stylesheet" charset="utf-8">
-<!--[if lt IE 9]>
-<script src="/js/system/html5.js" type="text/javascript"></script>
-<![endif]-->
-
-
-<!--jQuery1.4.4库-->
-<script src="/js/jquery.js" type="text/javascript"></script>
-<script src="lang/cn/script/lang.js" type="text/javascript"></script>
-<script src="/js/system/keke.js" type="text/javascript"></script>
-<script src="/js/in.js" type="text/javascript"></script>
-<script type="text/javascript">
- //js异步加载预定义
- 	In.add('mouseDelay',{path:"/js/jqplugins/jQuery.mouseDelay.js",type:'js'});
-In.add('waypoints',{path:"/js/jqplugins/waypoints/waypoints.min.js",type:'js'});
-In.add('custom',{path:"/js/system/custom.js",type:'js',rely:['waypoints']});
- 	In.add('form',{path:"/js/system/form_and_validation.js",type:'js'});
-In.add('print',{path:"/js/jqplugins/jquery.print.js",type:'js'});
-In.add('task',{path:"/js/system/task.js",type:'js'});
- 	In.add('calendar',{path:"/js/system/script_calendar.js",type:'js'}); 
-In.add('xheditor',{path:"/js/xheditor/xheditor.js",type:'js'});  
- 	In.add('script_city',{path:"/js/system/script_city.js",type:'js'}); 
-In.add('lavalamp',{path:"/js/jqplugins/lavalamp/jquery.lavalamp-1.3.5.min.js",type:'js'});
-In.add('tipsy',{path:"/js/jqplugins/tipsy/jquery.tipsy.js",type:'js'});
-In.add('autoIMG',{path:"/js/jqplugins/autoimg/jQuery.autoIMG.min.js",type:'js'});
- 	In.add('slides',{path:"/js/jqplugins/slides.min.jquery.js",type:'js'});
-In.add('ajaxfileupload',{path:"/js/system/ajaxfileupload.js",type:'js'});
-In.add('header_top',{path:"/js/system/header_top.js",type:'js',rely:['mouseDelay']}); 
-In.add('lazy',{path:"/js/system/lazy.js",type:'js'});
-In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
-  		
-
-</script>
-
-
-
-</head>
-    <body id="index">
-
-<div class="blue_style" id="wrapper">
-
-        <div id="append_parent">
-        </div>
-        <div id="ajaxwaitid">
-        	<div>
-        	<img src="tpl/default/theme/blue/img/system/loading.gif" alt="loading"/>
-请求处理中...</div>
-</div>
- 
-<!--无刷新临时替换层-->
-        <div id="noflushwarper">
-        	<div id="noflushwarper_sub"></div>
-        </div>
- 	
-<!--body start-->
-
-
-<!--顶部广告位 start-->
-<div class="t_c site_messages">
-</div>
-<!--顶部广告位-->
-
-
-
-
-    <!--头部 start-->
-    <header class="header" id="pageTop">
-        <div class="container_24 clearfix">
-        	<!--logo start-->
-            <hgroup class="grid_7 logo">
-             	 <h1><a href="index.php">
-             	 	<img src="tpl/default/theme/blue/img/style/logo.png"
- title="客客出品专业威客系统" alt="客客出品专业威客系统"></a></h1>
-            </hgroup>
-            <!--logo end-->
-            
-            <div id="search" class="grid_12 m_h">
-            	
-            	
-            	<!--主搜索 start-->
-                <div class="search clearfix po_re">
-                    <!--搜索框和选项 start-->
-                    <form action="" method="post" id="frm_search" class="clearfix fl_l">
-                    <div class="search_box">
-                        <div class="fl_l search_selcecter">
-                        	<div id="search_select" class="search_options">
-                        	                           		 <a href="javascript:void(0);" class="selected" rel="task_list"><span>任务</span>▼</a>
-                               		 <a href="javascript:void(0);" class="hidden"   rel="task_list">任务</a>
-                           	 	<a href="javascript:void(0);" class="hidden"   rel="shop_list">商品</a>
-                             </div>
-                        </div>
-<input type="text" name="search_key" onkeydown="search_keydown(event);" id="search_key" class="fl_l search_input txt_input togg c999"
- value="输入任务/商品" 
-   x-webkit-speech x-webkit-grammar="bUIltin:search" lang="zh-CN">
-                    </div>
-</form>
-                    <!--搜索框和选项 end-->
-                    <!--搜索提交 start-->
-                    <div class="fl_l header_btn">
-                    	<button class="search_btn" id="search_btn" type="button" onclick="topSearch();"><span class="icon magnifier"></span>搜索</button>
-                    </div>
-                    <!--搜索提交 end-->
-                </div>
-                <!--主搜索 end-->
-
-            </div>
-            
-
-
-          
-            	<!--用户登录注册 start-->
-            	<div class="user_box clearfix grid_5">
-                	<!--注册登录按钮 start-->
-                  	<ul id="login_sub" class="user_login hidden">
-                        <li><a href="index.php?do=register" class="m_h">免费注册</a></li>
-                        <li><a href="index.php?do=login">登录</a></li>
-                    </ul>
-                    <!--注册登录按钮 end--> 
-<div class="clear"></div>
-
-
-
-
-                    <!--登录成功 start-->
-                    <div id="logined" class="">
-                    	<!--用户登录后内容 start-->
-                        <ul class="user_logined clearfix">
-                            <li id="avatar">
-                            	<a href="index.php?do=user" title="zez" rel="user_menu">
-                            		<img src='http://localhost/weike_demo/data/avatar/default/man_small.jpg' uid='11' class='pic_small'>                                    <span class="user_named m_h">zez</span>
-                            	</a>
-<!--用户登录后导航菜单 start-->
-                    <div id="user_menu" class="user_nav_pop grid_5 alpha omega hidden m_h">
-                        <ul class="nav_list clearfix">
-                                    	<li class="clearfix"><a href="index.php?do=user&view=finance&op=detail" title="金钱 | 元宝" id="money"> <div class="icon16 cur-yen reverse"></div>￥0.00元| ￥0.00元</a></li>
-                                        <li class="clearfix"><a href="index.php?do=release" title="发布任务" class="selected" ><div class="icon16 doc-new reverse"></div>发布任务</a></li>
-<li class="clearfix"><a href="index.php?do=shop_release" title="发布商品" class="selected"><div class="icon16 doc-new reverse"></div>发布商品</a></li>
-<li class="clearfix hidden" id="manage_center"><a href="control/admin/index.php" title="管理中心" ><div class="icon16 key reverse"></div>管理中心</a></li>
-<li class="clearfix"><a href="index.php?do=user&view=index" title="用户中心"><div class="icon16 cog reverse"></div>用户中心</a></li>
-<li class="clearfix"><a href="http://localhost/weike_demo/index.php?do=space&member_id=11" title="我的店铺" id="space"><div class="icon16 compass reverse"></div>我的店铺</a></li>
-<!--<li class="clearfix"><a href="index.php?do=user&view=message" title="站内信"><div class="icon16 mail reverse"></div>站内信</a></li>-->
-<li class="clearfix"><a onclick="showWindow('out','index.php?do=logout');return false;" title="退出" href="index.php?do=logout">退出</a></li>
-                         </ul>
-                    </div>
-                    <!--用户登录后导航菜单 end-->
-</li>
-                            <li class="line m_h"></li>
-                            <li class="logout m_h"><a title="站内信" href="index.php?do=user&view=message">站内信</a></li>
-                            <li class="clear"></li>
-                        </ul>
-                        <!--用户登录后内容 end-->
-
-
-                    </div>
-                    <!--登录成功 end-->
-                    
-                    
-                    <div class="clear"></div>
-                </div>
-                <!--用户登录注册 end-->
-      
-            <!--移动端菜单-->
-<div class="m_ctrl">
-<a class="icon32 zoom reverse" href="#" rel="search"></a>
-            <a class="icon32 align-just reverse" href="#" rel="nav"></a>
-</div>
-            <!--移动端菜单 end-->
-
-            
-
-        </div>
-    </header>
-    <!--头部 end-->
-        <!--tool_E-->
- <nav id="nav" class="nav m_h">
-        <div class="container_24" >
-        	<div class="menu grid_24 clearfix">
-                <ul class="clearfix">
-                	                   		<li>
-                   			<a href="index.php?do=index" class="selected" >
-                   			<span>首页</span></a>
-</li>
-<li class="line"></li>
-                   		<li>
-                   			<a href="index.php?do=task_list"  >
-                   			<span>任务大厅</span></a>
-</li>
-<li class="line"></li>
-                   		<li>
-                   			<a href="index.php?do=shop_list"  >
-                   			<span>威客商城</span></a>
-</li>
-<li class="line"></li>
-                   		<li>
-                   			<a href="index.php?do=seller_list"  >
-                   			<span>服务商</span></a>
-</li>
-<li class="line"></li>
-                   		<li>
-                   			<a href="index.php?do=case"  >
-                   			<span>成功案例</span></a>
-</li>
-<li class="line"></li>
-                   		<li>
-                   			<a href="index.php?do=article"  >
-                   			<span>资讯中心</span></a>
-</li>
-<li class="line"></li>
-                   		<li>
-                   			<a href="index.php?do=square"  >
-                   			<span>广场</span></a>
-</li>
-<li class="line"></li>
-                   		<li>
-                   			<a href="index.php?do=prom"  >
-                   			<span>推广</span></a>
-</li>
-<li class="line"></li>
-                </ul>
-                <!---->
-                  <div class="operate po_ab">
-                    	<a href="index.php?do=help" target="_blank" title="帮助中心">
-                        	<span class="icon16 help reverse"></span>
-帮助中心                        </a>
-                   </div>
-                <!---->
-</div>
-                <div class="clear"></div>
+<body id='index'>
+               <div class="clear"></div>
         </div>
     </nav>
     <div class="clear"></div>
-<script type="text/javascript" src="/js/jqplugins/slides.min.jquery.js"></script>
-<script type="text/javascript" src="/js/jqplugins/easySlider1.5.js"></script>
+<script type="text/javascript" src="resource/js/jqplugins/slides.min.jquery.js"></script>
+<script type="text/javascript" src="resource/js/jqplugins/easySlider1.5.js"></script>
 <script type="text/javascript" src="tpl/default/js/index.js"></script>
  <!--内容区 satrt-->
   <div class="wrapper clearfix">
@@ -319,7 +52,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
   <div class="inner notice">
   <!--公告头部 start-->
   <header class="box_header clearfix">
-          	<nav class="box_nav">
+            <nav class="box_nav">
                <ul class="ov_hide block clearfix">
                   <li id="ul_plac_1" onclick="swaptab('plac','backLava','',3,1)"><a href="javascript:void(0);" title="公告">公告</a></li>
                   <li id="ul_plac_2" onclick="swaptab('plac','backLava','',3,2,{ajax:1,url:'index.php?ajax=bid_notice'})"><a href="javascript:void(0);" title="中标通告">中标通告</a></li>
@@ -385,7 +118,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=task_list&path=A441" target="_blank">品牌设计</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                                              
                                    <a href="index.php?do=task_list&path=A441&indus_id=8">标志设计</a>
                                
@@ -657,13 +390,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A2" target="_blank">网站开发</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -909,18 +642,15 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类任务推荐</h3>
    <ul>
-      	   	<li><a href="index.php?do=task&task_id=29"><strong class="money">
-   		         							           ￥100 ~ 1000元      						                       </strong> 交友网站制作</a></li>
-   	<li><a href="index.php?do=task&task_id=5"><strong class="money">
-   		         							           ￥1000 ~ 2000元      						                       </strong> 某窗饰制品公司征集logo及部分VI应用</a></li>
+      暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A201" target="_blank">创意祝福</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -1144,13 +874,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A249" target="_blank">网游服务</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -1380,13 +1110,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A3" target="_blank">文案写作</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -1617,22 +1347,15 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类任务推荐</h3>
    <ul>
-      	   	<li><a href="index.php?do=task&task_id=20"><strong class="money">
-   		         							           ￥100 ~ 1000元      						                       </strong> 玉石风水摆件厂家广告语征集</a></li>
-   	<li><a href="index.php?do=task&task_id=10"><strong class="money">
-   		         							           ￥100 ~ 1000元      						                       </strong> 征集茶叶品牌故事/文化/定位/理念等！发挥无限创意！</a></li>
-   	<li><a href="index.php?do=task&task_id=9"><strong class="money">
-   		         							           ￥100 ~ 1000元      						                       </strong> 征集茶叶品牌故事/文化/定位/理念等！发挥无限创意！</a></li>
-   	<li><a href="index.php?do=task&task_id=8"><strong class="money">
-   		         							           ￥100 ~ 1000元      						                       </strong> 征集茶叶品牌故事/文化/定位/理念等！发挥无限创意！</a></li>
+      暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A335" target="_blank">建筑/装修</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -1871,13 +1594,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A211" target="_blank">头脑风暴</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -2089,13 +1812,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A350" target="_blank">照片美化/编辑</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -2307,13 +2030,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A234" target="_blank">法律服务</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -2522,13 +2245,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A160" target="_blank">起名取名</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -2738,16 +2461,15 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类任务推荐</h3>
    <ul>
-      	   	<li><a href="index.php?do=task&task_id=26"><strong class="money">
-   		         							           ￥100 ~ 1000元      						                       </strong> 化妆工作室取名</a></li>
+      暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A357" target="_blank">影视/配音/歌词</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -2977,13 +2699,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A192" target="_blank">生活服务</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -3058,7 +2780,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                
                                 
                                                                                              
-                                   <a href="index.php?do=task_list&path=A192&indus_id=195">移民咨询</a>
+                                   <a href="index.php?do=task_list&path=A192&indus_id=195">移民咨询a>
                                
                                 
                                                                                              
@@ -3201,13 +2923,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A218" target="_blank">移动应用</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -3397,7 +3119,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                
                                                                
                                                                                              
-                                   <a href="index.php?do=task_list&path=A218&indus_id=229">Palm插件</a>
+                                   <a href="index.php?do=task_list&path=A218&indus_id=229">Palm插件a>
                                
                                 
                                                                
@@ -3437,13 +3159,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A240" target="_blank">招聘找人</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -3676,13 +3398,13 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <ul>
       暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                                             <li>
                            <a href="index.php?do=task_list&path=A121" target="_blank">软件开发</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -3907,10 +3629,9 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类任务推荐</h3>
    <ul>
-      	   	<li><a href="index.php?do=task&task_id=19"><strong class="money">
-   		         							           ￥100 ~ 1000元      						                       </strong> 寻找淘宝小二通过全球购业务</a></li>
+      暂无推荐任务
       </ul>
-   </div>	
+   </div> 
                            </div>
                        </li>
                                                                    </ul>
@@ -3928,73 +3649,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
              <!--列表 start-->
  
                <ul class=" tops clearfix">
-                        <li class="col3">
-                      <!--单条内容 start-->
-                       <div class="item">
-                         <!--任务金额 start-->
-                           <strong class="money">
-                            	￥100 ~ 1000元            			</strong>
-                         <!--任务金额 end-->
-                         <!--任务标题 start-->
-                         <h2 class="task_title"><a href="index.php?do=task&task_id=29" title="交友网站制作" target="_blank">交友网站制作</a></h2>
-                         <!--任务标题 end-->
-                         <!--任务发布者 start-->
-                         <span class="publisher"><a href="http://localhost/weike_demo/index.php?do=space&member_id=3" title="樱桃小丸子" target="_blank">樱桃小丸子</a></span>
-                         <!--任务发布者 end-->
-                         <!--任务模型 start-->
-                         <span class="task_mode">订金招标</span>
-                         <!--任务模型 end-->
-                        
-                      </div>
-                    <!--单条内容 end-->
-                   </li>
-   
-                   <li class="line"></li>
-               <li class="col3">
-                      <!--单条内容 start-->
-                       <div class="item">
-                         <!--任务金额 start-->
-                           <strong class="money">
-                            	￥100 ~ 1000元            			</strong>
-                         <!--任务金额 end-->
-                         <!--任务标题 start-->
-                         <h2 class="task_title"><a href="index.php?do=task&task_id=26" title="化妆工作室取名" target="_blank">化妆工作室取名</a></h2>
-                         <!--任务标题 end-->
-                         <!--任务发布者 start-->
-                         <span class="publisher"><a href="http://localhost/weike_demo/index.php?do=space&member_id=2" title="猪八戒" target="_blank">猪八戒</a></span>
-                         <!--任务发布者 end-->
-                         <!--任务模型 start-->
-                         <span class="task_mode">订金招标</span>
-                         <!--任务模型 end-->
-                        
-                      </div>
-                    <!--单条内容 end-->
-                   </li>
-   
-                   <li class="line"></li>
-               <li class="col3">
-                      <!--单条内容 start-->
-                       <div class="item">
-                         <!--任务金额 start-->
-                           <strong class="money">
-                            	￥100 ~ 1000元            			</strong>
-                         <!--任务金额 end-->
-                         <!--任务标题 start-->
-                         <h2 class="task_title"><a href="index.php?do=task&task_id=20" title="玉石风水摆件厂家广告语征集" target="_blank">玉石风水摆件厂家广告语征集</a></h2>
-                         <!--任务标题 end-->
-                         <!--任务发布者 start-->
-                         <span class="publisher"><a href="http://localhost/weike_demo/index.php?do=space&member_id=2" title="猪八戒" target="_blank">猪八戒</a></span>
-                         <!--任务发布者 end-->
-                         <!--任务模型 start-->
-                         <span class="task_mode">订金招标</span>
-                         <!--任务模型 end-->
-                        
-                      </div>
-                    <!--单条内容 end-->
-                   </li>
-   
-                   <li class="line"></li>
-                       </ul>
+                                </ul>
    
   
                <!--列表 end-->
@@ -4009,14 +3664,14 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                           <li class="col3 clearfix">
              <!--单条内容 start-->
                 <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=53" title="情人节不能一起过，求各位帮忙发浪漫示爱短信" target="_blank">&nbsp;
+                  <a href="index.php?do=task&task_id=77" title="sadasdasd" target="_blank">&nbsp;
                    
         <!--任务标题 start-->
                    <strong class="money">
-                  	 
-      						      							￥30000 ~ 50000元      						                  </strong>
+                     
+                                      ￥80.00元                                   </strong>
       <!--任务金额 start-->
-                  情人节不能一起过，求各位帮忙发浪漫示爱短信                  <!--任务金额 end-->
+                  sadasdasd                  <!--任务金额 end-->
   
                    <!--任务标题 end-->
         </a>
@@ -4024,223 +3679,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                  </div>
               <!--单条内容 end-->
               </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=51" title="三维渲染----" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥1000 ~ 2000元      						                  </strong>
-      <!--任务金额 start-->
-                  三维渲染----                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=42" title="服务器系统" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  服务器系统                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=38" title="评测报告评测报告评测报告" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  评测报告评测报告评测报告                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=36" title="征集创新征集创新征集创新" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  征集创新征集创新征集创新                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=29" title="交友网站制作" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  交友网站制作                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=26" title="化妆工作室取名" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  化妆工作室取名                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=20" title="玉石风水摆件厂家广告语征集" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  玉石风水摆件厂家广告语征集                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=19" title="寻找淘宝小二通过全球购业务" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  寻找淘宝小二通过全球购业务                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=10" title="征集茶叶品牌故事/文化/定位/理念等！发挥无限创意！" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  征集茶叶品牌故事/文化/定位/理念等！发挥无限创意！                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=9" title="征集茶叶品牌故事/文化/定位/理念等！发挥无限创意！" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  征集茶叶品牌故事/文化/定位/理念等！发挥无限创意！                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=8" title="征集茶叶品牌故事/文化/定位/理念等！发挥无限创意！" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥100 ~ 1000元      						                  </strong>
-      <!--任务金额 start-->
-                  征集茶叶品牌故事/文化/定位/理念等！发挥无限创意！                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                     <li class="col3 clearfix">
-             <!--单条内容 start-->
-                <div class="item clearfix">
-                	<a href="index.php?do=task&task_id=5" title="某窗饰制品公司征集logo及部分VI应用" target="_blank">&nbsp;
-                   
-        <!--任务标题 start-->
-                   <strong class="money">
-                  	 
-      						      							￥1000 ~ 2000元      						                  </strong>
-      <!--任务金额 start-->
-                  某窗饰制品公司征集logo及部分VI应用                  <!--任务金额 end-->
-  
-                   <!--任务标题 end-->
-        </a>
-
-                 </div>
-              <!--单条内容 end-->
-              </li>
-  		                </ul>
+                      </ul>
        <!--列表内容 33条 end-->
 
   
@@ -4253,7 +3692,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
 
   </div>
  </div>
-     		 <div class='adv'><img src="data/uploads/sys/ad/adv.jpg" /></div>  	<div class="grid_24 mb_10">
+         <div class='adv'><img src="data/uploads/sys/ad/adv.jpg" /></div>   <div class="grid_24 mb_10">
        <div class="box model purple">
        <!--商城内容 start-->
          <div class="shop">
@@ -4286,7 +3725,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                         <li>
                            <a href="index.php?do=shop_list&path=A441" target="_blank">品牌设计</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                                                  <a href="index.php?do=shop_list&path=A441&indus_id=8">标志设计</a>
                                 
                                                                                                  <a href="index.php?do=shop_list&path=A441&indus_id=9">VI设计</a>
@@ -4504,7 +3943,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -4514,7 +3953,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A2" target="_blank">网站开发</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -4724,7 +4163,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -4734,7 +4173,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A201" target="_blank">创意祝福</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -4936,7 +4375,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -4946,7 +4385,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A249" target="_blank">网游服务</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -5150,7 +4589,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -5160,7 +4599,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A3" target="_blank">文案写作</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -5365,8 +4804,8 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	     	<li><a href="index.php?do=service&sid=9"><strong class="money">￥100.00元/个</strong> 【创意】【澎 R26; 然心动】宣传册页设计</a></li>
-   	 
+          <li><a href="index.php?do=service&sid=9"><strong class="money">￥100.00元/个</strong> 【创意】【澎 R26; 然心动】宣传册页设计</a></li>
+     
    </ul>
    </div>
                            </div>
@@ -5375,7 +4814,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A335" target="_blank">建筑/装修</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -5582,8 +5021,8 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	     	<li><a href="index.php?do=service&sid=6"><strong class="money">￥5,000.00元/个</strong> 【创意】装修</a></li>
-   	 
+       暂无推荐商品
+ 
    </ul>
    </div>
                            </div>
@@ -5592,7 +5031,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A211" target="_blank">头脑风暴</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -5790,7 +5229,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -5800,7 +5239,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A350" target="_blank">照片美化/编辑</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -5998,11 +5437,10 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	     	<li><a href="index.php?do=service&sid=8"><strong class="money">￥1,000.00元/个</strong> 家庭装修设计作品-1</a></li>
-   	   	<li><a href="index.php?do=service&sid=4"><strong class="money">￥1,000.00元/个</strong> 【创意】3d生物模型制作（包括材质贴图）</a></li>
-   	   	<li><a href="index.php?do=service&sid=2"><strong class="money">￥100.00元/个</strong> 【创意】LOGO设计</a></li>
-   	   	<li><a href="index.php?do=service&sid=1"><strong class="money">￥1,000.00元/个</strong> 【创意】海报设计</a></li>
-   	 
+          <li><a href="index.php?do=service&sid=8"><strong class="money">￥1,000.00元/个</strong> 家庭装修设计作品-1</a></li>
+        <li><a href="index.php?do=service&sid=2"><strong class="money">￥100.00元/个</strong> 【创意】LOGO设计</a></li>
+        <li><a href="index.php?do=service&sid=1"><strong class="money">￥1,000.00元/个</strong> 【创意】海报设计</a></li>
+     
    </ul>
    </div>
                            </div>
@@ -6011,7 +5449,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A234" target="_blank">法律服务</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -6208,7 +5646,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -6218,7 +5656,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A160" target="_blank">起名取名</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -6416,7 +5854,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -6426,7 +5864,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A357" target="_blank">影视/配音/歌词</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -6630,8 +6068,8 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	     	<li><a href="index.php?do=service&sid=5"><strong class="money">￥100.00元/个</strong> 【创意】网络视频</a></li>
-   	 
+          <li><a href="index.php?do=service&sid=5"><strong class="money">￥100.00元/个</strong> 【创意】网络视频</a></li>
+     
    </ul>
    </div>
                            </div>
@@ -6640,7 +6078,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A192" target="_blank">生活服务</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -6840,8 +6278,8 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	     	<li><a href="index.php?do=service&sid=3"><strong class="money">￥20.00元/个</strong> 【创意】著作权（版权）登记</a></li>
-   	 
+       暂无推荐商品
+ 
    </ul>
    </div>
                            </div>
@@ -6850,7 +6288,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A218" target="_blank">移动应用</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -7054,7 +6492,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -7064,7 +6502,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A240" target="_blank">招聘找人</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -7269,7 +6707,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -7279,7 +6717,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                                                      <li>
                            <a href="index.php?do=shop_list&path=A121" target="_blank">软件开发</a>
                            <div class="s_nav hidden">
-                           		<div class="indus">
+                              <div class="indus">
                                                                
                                                                
                                                                
@@ -7482,7 +6920,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    <div class="recommend">
    <h3>分类商品推荐</h3>
    <ul>
-   	   暂无推荐商品
+       暂无推荐商品
  
    </ul>
    </div>
@@ -7505,149 +6943,122 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
              <ul class="small_list clearfix">
                  <!--第一条商品 start--><!--第一条商品 end-->
                    <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=13" title="[图兰朵]婚纱摄影重磅推出 黄金路线启动">
- 	
- 	<img src="data/uploads/2013/04/09/210_2282751640079d7d50.jpg" alt="[图兰朵]婚纱摄影重磅推出 黄金路线启动" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+                        <a href="index.php?do=service&sid=15" title="eeeee">
+  
+  <img src="tpl/default/img/shop/shop_default_big.jpg" alt="eeeee" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
  <span class="shop_item_info">
- 	<strong class="money">￥2,000.00元/个</strong>
-                     	<strong class="title">
+  <strong class="money">￥10.00元/个</strong>
+                      <strong class="title">
+                             eeeee                         </strong>
+                         
+ </span>
+ </a>
+                                      </li>
+                                  <li class="item clearfix">
+                        <a href="index.php?do=service&sid=13" title="[图兰朵]婚纱摄影重磅推出 黄金路线启动">
+  
+  <img src="data/uploads/2013/04/09/210_2282751640079d7d50.jpg" alt="[图兰朵]婚纱摄影重磅推出 黄金路线启动" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+ <span class="shop_item_info">
+  <strong class="money">￥2,000.00元/个</strong>
+                      <strong class="title">
                              [图兰朵]婚纱摄影重磅推出 黄金路线启动                         </strong>
                          
  </span>
  </a>
                                       </li>
                                   <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=12" title="商务|贸易|通用PPT模板">
- 	
- 	<img src="data/uploads/2013/04/09/210_69285163fcde4fe35.jpg" alt="商务|贸易|通用PPT模板" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+                        <a href="index.php?do=service&sid=12" title="商务|贸易|通用PPT模板">
+  
+  <img src="data/uploads/2013/04/09/210_69285163fcde4fe35.jpg" alt="商务|贸易|通用PPT模板" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
  <span class="shop_item_info">
- 	<strong class="money">￥100.00元/个</strong>
-                     	<strong class="title">
+  <strong class="money">￥100.00元/个</strong>
+                      <strong class="title">
                              商务|贸易|通用PPT模板                         </strong>
                          
  </span>
  </a>
                                       </li>
                                   <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=11" title="【创意】著作权（版权）登记">
- 	
- 	<img src="data/uploads/2013/04/09/210_255615163e9f7e366b.png" alt="【创意】著作权（版权）登记" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+                        <a href="index.php?do=service&sid=9" title="【创意】【澎 R26; 然心动】宣传册页设计">
+  
+  <img src="data/uploads/2013/04/09/210_34715163f16eaa527.png" alt="【创意】【澎 R26; 然心动】宣传册页设计" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
  <span class="shop_item_info">
- 	<strong class="money">￥100.00元/个</strong>
-                     	<strong class="title">
-                             【创意】著作权（版权）登记                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=10" title="【创意】企业（个人）法律咨询">
- 	
- 	<img src="data/uploads/2013/04/09/210_215165163e99f7a44c.jpg" alt="【创意】企业（个人）法律咨询" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
- 	<strong class="money">￥1,000.00元/个</strong>
-                     	<strong class="title">
-                             【创意】企业（个人）法律咨询                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=9" title="【创意】【澎 R26; 然心动】宣传册页设计">
- 	
- 	<img src="data/uploads/2013/04/09/210_34715163f16eaa527.png" alt="【创意】【澎 R26; 然心动】宣传册页设计" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
- 	<strong class="money">￥100.00元/个</strong>
-                     	<strong class="title">
+  <strong class="money">￥100.00元/个</strong>
+                      <strong class="title">
                              【创意】【澎 R26; 然心动】宣传册页设计                         </strong>
                          
  </span>
  </a>
                                       </li>
                                   <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=8" title="家庭装修设计作品-1">
- 	
- 	<img src="data/uploads/2013/04/09/210_198065163f0bc185b1.jpg" alt="家庭装修设计作品-1" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+                        <a href="index.php?do=service&sid=8" title="家庭装修设计作品-1">
+  
+  <img src="data/uploads/2013/04/09/210_198065163f0bc185b1.jpg" alt="家庭装修设计作品-1" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
  <span class="shop_item_info">
- 	<strong class="money">￥1,000.00元/个</strong>
-                     	<strong class="title">
+  <strong class="money">￥1,000.00元/个</strong>
+                      <strong class="title">
                              家庭装修设计作品-1                         </strong>
                          
  </span>
  </a>
                                       </li>
                                   <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=7" title="【创意】企业网站定制开发">
- 	
- 	<img src="data/uploads/2013/04/09/210_192895163e866c4dc9.jpg" alt="【创意】企业网站定制开发" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+                        <a href="index.php?do=service&sid=7" title="【创意】企业网站定制开发">
+  
+  <img src="data/uploads/2013/04/09/210_192895163e866c4dc9.jpg" alt="【创意】企业网站定制开发" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
  <span class="shop_item_info">
- 	<strong class="money">￥10,000.00元/个</strong>
-                     	<strong class="title">
+  <strong class="money">￥10,000.00元/个</strong>
+                      <strong class="title">
                              【创意】企业网站定制开发                         </strong>
                          
  </span>
  </a>
                                       </li>
                                   <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=6" title="【创意】装修">
- 	
- 	<img src="data/uploads/2013/04/09/210_142785163e7a84cef0.png" alt="【创意】装修" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+                        <a href="index.php?do=service&sid=5" title="【创意】网络视频">
+  
+  <img src="data/uploads/2013/04/09/210_201825163e6a867205.png" alt="【创意】网络视频" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
  <span class="shop_item_info">
- 	<strong class="money">￥5,000.00元/个</strong>
-                     	<strong class="title">
-                             【创意】装修                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=5" title="【创意】网络视频">
- 	
- 	<img src="data/uploads/2013/04/09/210_201825163e6a867205.png" alt="【创意】网络视频" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
- 	<strong class="money">￥100.00元/个</strong>
-                     	<strong class="title">
+  <strong class="money">￥100.00元/个</strong>
+                      <strong class="title">
                              【创意】网络视频                         </strong>
                          
  </span>
  </a>
                                       </li>
                                   <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=4" title="【创意】3d生物模型制作（包括材质贴图）">
- 	
- 	<img src="data/uploads/2013/04/09/210_223825163e63ccb09a.jpg" alt="【创意】3d生物模型制作（包括材质贴图）" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+                        <a href="index.php?do=service&sid=2" title="【创意】LOGO设计">
+  
+  <img src="data/uploads/2013/04/09/210_16875163e52fe2415.jpg" alt="【创意】LOGO设计" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
  <span class="shop_item_info">
- 	<strong class="money">￥1,000.00元/个</strong>
-                     	<strong class="title">
-                             【创意】3d生物模型制作（包括材质贴图）                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=3" title="【创意】著作权（版权）登记">
- 	
- 	<img src="data/uploads/2013/04/09/210_81285163e55b16b4d.jpg" alt="【创意】著作权（版权）登记" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
- 	<strong class="money">￥20.00元/个</strong>
-                     	<strong class="title">
-                             【创意】著作权（版权）登记                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                      	<a href="index.php?do=service&sid=2" title="【创意】LOGO设计">
- 	
- 	<img src="data/uploads/2013/04/09/210_16875163e52fe2415.jpg" alt="【创意】LOGO设计" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
- 	<strong class="money">￥100.00元/个</strong>
-                     	<strong class="title">
+  <strong class="money">￥100.00元/个</strong>
+                      <strong class="title">
                              【创意】LOGO设计                         </strong>
                          
  </span>
  </a>
                                       </li>
+                                  <li class="item clearfix">
+                        <a href="index.php?do=service&sid=1" title="【创意】海报设计">
+  
+  <img src="data/uploads/2013/04/09/210_314595163e47017e15.jpg" alt="【创意】海报设计" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+ <span class="shop_item_info">
+  <strong class="money">￥1,000.00元/个</strong>
+                      <strong class="title">
+                             【创意】海报设计                         </strong>
+                         
+ </span>
+ </a>
+                                      </li>
+                                  <li class="item clearfix">
+                        <a href="javascript:void(0);" title="暂无商品"><img name="lazyImg" src="tpl/default/img/shop/shop_default_big.jpg" onerror="this.src='tpl/default/img/shop/shop_default.gif'" alt="暂无商品"></a>
+                  </li>
+                                  <li class="item clearfix">
+                        <a href="javascript:void(0);" title="暂无商品"><img name="lazyImg" src="tpl/default/img/shop/shop_default_big.jpg" onerror="this.src='tpl/default/img/shop/shop_default.gif'" alt="暂无商品"></a>
+                  </li>
+                                  <li class="item clearfix">
+                        <a href="javascript:void(0);" title="暂无商品"><img name="lazyImg" src="tpl/default/img/shop/shop_default_big.jpg" onerror="this.src='tpl/default/img/shop/shop_default.gif'" alt="暂无商品"></a>
+                  </li>
                               </ul>
              <!--商城列表 26条 end-->
 
@@ -7656,12 +7067,12 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike_demo/index.php?do=space&member_id=10" title="晓茜"><img src='http://localhost/weike_demo/data/avatar/system/15_small.jpg' uid='10' class='pic_small'></a>
+                                 <a href="http://localhost/weike/index.php?do=space&member_id=10" title="晓茜"><img src='http://localhost/weike/data/avatar/system/15_small.jpg' uid='10' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike_demo/index.php?do=space&member_id=10" class="font14" title="最具个性化的店铺，值得一看哦"><strong>最具个性化的店铺，值得</strong></a>
+                                         <a href="http://localhost/weike/index.php?do=space&member_id=10" class="font14" title="最具个性化的店铺，值得一看哦"><strong>最具个性化的店铺，值得</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">0%</span>
@@ -7676,12 +7087,12 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike_demo/index.php?do=space&member_id=9" title="墨客"><img src='http://localhost/weike_demo/data/avatar/system/2_small.jpg' uid='9' class='pic_small'></a>
+                                 <a href="http://localhost/weike/index.php?do=space&member_id=9" title="墨客"><img src='http://localhost/weike/data/avatar/system/2_small.jpg' uid='9' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike_demo/index.php?do=space&member_id=9" class="font14" title="想要漂亮小玩具吗，专业制作手工玩具"><strong>想要漂亮小玩具吗，专业</strong></a>
+                                         <a href="http://localhost/weike/index.php?do=space&member_id=9" class="font14" title="想要漂亮小玩具吗，专业制作手工玩具"><strong>想要漂亮小玩具吗，专业</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">0%</span>
@@ -7696,12 +7107,12 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike_demo/index.php?do=space&member_id=8" title="红客"><img src='http://localhost/weike_demo/data/avatar/system/7_small.jpg' uid='8' class='pic_small'></a>
+                                 <a href="http://localhost/weike/index.php?do=space&member_id=8" title="红客"><img src='http://localhost/weike/data/avatar/system/7_small.jpg' uid='8' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike_demo/index.php?do=space&member_id=8" class="font14" title="我就是我，就在这里"><strong>我就是我，就在这里</strong></a>
+                                         <a href="http://localhost/weike/index.php?do=space&member_id=8" class="font14" title="我就是我，就在这里"><strong>我就是我，就在这里</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">0%</span>
@@ -7716,12 +7127,12 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike_demo/index.php?do=space&member_id=6" title="丸美弹力"><img src='http://localhost/weike_demo/data/avatar/system/16_small.jpg' uid='6' class='pic_small'></a>
+                                 <a href="http://localhost/weike/index.php?do=space&member_id=6" title="丸美弹力"><img src='http://localhost/weike/data/avatar/system/16_small.jpg' uid='6' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike_demo/index.php?do=space&member_id=6" class="font14" title="我的完美店铺"><strong>我的完美店铺</strong></a>
+                                         <a href="http://localhost/weike/index.php?do=space&member_id=6" class="font14" title="我的完美店铺"><strong>我的完美店铺</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">0%</span>
@@ -7736,12 +7147,12 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike_demo/index.php?do=space&member_id=4" title="shangk"><img src='http://localhost/weike_demo/data/avatar/000/00/00/04_avatar_small.jpg' uid='4' class='pic_small'></a>
+                                 <a href="http://localhost/weike/index.php?do=space&member_id=4" title="shangk"><img src='http://localhost/weike/data/avatar/000/00/00/04_avatar_small.jpg' uid='4' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike_demo/index.php?do=space&member_id=4" class="font14" title="SHANGK"><strong>SHANGK</strong></a>
+                                         <a href="http://localhost/weike/index.php?do=space&member_id=4" class="font14" title="SHANGK"><strong>SHANGK</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">100.00%</span>
@@ -7756,12 +7167,12 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike_demo/index.php?do=space&member_id=2" title="猪八戒"><img src='http://localhost/weike_demo/data/avatar/system/2_small.jpg' uid='2' class='pic_small'></a>
+                                 <a href="http://localhost/weike/index.php?do=space&member_id=2" title="猪八戒"><img src='http://localhost/weike/data/avatar/system/2_small.jpg' uid='2' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike_demo/index.php?do=space&member_id=2" class="font14" title="猪八戒的店铺"><strong>猪八戒的店铺</strong></a>
+                                         <a href="http://localhost/weike/index.php?do=space&member_id=2" class="font14" title="猪八戒的店铺"><strong>猪八戒的店铺</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">100.00%</span>
@@ -7788,7 +7199,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
   
 
   <!--首页_中部三栏广告 start-->
-  	<div class='adv'><a href='http://www.kppw.cn' target='_blank' title='adv'><img src='data/uploads/sys/ad/adv.jpg' width='' height='' alt='adv' title='adv'></a></div>  <!--首页_中部三栏广告 end-->
+    <div class='adv'><a href='http://www.kppw.cn' target='_blank' title='adv'><img src='data/uploads/sys/ad/adv.jpg' width='' height='' alt='adv' title='adv'></a></div>  <!--首页_中部三栏广告 end-->
   
   
  
@@ -7816,85 +7227,85 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
    
                     <li class="first">
                         <div class="main_img">
-                       		<a href="index.php?do=task&task_id=28"  title="彩票站宣传单设计">
-                       			
-                      				<img  src="data/uploads/2013/04/09/30035163facda9a3b.jpg" alt="彩票站宣传单设计"/>
+                          <a href="index.php?do=task&task_id=28"  title="彩票站宣传单设计">
+                            
+                              <img  src="data/uploads/2013/04/09/30035163facda9a3b.jpg" alt="彩票站宣传单设计"/>
   
-                       		</a>
+                          </a>
             </div>
                         <div class="main_title clearfix">
-                        	 <a href="index.php?do=task&task_id=28" >
-                        		<span class="cc00 mr_10">￥80.00元</span>彩票站宣传单设计             </a>
+                           <a href="index.php?do=task&task_id=28" >
+                            <span class="cc00 mr_10">￥80.00元</span>彩票站宣传单设计             </a>
             </div>
                     </li>
   
                     <li class="first">
                         <div class="main_img">
-                       		<a href="index.php?do=task&task_id=34"  title="淘宝网店推广 10元1稿 简单快捷">
-                       			
-                      				<img  src="data/uploads/2013/04/09/104565163fad6c36a2.jpg" alt="淘宝网店推广 10元1稿 简单快捷"/>
+                          <a href="index.php?do=task&task_id=34"  title="淘宝网店推广 10元1稿 简单快捷">
+                            
+                              <img  src="data/uploads/2013/04/09/104565163fad6c36a2.jpg" alt="淘宝网店推广 10元1稿 简单快捷"/>
   
-                       		</a>
+                          </a>
             </div>
                         <div class="main_title clearfix">
-                        	 <a href="index.php?do=task&task_id=34" >
-                        		<span class="cc00 mr_10">￥120.00元</span>淘宝网店推广 10元1稿 简单快捷             </a>
+                           <a href="index.php?do=task&task_id=34" >
+                            <span class="cc00 mr_10">￥120.00元</span>淘宝网店推广 10元1稿 简单快捷             </a>
             </div>
                     </li>
   
                     <li class="first">
                         <div class="main_img">
-                       		<a href="index.php?do=task&task_id=35"  title="淘宝网店推广">
-                       			
-                      				<img  src="data/uploads/2013/04/09/256495163fae065bd5.jpg" alt="淘宝网店推广"/>
+                          <a href="index.php?do=task&task_id=35"  title="淘宝网店推广">
+                            
+                              <img  src="data/uploads/2013/04/09/256495163fae065bd5.jpg" alt="淘宝网店推广"/>
   
-                       		</a>
+                          </a>
             </div>
                         <div class="main_title clearfix">
-                        	 <a href="index.php?do=task&task_id=35" >
-                        		<span class="cc00 mr_10">￥150.00元</span>淘宝网店推广             </a>
+                           <a href="index.php?do=task&task_id=35" >
+                            <span class="cc00 mr_10">￥150.00元</span>淘宝网店推广             </a>
             </div>
                     </li>
   
                     <li class="first">
                         <div class="main_img">
-                       		<a href="index.php?do=task&task_id=46"  title="轻松下载每个可得钱">
-                       			
-                      				<img  src="data/uploads/2013/04/09/181985163fae9caa73.jpg" alt="轻松下载每个可得钱"/>
+                          <a href="index.php?do=task&task_id=46"  title="轻松下载每个可得钱">
+                            
+                              <img  src="data/uploads/2013/04/09/181985163fae9caa73.jpg" alt="轻松下载每个可得钱"/>
   
-                       		</a>
+                          </a>
             </div>
                         <div class="main_title clearfix">
-                        	 <a href="index.php?do=task&task_id=46" >
-                        		<span class="cc00 mr_10">￥90.00元</span>轻松下载每个可得钱             </a>
+                           <a href="index.php?do=task&task_id=46" >
+                            <span class="cc00 mr_10">￥90.00元</span>轻松下载每个可得钱             </a>
             </div>
                     </li>
   
                     <li class="first">
                         <div class="main_img">
-                       		<a  href="index.php?do=service&sid=3" title="【创意】著作权（版权）登记">
-                       			
-                      				<img  src="data/uploads/2013/04/09/81285163e55b16b4d.jpg" alt="【创意】著作权（版权）登记"/>
+                          <a  href="index.php?do=service&sid=3" title="【创意】著作权（版权）登记">
+                            
+                              <img  src="data/uploads/2013/04/09/81285163e55b16b4d.jpg" alt="【创意】著作权（版权）登记"/>
   
-                       		</a>
+                          </a>
             </div>
                         <div class="main_title clearfix">
-                        	 <a  href="index.php?do=service&sid=3">
-                        		<span class="cc00 mr_10">￥20.00元</span>【创意】著作权（版权）登记             </a>
+                           <a  href="index.php?do=service&sid=3">
+                            <span class="cc00 mr_10">￥20.00元</span>【创意】著作权（版权）登记             </a>
             </div>
                     </li>
   
                     <li class="first">
                         <div class="main_img">
-                       		<a  href="index.php?do=service&sid=1" title="【创意】海报设计">
-                       			
-                      				<img  src="data/uploads/2013/04/09/314595163e47017e15.jpg" alt="【创意】海报设计"/>
+                          <a  href="index.php?do=service&sid=1" title="【创意】海报设计">
+                            
+                              <img  src="data/uploads/2013/04/09/314595163e47017e15.jpg" alt="【创意】海报设计"/>
   
-                       		</a>
+                          </a>
             </div>
                         <div class="main_title clearfix">
-                        	 <a  href="index.php?do=service&sid=1">
-                        		<span class="cc00 mr_10">￥1,000.00元</span>【创意】海报设计             </a>
+                           <a  href="index.php?do=service&sid=1">
+                            <span class="cc00 mr_10">￥1,000.00元</span>【创意】海报设计             </a>
             </div>
                     </li>
                   
@@ -7922,7 +7333,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
              </div>
            
                <div class="btns">
-               	<a href="index.php?do=article" class="button" title="更多信息">更多信息&raquo;</a>
+                <a href="index.php?do=article" class="button" title="更多信息">更多信息&raquo;</a>
                </div>
              </header>
                           
@@ -7930,7 +7341,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
             <article class="box_detail no_bottom clearfix" id="div_news_1">
                <!--列表内容 start-->
                 <ul class="small_list clearfix">
-                            			                  <li>
+                                                    <li>
                     <!--头条图片 start-->
                        <div class="main_img">
                           <a href="index.php?do=article&view=article_info&art_id=227" title="警惕交易诈骗，注意帐户安全">
@@ -7944,56 +7355,56 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                       <span class="date">2012-02-17</span>
                      </div>
                   </li>
-                             			                 <li>
+                                                   <li>
                      <div class="item">
                          <a href="index.php?do=article&view=article_info&art_id=225" title="唯冠召开iPad维权发布会：起诉苹果是维权">唯冠召开iPad维权发布会：起诉苹果是维权</a>
                             <span class="date">2012-02-17</span>
                      </div>
                      <div class="clear"></div>
                  </li>
-                              			                 <li>
+                                                     <li>
                      <div class="item">
                          <a href="index.php?do=article&view=article_info&art_id=250" title="中金香港直销Facebook股权：初定100万股门槛">中金香港直销Facebook股权：初定100万股门槛</a>
                             <span class="date">2012-02-17</span>
                      </div>
                      <div class="clear"></div>
                  </li>
-                              			                 <li>
+                                                     <li>
                      <div class="item">
                          <a href="index.php?do=article&view=article_info&art_id=249" title="依法诚信纳税共建和谐社会">依法诚信纳税共建和谐社会</a>
                             <span class="date">2012-02-17</span>
                      </div>
                      <div class="clear"></div>
                  </li>
-                              			                 <li>
+                                                     <li>
                      <div class="item">
                          <a href="index.php?do=article&view=article_info&art_id=248" title="诚信体系之诚信保障">诚信体系之诚信保障</a>
                             <span class="date">2012-02-17</span>
                      </div>
                      <div class="clear"></div>
                  </li>
-                              			                 <li>
+                                                     <li>
                      <div class="item">
                          <a href="index.php?do=article&view=article_info&art_id=246" title="威客营销的成功之路及潜在危机分析">威客营销的成功之路及潜在危机分析</a>
                             <span class="date">2012-02-17</span>
                      </div>
                      <div class="clear"></div>
                  </li>
-                              			                 <li>
+                                                     <li>
                      <div class="item">
                          <a href="index.php?do=article&view=article_info&art_id=247" title="拥有梦想的快乐威客">拥有梦想的快乐威客</a>
                             <span class="date">2012-02-17</span>
                      </div>
                      <div class="clear"></div>
                  </li>
-                              			                 <li>
+                                                     <li>
                      <div class="item">
                          <a href="index.php?do=article&view=article_info&art_id=244" title="什么是威客？">什么是威客？</a>
                             <span class="date">2012-02-17</span>
                      </div>
                      <div class="clear"></div>
                  </li>
-                              			                 <li>
+                                                     <li>
                      <div class="item">
                          <a href="index.php?do=article&view=article_info&art_id=243" title="威客必看：发帖任务参与须知">威客必看：发帖任务参与须知</a>
                             <span class="date">2012-02-17</span>
@@ -8023,21 +7434,21 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
        <ul>
           <li>
             <p>
-              <span>注册用户数[个]</span><span><strong class="num goup" >11</strong></span>
+              <span>注册用户数[个]</span><span><strong class="num goup" >12</strong></span>
             </p>
     <!--  任务统计 start -->
                 <p>
-            <span>任务交易额[元]</span><span><strong class="num godown" >161.99</strong></span>
+            <span>任务交易额[元]</span><span><strong class="num godown" >233.99</strong></span>
           </p>
           <p>
-            <span>任务数量[个]</span><span><strong class="num goup" >71</strong></span>
+            <span>任务数量[个]</span><span><strong class="num goup" >80</strong></span>
           </p>
              <!-- 任务统计 end -->
     </li>
      <!--    认证统计 start -->
      <li>
         <p>
-          <span>认证统计数[个]</span><span><strong class="num gouspan" >0</strong></span>
+          <span>认证统计数[个]</span><span><strong class="num gouspan" >1</strong></span>
         </p>
  
       <!-- 认证统计 end -->
@@ -8045,7 +7456,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
                   <p>
             <span>商城交易额[元]  </span><span><strong class="num  godown " >2,057.00</strong></span>
           </p>
-          <span>商品数量[个] </span><span><strong class="num godown " >13</strong></span>
+          <span>商品数量[个] </span><span><strong class="num godown " >9</strong></span>
             </li>
         </ul>
    <!--    商城统计 end -->
@@ -8058,7 +7469,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
     <div class="clear"></div>      
   
   <!--首页_中部四栏广告 start-->
- 		 <div class='adv'><a href='http://www.kppw.cn' target='_blank' title='adv'><img src='data/uploads/sys/ad/adv.jpg' width='' height='' alt='adv' title='adv'></a></div>  <!--首页_中部四栏广告end-->
+     <div class='adv'><a href='http://www.kppw.cn' target='_blank' title='adv'><img src='data/uploads/sys/ad/adv.jpg' width='' height='' alt='adv' title='adv'></a></div>  <!--首页_中部四栏广告end-->
   <div class="clear"></div>
    </div>
  </div>
@@ -8067,23 +7478,23 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
 <div class="container_24 ">
 <span class="icon16 spechbubble-2 mt_5 mr_5"></span>我对 客客出品专业威客系统 有意见或建议，现在就<a href="javascript:void(0);" title="投诉建议" onclick="suggest()">提交</a>！</div>
 </div>
- 	 
+   
 <!--网站地址 start-->
  <div class="sitemap clearfix m_h">
- 	
+  
     <div class="container_24 clearfix">
-    	
+      
     <!--推荐分类-->
 
                 <dl>
                     <dt>推荐分类</dt>
                       <dd>
                            <ul>
-                           	                                          	<li><a href="index.php?do=task_list&path=A441"  target="_blank">品牌设计</a></li>
-              	<li><a href="index.php?do=task_list&path=A249"  target="_blank">网游服务</a></li>
-              	<li><a href="index.php?do=task_list&path=A3"  target="_blank">文案写作</a></li>
-              	<li><a href="index.php?do=task_list&path=A335"  target="_blank">建筑/装修</a></li>
-              	<li><a href="index.php?do=task_list&path=A211"  target="_blank">头脑风暴</a></li>
+                                                                        <li><a href="index.php?do=task_list&path=A441"  target="_blank">品牌设计</a></li>
+                <li><a href="index.php?do=task_list&path=A249"  target="_blank">网游服务</a></li>
+                <li><a href="index.php?do=task_list&path=A3"  target="_blank">文案写作</a></li>
+                <li><a href="index.php?do=task_list&path=A335"  target="_blank">建筑/装修</a></li>
+                <li><a href="index.php?do=task_list&path=A211"  target="_blank">头脑风暴</a></li>
                            </ul>
                       </dd>
                 </dl>
@@ -8108,7 +7519,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
             <dt>威客商城</dt>
               <dd>
                  <ul>
-                 	<li><a href="index.php?do=shop_release" target="_blank">发布商品</a></li>
+                  <li><a href="index.php?do=shop_release" target="_blank">发布商品</a></li>
 <li><a href="index.php?do=shop_release&model_id=7" target="_blank">发布服务</a></li>
                                <li><a href="index.php?do=shop_list&path=C6" target="_blank">威客作品</a></li>
                        <li><a href="index.php?do=shop_list&path=C7" target="_blank">威客服务</a></li>
@@ -8123,7 +7534,7 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
            <dt>资讯中心</dt>
               <dd>
                   <ul>
-       		 <li><a href="index.php?do=article" target="_blank"><span>客客资讯</span></a></li>
+           <li><a href="index.php?do=article" target="_blank"><span>客客资讯</span></a></li>
                   </ul>
               </dd>
         </dl>
@@ -8131,22 +7542,22 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
  <!--关于网站-->
 
 <dl>
-    	<dt>关于网站</dt>
+      <dt>关于网站</dt>
         <dd>
-        	<ul>
-        		                  	  <li><a href="index.php?do=single&art_id=300" target="_blank" title="联系我们">联系我们</a></li>
-                  	  <li><a href="index.php?do=single&art_id=299" target="_blank" title="关于我们">关于我们</a></li>
+          <ul>
+                                  <li><a href="index.php?do=single&art_id=300" target="_blank" title="联系我们">联系我们</a></li>
+                      <li><a href="index.php?do=single&art_id=299" target="_blank" title="关于我们">关于我们</a></li>
             </ul>
         </dd>
     </dl>
 
  <!--帮助中心-->
     
-    	<dl>
-        	<dt>帮助中心</dt>
+      <dl>
+          <dt>帮助中心</dt>
             <dd>
-            	<ul>
-    	       		 <li><a href="index.php?do=help&fpid=100" target="_blank"><span>帮助中心</span></a></li>
+              <ul>
+                 <li><a href="index.php?do=help&fpid=100" target="_blank"><span>帮助中心</span></a></li>
                 </ul>
             </dd>
         </dl>
@@ -8158,17 +7569,17 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
 
  <section class="site_links clearfix m_h">
  <div class="container_24 ">
- 	  
+    
       <div class="links">
-    	<dl>
-        	<dt>友情链接</dt>
+      <dl>
+          <dt>友情链接</dt>
             <dd>
-            	<ul class="clearfix">
-            		
-    	       		 <li><a href="http://www.kppw.cn/kppw" target="_blank"><span>KPPW系统演示站点</span></a></li>
-       		 <li><a href="http://www.kppw.cn" target="_blank"><span>客客团队演示站点</span></a></li>
-       		 <li><a href="http://www.kekezu.com/bbs" target="_blank"><span>客客团队交流社区</span></a></li>
-       		 <li><a href="http://www.kekezu.com" target="_blank"><span>武汉客客信息技术有限公司官网</span></a></li>
+              <ul class="clearfix">
+                
+                 <li><a href="http://www.kppw.cn/kppw" target="_blank"><span>KPPW系统演示站点</span></a></li>
+           <li><a href="http://www.kppw.cn" target="_blank"><span>客客团队演示站点</span></a></li>
+           <li><a href="http://www.kekezu.com/bbs" target="_blank"><span>客客团队交流社区</span></a></li>
+           <li><a href="http://www.kekezu.com" target="_blank"><span>武汉客客信息技术有限公司官网</span></a></li>
                 </ul>
             </dd>
         </dl>
@@ -8179,122 +7590,5 @@ In.add('pcas',{path:"/js/system/PCASClass.js",type:'js'});
  <!--网站链接以及语言栏 关注我们 搜索 end-->
 
 
-<!--内容区 end-->
 
-
-
-<!--页脚 satrt-->
-<footer class="footer clearfix">
-<!--网站链接以及语言栏 关注我们 搜索 start-->
-
-
-
-
-
-
-            <!--网站版权声明 start-->
-            <section class="site_copyright clearfix">
-            	<div class="container_24 clearfix ">
-            		
-            		
-                    	 	<dl>
-<dt>
-                    	 		公司名称:武汉客客信息技术有限公司<span class="pad10">地址:湖北省武汉市</span>联系电话:18971533922</dt>
-<dd>
-                    	 	KPPW2.2 Copyright &#169; 2010 -2013 kekezu. All rights reserved<a href="http://icp.valu.cn/" target="_blank"></a>
-</dd>  
-                    	 	</dl>
- <div class="clear"></div>
-
-
-<!--语言栏 关注我们 搜索 start-->
-
-                    <div class="site_attach clearfix">
-
-                        	<div class="social">
-                            	关注我们：                            	
-                                
- 
-<a href="index.php?do=wb&focus=1881490142&wb_type=sina"><img src="/img/ico/sina_t.gif" title="1881490142"></a> 
-
-
- 
-<a href="index.php?do=wb&focus=shangjinglong&wb_type=ten"><img src="/img/ico/ten_t.gif" title="shangjinglong"></a> 
-
-
- 
-<a href="index.php?do=wb&focus=2746053225&wb_type=netease"><img src="/img/ico/netease_t.gif" title="2746053225"></a> 
-
-
- 
-<a href="index.php?do=wb&focus=naniso&wb_type=sohu"><img src="/img/ico/sohu_t.gif" title="naniso"></a> 
-
-
-                            </div>
-     
-
-                        <div class="lan_box">
-                            <form action="" method="post" id="lan_bottom">
-                                <div class="clearfix">
-                                     <label>语言：</label>
-                                     <select id="lan" name="lan" style="width:100px" onchange="setLang(this)">
-      <option value="cn" c="CNY" selected>简体中文</option>
-                                       </select>
-                                
-                           
-                               
-                                     <label> 币种：</label>
-                                     <select  style="width:100px" onchange="setCurr(this.value,1);">
-      <option value="USD" id="USD" >US Dollar</option>
-      <option value="CNY" id="CNY" selected>人民币</option>
-      <option value="EUR" id="EUR" >Euro</option>
-      <option value="GBP" id="GBP" >GB Pound</option>
-      <option value="CAD" id="CAD" >Canadian Dollar</option>
-      <option value="AUD" id="AUD" >Australian Dollar</option>
-      <option value="HKD" id="HKD" >港币</option>
-      <option value="KRW" id="KRW" >韩元</option>
-      <option value="RUB" id="RUB" >卢布</option>
-                                       </select>
-                                 </div>
-                            </form>
-</div>	
-                        
-
-</div>
-
-                  
-                    <!--语言栏 关注我们 搜索 end-->
-
-
-                </div>
-   				<div class="clearfix"></div>
-            </section>
-            <!--网站版权声明 end-->
-            
-            <!--返回顶部 start-->
-
-        	<a class="top animated hidden" href="javascript:void(0);" title="返回顶部"><em>&diams;</em>Top</a>
-              
-            <!--返回顶部 end-->
-    </footer>
-    <!--页脚 end-->
-</div>
-<script type="text/javascript">
-var uid='11';
-var xyq = "6kv9fipk0ah2uolun0sja4r371";
-$(function(){
-   $.get('js.php?op=time&r='+Math.random());	
-})
- //js异步加载
-In('header_top','custom','lavalamp','tipsy','autoIMG','slides');
-
-
-
-
-</script>
-
-<!--[if IE 6]></div><![endif]-->
-<!--[if IE 7]></div><![endif]-->
-<!--[if IE 8]></div><![endif]-->
 </body>
-</html>

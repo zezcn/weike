@@ -1,6 +1,5 @@
 <?php
 namespace frontend\controllers;
-
 use Yii;
 use common\models\LoginForm;
 use frontend\models\PasswordResetRequestForm;
@@ -21,9 +20,9 @@ class IndexController extends Controller
     public function __construct($id, $module, $config = array()) {
         parent::__construct($id, $module, $config);
     }
-
     public function actionIndex()
     {
-        return $this->renderPartial('index');
+        $this->layout='@app/views/layouts/colume.php';
+        return $this->render('index');
     }
 }

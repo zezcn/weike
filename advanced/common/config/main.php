@@ -6,4 +6,8 @@ return [
             'class' => 'yii\caching\FileCache',
         ],
     ],
+    'bootstrap'=>['debug'],
+    'modules'=>[
+		'debug'=>'yii\debug\Module',
+		],
 ];

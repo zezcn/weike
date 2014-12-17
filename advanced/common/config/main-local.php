@@ -1,11 +1,13 @@
 <?php
 return [
+    //'name'=>'Index',
+    //'defaultController'=>'Index',
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=yii2advanced',
+            'dsn' => 'mysql:host=localhost;dbname=weike',
             'username' => 'root',
-            'password' => '',
+            'password' => 'root',
             'charset' => 'utf8',
         ],
         'mailer' => [
@@ -17,4 +19,5 @@ return [
             'useFileTransport' => true,
         ],
     ],
+    
 ];

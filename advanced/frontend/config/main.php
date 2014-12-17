@@ -7,9 +7,9 @@ $params = array_merge(
 );
 
 return [
-	'name'=>'Index',
-    'defaultController'=>'Index',
     'id' => 'app-frontend',
+	//'name'=>'Index',
+    'defaultRoute'=>'index',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',

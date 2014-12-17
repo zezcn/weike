@@ -14,13 +14,14 @@ $(function(){
 	});
 	 
 	//首页幻灯
+	/*
 	$('#slides').slides({
 		  preload: true,
-		  preloadImage: SITEURL+'/resource/img/system/loading.gif',
+		  preloadImage: SITEURL+'resource/img/system/loading.gif',
 		  play: 5000,
 		  pause: 2500,
 		  hoverPause: true
-	});
+	});*/
 	$("#indus li a").click(function(){
 		$(this).addClass("selected").parent().siblings().find("a").removeClass("selected");
 	});

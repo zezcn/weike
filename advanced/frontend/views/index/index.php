@@ -7067,12 +7067,12 @@
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike/index.php?do=space&member_id=10" title="晓茜"><img src='http://localhost/weike/data/avatar/system/15_small.jpg' uid='10' class='pic_small'></a>
+                                 <a href=" index.php?do=space&member_id=10" title="晓茜"><img src=' data/avatar/system/15_small.jpg' uid='10' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike/index.php?do=space&member_id=10" class="font14" title="最具个性化的店铺，值得一看哦"><strong>最具个性化的店铺，值得</strong></a>
+                                         <a href=" index.php?do=space&member_id=10" class="font14" title="最具个性化的店铺，值得一看哦"><strong>最具个性化的店铺，值得</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">0%</span>
@@ -7087,12 +7087,12 @@
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike/index.php?do=space&member_id=9" title="墨客"><img src='http://localhost/weike/data/avatar/system/2_small.jpg' uid='9' class='pic_small'></a>
+                                 <a href=" index.php?do=space&member_id=9" title="墨客"><img src=' data/avatar/system/2_small.jpg' uid='9' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike/index.php?do=space&member_id=9" class="font14" title="想要漂亮小玩具吗，专业制作手工玩具"><strong>想要漂亮小玩具吗，专业</strong></a>
+                                         <a href=" index.php?do=space&member_id=9" class="font14" title="想要漂亮小玩具吗，专业制作手工玩具"><strong>想要漂亮小玩具吗，专业</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">0%</span>
@@ -7107,12 +7107,12 @@
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike/index.php?do=space&member_id=8" title="红客"><img src='http://localhost/weike/data/avatar/system/7_small.jpg' uid='8' class='pic_small'></a>
+                                 <a href=" index.php?do=space&member_id=8" title="红客"><img src=' data/avatar/system/7_small.jpg' uid='8' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike/index.php?do=space&member_id=8" class="font14" title="我就是我，就在这里"><strong>我就是我，就在这里</strong></a>
+                                         <a href=" index.php?do=space&member_id=8" class="font14" title="我就是我，就在这里"><strong>我就是我，就在这里</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">0%</span>
@@ -7127,12 +7127,12 @@
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike/index.php?do=space&member_id=6" title="丸美弹力"><img src='http://localhost/weike/data/avatar/system/16_small.jpg' uid='6' class='pic_small'></a>
+                                 <a href=" index.php?do=space&member_id=6" title="丸美弹力"><img src=' data/avatar/system/16_small.jpg' uid='6' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike/index.php?do=space&member_id=6" class="font14" title="我的完美店铺"><strong>我的完美店铺</strong></a>
+                                         <a href=" index.php?do=space&member_id=6" class="font14" title="我的完美店铺"><strong>我的完美店铺</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">0%</span>
@@ -7147,12 +7147,12 @@
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike/index.php?do=space&member_id=4" title="shangk"><img src='http://localhost/weike/data/avatar/000/00/00/04_avatar_small.jpg' uid='4' class='pic_small'></a>
+                                 <a href=" index.php?do=space&member_id=4" title="shangk"><img src=' data/avatar/000/00/00/04_avatar_small.jpg' uid='4' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike/index.php?do=space&member_id=4" class="font14" title="SHANGK"><strong>SHANGK</strong></a>
+                                         <a href=" index.php?do=space&member_id=4" class="font14" title="SHANGK"><strong>SHANGK</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">100.00%</span>
@@ -7167,12 +7167,12 @@
                                           <li class="clearfix">
                          <div class="item">
                              <div class=" fl_l mr_10">
-                                 <a href="http://localhost/weike/index.php?do=space&member_id=2" title="猪八戒"><img src='http://localhost/weike/data/avatar/system/2_small.jpg' uid='2' class='pic_small'></a>
+                                 <a href=" index.php?do=space&member_id=2" title="猪八戒"><img src=' data/avatar/system/2_small.jpg' uid='2' class='pic_small'></a>
                              </div>
                              <div class="shoper_info">
                                  <ul>
                                      <li>
-                                         <a href="http://localhost/weike/index.php?do=space&member_id=2" class="font14" title="猪八戒的店铺"><strong>猪八戒的店铺</strong></a>
+                                         <a href=" index.php?do=space&member_id=2" class="font14" title="猪八戒的店铺"><strong>猪八戒的店铺</strong></a>
                                      </li>
                                      <li>
                                          好评率：<span class="cc00">100.00%</span>

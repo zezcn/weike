@@ -174,7 +174,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                         <ul class="user_logined clearfix">
                             <li id="avatar">
                                 <a href="index.php?do=user" title="" rel="user_menu">
-                                    <img src='http://www.wei.com/data/avatar/default/man_small.jpg' uid='11' class='pic_small'> 
+                                    <img src=' data/avatar/default/man_small.jpg' uid='11' class='pic_small'> 
                                         <span class="user_named m_h"><?php $session = new Session();
                                         $session->open();
                                         echo $session['user']["user_name"];?></span>
@@ -187,7 +187,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 <li class="clearfix"><a href="index.php?do=shop_release" title="发布商品" class="selected"><div class="icon16 doc-new reverse"></div>发布商品</a></li>
 <li class="clearfix hidden" id="manage_center"><a href="control/admin/index.php" title="管理中心" ><div class="icon16 key reverse"></div>管理中心</a></li>
 <li class="clearfix"><a href="index.php?r=center/user_index" title="用户中心"><div class="icon16 cog reverse"></div>用户中心</a></li>
-<li class="clearfix"><a href="http://www.wei.com/index.php?do=space&member_id=11" title="我的店铺" id="space"><div class="icon16 compass reverse"></div>我的店铺</a></li>
+<li class="clearfix"><a href=" index.php?do=space&member_id=11" title="我的店铺" id="space"><div class="icon16 compass reverse"></div>我的店铺</a></li>
 <!--<li class="clearfix"><a href="index.php?do=user&view=message" title="站内信"><div class="icon16 mail reverse"></div>站内信</a></li>-->
 <li class="clearfix"><a  title="退出" href="index.php?r=login/tuichu">退出</a></li>
                          </ul>

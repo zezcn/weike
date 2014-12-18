@@ -154,7 +154,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                                 if($session['user']["user_name"]==""){
                                 ?>
                     <ul id="login_sub" class="user_login ">
-                        <li><a href="index.php?r=login/regist" class="m_h">免费注册</a></li>
+                        <li><a href="index.php?r=register/register" class="m_h">免费注册</a></li>
                         <li><a href="index.php?r=login/login">登录</a></li>
                         
                     </ul>

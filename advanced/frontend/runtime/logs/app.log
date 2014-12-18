@@ -4130,3 +4130,72 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1418886465.354
     'REQUEST_TIME' => 1418886465
 ]
+2014-12-18 08:14:15 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "regist/regist".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('regist/regist', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "regist/regist".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:14:15 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'regist/regist'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+    '_csrf' => 'd7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s:32:\"7iQHIjBjWV93eC48JzSIf3IbniIkSm0T\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/index.php'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3; _csrf=d7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s%3A32%3A%227iQHIjBjWV93eC48JzSIf3IbniIkSm0T%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57573'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=regist/regist'
+    'REQUEST_URI' => '/index.php?r=regist/regist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886855.069
+    'REQUEST_TIME' => 1418886855
+]

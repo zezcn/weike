@@ -1,3 +1,16 @@
+ <body id="index">
+
+<div class="blue_style" id="wrapper">
+
+        <div id="append_parent">
+        </div>
+        <div id="ajaxwaitid">
+        	<div>
+        	<img src="tpl/default/theme/blue/img/system/loading.gif" alt="loading"/>
+请求处理中...</div>
+</div>
+ 
+
 <body id='index'>
                <div class="clear"></div>
         </div>

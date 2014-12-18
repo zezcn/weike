@@ -233,17 +233,17 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=renwu/index"  >
+                            <a href="index.php?r=tasklist/tasklist"  >
                             <span>任务大厅</span></a>
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=shop/shop_list"  >
+                            <a href="index.php?r=shoplist/shoplist"  >
                             <span>威客商城</span></a>
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=index/seller_list"  >
+                            <a href="index.php?r=seller/sellerlist"  >
                             <span>服务商</span></a>
 </li>
 <li class="line"></li>
@@ -258,12 +258,12 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?do=square"  >
+                            <a href="index.php?r=square/square"  >
                             <span>广场</span></a>
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?do=prom"  >
+                            <a href="index.php?r=prom/prom"  >
                             <span>推广</span></a>
 </li>
 <li class="line"></li>

@@ -3234,3 +3234,899 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1418874372.939
     'REQUEST_TIME' => 1418874372
 ]
+2014-12-18 07:57:35 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#5 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(813): yii\db\Command->prepare(true)
+#6 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#8 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#9 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(33): yii\db\ActiveQuery->all()
+#10 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(27): frontend\controllers\IndexController->actionAd()
+#11 [internal function]: frontend\controllers\IndexController->actionIndex()
+#12 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#15 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#16 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#3 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(813): yii\db\Command->prepare(true)
+#4 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#6 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#7 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(33): yii\db\ActiveQuery->all()
+#8 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(27): frontend\controllers\IndexController->actionAd()
+#9 [internal function]: frontend\controllers\IndexController->actionIndex()
+#10 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#13 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#14 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2014-12-18 07:57:35 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57374'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418885854.966
+    'REQUEST_TIME' => 1418885854
+]
+2014-12-18 07:58:58 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#5 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(813): yii\db\Command->prepare(true)
+#6 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#8 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#9 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(33): yii\db\ActiveQuery->all()
+#10 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(27): frontend\controllers\IndexController->actionAd()
+#11 [internal function]: frontend\controllers\IndexController->actionIndex()
+#12 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#15 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#16 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#3 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(813): yii\db\Command->prepare(true)
+#4 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#6 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#7 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(33): yii\db\ActiveQuery->all()
+#8 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(27): frontend\controllers\IndexController->actionAd()
+#9 [internal function]: frontend\controllers\IndexController->actionIndex()
+#10 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#13 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#14 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2014-12-18 07:58:58 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57380'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418885938.42
+    'REQUEST_TIME' => 1418885938
+]
+2014-12-18 07:59:01 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php:579
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(579): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(529): yii\db\Connection->createPdoInstance()
+#2 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#3 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#4 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#5 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(813): yii\db\Command->prepare(true)
+#6 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#8 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#9 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(33): yii\db\ActiveQuery->all()
+#10 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(27): frontend\controllers\IndexController->actionAd()
+#11 [internal function]: frontend\controllers\IndexController->actionIndex()
+#12 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#14 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#15 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#16 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php:534
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(836): yii\db\Connection->open()
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Connection.php(823): yii\db\Connection->getMasterPdo()
+#2 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(208): yii\db\Connection->getSlavePdo()
+#3 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(813): yii\db\Command->prepare(true)
+#4 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Command.php(350): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\Query.php(206): yii\db\Command->queryAll()
+#6 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\db\ActiveQuery.php(130): yii\db\Query->all(NULL)
+#7 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(33): yii\db\ActiveQuery->all()
+#8 D:\XAMPP\htdocs\weike\advanced\frontend\controllers\IndexController.php(27): frontend\controllers\IndexController->actionAd()
+#9 [internal function]: frontend\controllers\IndexController->actionIndex()
+#10 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#13 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#14 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2014-12-18 07:59:01 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57382'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418885941.015
+    'REQUEST_TIME' => 1418885941
+]
+2014-12-18 08:00:36 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "renwu/index".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "renwu/index".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:00:36 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886036.592
+    'REQUEST_TIME' => 1418886036
+]
+2014-12-18 08:00:47 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/seller_list' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('seller_list', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/seller_li...', Array)
+#2 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/seller_list' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:00:47 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'index/seller_list'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+    '_csrf' => 'd7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s:32:\"7iQHIjBjWV93eC48JzSIf3IbniIkSm0T\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/index.php?do=prom'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3; _csrf=d7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s%3A32%3A%227iQHIjBjWV93eC48JzSIf3IbniIkSm0T%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/seller_list'
+    'REQUEST_URI' => '/index.php?r=index/seller_list'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886047.582
+    'REQUEST_TIME' => 1418886047
+]
+2014-12-18 08:00:55 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "login/login".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/login', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "login/login".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:00:55 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+    '_csrf' => 'd7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s:32:\"7iQHIjBjWV93eC48JzSIf3IbniIkSm0T\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/index.php?r=index/index'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3; _csrf=d7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s%3A32%3A%227iQHIjBjWV93eC48JzSIf3IbniIkSm0T%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886055.16
+    'REQUEST_TIME' => 1418886055
+]
+2014-12-18 08:02:40 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "login/login".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/login', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "login/login".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:02:40 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+    '_csrf' => 'd7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s:32:\"7iQHIjBjWV93eC48JzSIf3IbniIkSm0T\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/index.php?r=index/index'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3; _csrf=d7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s%3A32%3A%227iQHIjBjWV93eC48JzSIf3IbniIkSm0T%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57417'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886160.116
+    'REQUEST_TIME' => 1418886160
+]
+2014-12-18 08:02:50 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "login/login".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/login', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "login/login".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:02:50 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+    '_csrf' => 'd7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s:32:\"7iQHIjBjWV93eC48JzSIf3IbniIkSm0T\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/index.php?r=index/index'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3; _csrf=d7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s%3A32%3A%227iQHIjBjWV93eC48JzSIf3IbniIkSm0T%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886170.19
+    'REQUEST_TIME' => 1418886170
+]
+2014-12-18 08:02:52 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "login/login".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/login', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "login/login".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:02:52 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+    '_csrf' => 'd7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s:32:\"7iQHIjBjWV93eC48JzSIf3IbniIkSm0T\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/index.php?r=index/index'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3; _csrf=d7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s%3A32%3A%227iQHIjBjWV93eC48JzSIf3IbniIkSm0T%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886172.442
+    'REQUEST_TIME' => 1418886172
+]
+2014-12-18 08:07:31 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: login/regist' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('regist', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/regist', Array)
+#2 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: login/regist' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:07:31 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'login/regist'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+    '_csrf' => 'd7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s:32:\"7iQHIjBjWV93eC48JzSIf3IbniIkSm0T\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/index.php?r=login/login'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3; _csrf=d7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s%3A32%3A%227iQHIjBjWV93eC48JzSIf3IbniIkSm0T%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57476'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/regist'
+    'REQUEST_URI' => '/index.php?r=login/regist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886451.545
+    'REQUEST_TIME' => 1418886451
+]
+2014-12-18 08:07:41 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "renwu/index".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "renwu/index".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:07:41 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+    '_csrf' => 'd7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s:32:\"7iQHIjBjWV93eC48JzSIf3IbniIkSm0T\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/index.php?r=login/login'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3; _csrf=d7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s%3A32%3A%227iQHIjBjWV93eC48JzSIf3IbniIkSm0T%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57476'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886461.819
+    'REQUEST_TIME' => 1418886461
+]
+2014-12-18 08:07:45 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "renwu/index".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('renwu/index', Array)
+#1 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "renwu/index".' in D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\XAMPP\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\XAMPP\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-18 08:07:45 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'renwu/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rjak6go6nl91ie0lkr8ca5i3c3'
+    '_csrf' => 'd7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s:32:\"7iQHIjBjWV93eC48JzSIf3IbniIkSm0T\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/XAMPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/XAMPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/index.php?r=login/login'
+    'HTTP_COOKIE' => 'PHPSESSID=rjak6go6nl91ie0lkr8ca5i3c3; _csrf=d7d203cbed9270998a0468ed3c3cb72cf4aedb85ef08920ae1d9aadb3e62db47s%3A32%3A%227iQHIjBjWV93eC48JzSIf3IbniIkSm0T%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\php第四个月\\svn等\\SVN客户端\\SVN客户端64位\\bin;F:\\app;bin;F:\\app\\jre\\bin;E:\\jichenghuanjing\\jichenghuanjing;C:\\Program Files\\TortoiseGit\\bin;D:\\XAMPP\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/XAMPP/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '57476'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=renwu/index'
+    'REQUEST_URI' => '/index.php?r=renwu/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1418886465.354
+    'REQUEST_TIME' => 1418886465
+]

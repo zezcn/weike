@@ -11,6 +11,7 @@ use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+use app\models\KekeWitkeyAd;
 
 /**
  * Index controller
@@ -23,6 +24,18 @@ class IndexController extends Controller
     public function actionIndex()
     {
         $this->layout='@app/views/layouts/colume.php';
-        return $this->render('index');
+        $data["ad"] = $this->actionAd();
+        $data["task"] = $this->actionTesklist();
+       // print_r($data["task"]);
+        return $this->render('index',["data"=>$data]);
     }
+    public function actionAd(){
+       $ad = KekeWitkeyAd::find()->where("ad_position = 'global'")->all();
+       return $ad;
+    }
+    public function actionTesklist(){
+        $task = \app\models\KekeWitkeyTask::find()->orderBy("start_time desc ")->limit("5")->where("1=1")->all();
+        return $task;
+    }
+    
 }

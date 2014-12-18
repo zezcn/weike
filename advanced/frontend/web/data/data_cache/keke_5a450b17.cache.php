@@ -1,1 +1,0 @@
-<?php 'a:4:{s:19:\"__mp_cache_contents\";a:1:{i:0;a:2:{s:8:\"model_id\";s:1:\"6\";s:6:\"config\";s:119:\"a:4:{s:8:\"min_cash\";s:1:\"0\";s:15:\"confirm_max_day\";s:1:\"1\";s:14:\"service_profit\";s:1:\"1\";s:13:\"max_filecount\";s:1:\"1\";}\";}}s:18:\"__mp_cache_created\";i:1418787052;s:23:\"__mp_cache_dependencies\";N;s:18:\"__mp_cache_expires\";i:1418788252;}';

@@ -25,4 +25,7 @@ class IndexController extends Controller
         $this->layout='@app/views/layouts/colume.php';
         return $this->render('index');
     }
+    public function actionLogin() {
+        ECHO 1234;DIE;
+    }
 }

@@ -6,7 +6,7 @@
         </div>
         <div id="ajaxwaitid">
         	<div>
-        	<img src="tpl/default/theme/blue/img/system/loading.gif" alt="loading"/>
+        	<img src="./tpl/default/theme/blue/img/system/loading.gif" alt="loading"/>
 请求处理中...</div>
 </div>
         <!--主内容-->

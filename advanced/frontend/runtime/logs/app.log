@@ -4858,3 +4858,213 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1419046296.799
     'REQUEST_TIME' => 1419046296
 ]
+2014-12-20 04:40:42 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "tasklist/tasklist".' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('tasklist/taskli...', Array)
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "tasklist/tasklist".' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-20 04:40:42 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'tasklist/tasklist'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=square/square'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51994'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tasklist/tasklist'
+    'REQUEST_URI' => '/index.php?r=tasklist/tasklist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419046842.817
+    'REQUEST_TIME' => 1419046842
+]
+2014-12-20 04:40:53 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "tasklist/tasklist".' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('tasklist/taskli...', Array)
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "tasklist/tasklist".' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-20 04:40:53 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'tasklist/tasklist'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=index/index'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51994'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tasklist/tasklist'
+    'REQUEST_URI' => '/index.php?r=tasklist/tasklist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419046853.351
+    'REQUEST_TIME' => 1419046853
+]
+2014-12-20 04:41:00 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: task/tasklist' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('tasklist', Array)
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('task/tasklist', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: task/tasklist' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-20 04:41:00 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'task/tasklist'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '52005'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=task/tasklist'
+    'REQUEST_URI' => '/index.php?r=task/tasklist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419046860.224
+    'REQUEST_TIME' => 1419046860
+]

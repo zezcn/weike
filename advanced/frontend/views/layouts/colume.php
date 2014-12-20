@@ -233,7 +233,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=tasklist/tasklist"  >
+                            <a href="index.php?r=task/index"  >
                             <span>任务大厅</span></a>
 </li>
 <li class="line"></li>

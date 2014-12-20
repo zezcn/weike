@@ -27,15 +27,13 @@
                 <div class="grid_17">
                     <!--from表单 start-->
                     <div class="form_box clearfix border_n">
-                        <form action="index.php?do=login" method="post" id="login_frm" name="login_frm">
-                            <input type="hidden" name="formhash" id="formhash" value="ce9abd">
-<input type="hidden" name="hdn_refer" id="hdn_refer" value="http://localhost/weike_demo/index.php">
-<input type="hidden" name="handlekey" value="login_frm1"><!--账号-->
+                        <form action="index.php?r=login/login" method="post" >
+                            
                             <div class="rowElem clearfix po_re">
                                 <label class="grid_4">
                                   账　号：                                </label>
                                 <div class="grid_10">
-                                	<input style="width:200px;" type="text" value="手机号/邮箱/用户名" class="txt txt_input" size="20" autocomplete="off" name="txt_account" id="txt_account" limit="required:true;len:2-20" msg="用户名输入错误" title="用户名可以为中文!" msgArea="login_account_msg" />
+<input style="width:200px;" type="text" value="手机号/邮箱/用户名" class="txt txt_input" size="20"  name="txt_account" id="txt_account" limit="required:true;len:2-20" msg="用户名输入错误" title="用户名可以为中文!" msgArea="login_account_msg" />
 <span class="msg" id="login_account_msg"></span>
                                 </div>
 
@@ -44,24 +42,24 @@
                             <div class="rowElem clearfix po_re">
                                 <label class="grid_4">
                                     密　码：                                </label>
-                                <div class="grid_10">
-                                	<input type="text" style="width:200px;" id="txt_password" name="txt_password" value="密码不可以为空" style="" class="txt_input txt" original-title="">
-                                    <input class="txt_input txt" style="width:200px;display:none;" type="password" name="pwd_password" id="pwd_password" maxlength="20" limit="required:true;len:6-20" msg="密码长度不能低于6位！" title="密码长度为6-20位" msgArea="login_password_msg" />
+<div class="grid_10">
+<input type="text" style="width:200px;" id="txt_password" name="txt_password" value="密码不可以为空" style="" class="txt_input txt" original-title="">
+<input class="txt_input txt" style="width:200px;display:none;" type="password" name="pwd_password" id="pwd_password" maxlength="20" limit="required:true;len:6-20" msg="密码长度不能低于6位！" title="密码长度为6-20位" msgArea="login_password_msg" />
 <span class="msg" id="login_password_msg"></span>
-                                </div>
-                                
-                            </div>
-                            <div>
-                            
+		</div>
+		
+	</div>
+	<div>
+	
 </div>
-                            <div class="mt_20 prefix_4 ml_5">
-                                <button type="submit" onclick="return user_login();" class="button" id="user_login_btn">
-                                    <span class="key icon"></span>
-                                    登录　 
-                                </button> 　　&gt;&gt;<a href="index.php?do=get_password" target="_blank">找回密码</a>
-                            </div>
-                           
-                        </form>
+	<div class="mt_20 prefix_4 ml_5">
+		<button type="submit"  class="button" id="user_login_btn">
+			<span class="key icon"></span>
+			登录　 
+		</button> 　　&gt;&gt;<a href="index.php?do=get_password" target="_blank">找回密码</a>
+	</div>
+   
+</form>
                     </div>
                 </div>
                 <div class="grid_7 omega border_l_c">
@@ -131,15 +129,15 @@ var inter = "1";
         var content = $("#txt_account").val();
 inter==1?val="手机号/邮箱/用户名":val="填写您的用户名";
         if (!content) {
-            //$("#txt_account").val(val);
+            $("#txt_account").val(val);
         }
     });
     
     $("#txt_password").focus(function(){
         var content = $("#pwd_password").val();
         $(this).hide();
-$("#pwd_password").show();
-$("#pwd_password")[0].focus();
+		$("#pwd_password").show();
+		$("#pwd_password")[0].focus();
         if (content == L.password_not_empty) {
         	$("#txt_account").val("");
         }
@@ -158,10 +156,10 @@ $("#pwd_password")[0].focus();
     function user_login(){ 
         if (checkForm(document.getElementById("login_frm"), false)) {
         	//login_frm.submit();
-        	showWindow('login_frm1', 'login_frm', 'post',0,{cover:1},'hide()');
+        	//showWindow('login_frm1', 'login_frm', 'post',0,{cover:1},'hide()');
         	
         }
-        return false;
+        //return false;
     }
     
     function hide(){

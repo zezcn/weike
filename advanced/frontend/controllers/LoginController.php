@@ -1,39 +1,42 @@
 <?php
 namespace frontend\controllers;
 use \app\models\KekeWitkeySpace;
+use common\models\LoginForm;
+use frontend\models\PasswordResetRequestForm;
+use frontend\models\ResetPasswordForm;
+use frontend\models\SignupForm;
+use frontend\models\ContactForm;
+use yii\base\InvalidParamException;
+use yii\web\BadRequestHttpException;
+use yii\web\Controller;
+use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
+use app\models\KekeWitkeyAd;
+
 class LoginController extends \yii\web\Controller
 {
 	public $enableCsrfValidation = false;
     public function actionLogin()
     {
-        $this->layout='@appiews/layouts/colume.php';
-       
+        $this->layout='@app/views/layouts/colume.php';
 		if(!empty($_POST)){ 
-                    //print_r($_POST);
-                    //echo 12;die;
-                     $username=$_POST['txt_account'];
-                     $password=$_POST['pwd_password'];
-                     //$login=new KekeWitkeySpace();
-                     /ar_dump($login);die;
-                     $info = KekeWitkeySpace::find()->where("username = '".$username."'")->one();
-                     /ar_dump($info);die;
-                     if($info){
-                         if(md5($password)==$info['password']){
-                             //echo "登陆成功";
-                             $this->redirect(array('index/index'));
-                             SESSION_START();
-                             $_SESSION["username"]=$username;
-                             //echo $_SESSION["username"];die;
-                       }else{
-                             echo "密码错误";
-                        }
-                      }else{
-                        echo "用户名不存在";
-                      }
-               }
-		//echo 1234;
-          return $this->render('login');  
-          
+			 $username=$_POST['txt_account'];
+			 $password=$_POST['pwd_password'];
+			 $info = KekeWitkeySpace::find()->where("username = '".$username."'")->one();
+			 if($info){
+				 if(md5($password)==$info['password']){
+					 $this->redirect(array('index/index'));
+					 SESSION_START();
+					 $_SESSION["username"]=$username;
+			   }else{
+					 echo "密码错误";
+				}
+			  }else{
+				echo "用户名不存在";
+			  }
+	   }
+	return $this->render('login');  
+
 
     }
 

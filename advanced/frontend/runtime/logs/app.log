@@ -4284,3 +4284,577 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1418954481.472
     'REQUEST_TIME' => 1418954481
 ]
+2014-12-20 04:15:17 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\KekeWitkeyIndustry' not found' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\IndexController.php:42
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-20 04:15:16 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51712'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419045316.68
+    'REQUEST_TIME' => 1419045316
+]
+2014-12-20 04:16:42 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "tasklist/tasklist".' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('tasklist/taskli...', Array)
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "tasklist/tasklist".' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-20 04:16:42 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'tasklist/tasklist'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=shoplist/shoplist'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51734'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=tasklist/tasklist'
+    'REQUEST_URI' => '/index.php?r=tasklist/tasklist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419045402.571
+    'REQUEST_TIME' => 1419045402
+]
+2014-12-20 04:16:53 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '/'' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\LoginController.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-20 04:16:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=shoplist/shoplist'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51740'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419045412.982
+    'REQUEST_TIME' => 1419045412
+]
+2014-12-20 04:17:26 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '/'' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\LoginController.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-20 04:17:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51743'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419045446.524
+    'REQUEST_TIME' => 1419045446
+]
+2014-12-20 04:17:42 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @appiews/layouts/colume.php' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(462): yii\BaseYii::getAlias('@appiews/layout...')
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->findLayoutFile(Object(yii\web\View))
+#2 F:\php\xampp\htdocs\weike\advanced\frontend\controllers\LoginController.php(35): yii\base\Controller->render('login')
+#3 [internal function]: frontend\controllers\LoginController->actionLogin()
+#4 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/login', Array)
+#8 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-20 04:17:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51747'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419045462.291
+    'REQUEST_TIME' => 1419045462
+]
+2014-12-20 04:18:45 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @appiews/layouts/colume.php' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(462): yii\BaseYii::getAlias('@appiews/layout...')
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->findLayoutFile(Object(yii\web\View))
+#2 F:\php\xampp\htdocs\weike\advanced\frontend\controllers\LoginController.php(46): yii\base\Controller->render('login')
+#3 [internal function]: frontend\controllers\LoginController->actionLogin()
+#4 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/login', Array)
+#8 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-20 04:18:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51763'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419045525.381
+    'REQUEST_TIME' => 1419045525
+]
+2014-12-20 04:19:43 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Invalid path alias: @appiews/layouts/colume.php' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\BaseYii.php:152
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(462): yii\BaseYii::getAlias('@appiews/layout...')
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(368): yii\base\Controller->findLayoutFile(Object(yii\web\View))
+#2 F:\php\xampp\htdocs\weike\advanced\frontend\controllers\LoginController.php(44): yii\base\Controller->render('login')
+#3 [internal function]: frontend\controllers\LoginController->actionLogin()
+#4 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#7 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/login', Array)
+#8 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-20 04:19:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51769'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419045583.479
+    'REQUEST_TIME' => 1419045583
+]
+2014-12-20 04:21:42 [127.0.0.1][][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 04:21:42 [127.0.0.1][][-][info][application] $_GET = [
+    'do' => 'login'
+    'inajax' => '1'
+]
+
+$_POST = [
+    'formhash' => 'ce9abd'
+    'hdn_refer' => 'http://localhost/weike_demo/index.php'
+    'handlekey' => 'login_frm1'
+    'txt_account' => 'admin'
+    'txt_password' => '密码不可以为空'
+    'pwd_password' => 'admin123'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=login/login'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '211'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51782'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=login&inajax=1'
+    'REQUEST_URI' => '/index.php?do=login&inajax=1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419045702.214
+    'REQUEST_TIME' => 1419045702
+]
+2014-12-20 04:31:36 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: shop/shoplist' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('shoplist', Array)
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('shop/shoplist', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: shop/shoplist' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-20 04:31:36 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'shop/shoplist'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'rrf52kmpvbfs7slgk17mmsitf2'
+    '_csrf' => 'c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs:32:\"a41F80Nw9ifJAS83Couw38omwZoNy_VA\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=rrf52kmpvbfs7slgk17mmsitf2; _csrf=c13af26e933bc780b39c3d742e11d08172d0624418188f2caa9a1d1f1c8bb35fs%3A32%3A%22a41F80Nw9ifJAS83Couw38omwZoNy_VA%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51878'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=shop/shoplist'
+    'REQUEST_URI' => '/index.php?r=shop/shoplist'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419046296.799
+    'REQUEST_TIME' => 1419046296
+]

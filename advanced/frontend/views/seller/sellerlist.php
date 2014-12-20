@@ -1,24 +1,16 @@
- <body id="seller_list">
+<?php
+use yii\widgets\LinkPager;
+?>
 
-<div class="blue_style" id="wrapper">
-
-        <div id="append_parent">
-        </div>
-        <div id="ajaxwaitid">
-        	<div>
-        	<img src="./tpl/default/theme/blue/img/system/loading.gif" alt="loading"/>
-请求处理中...</div>
-</div>
-        <!--主内容-->
-        <section class="clearfix content">
+<section class="clearfix content">
             <div class="container_24">
-    	<div class="clear"></div>
+      <div class="clear"></div>
 <div class="clear"></div>
                 <div class="mb_10 clearfix">
-                	<div class="grid_24">
+                  <div class="grid_24">
                     <!--筛选条件-->
                     <div class="filter box normal po_re">
-                    	<div class="inner" id="condition_list">
+                      <div class="inner" id="condition_list">
                       <!--条件列表-->
                       <div class="condition_list pad10"  > 
                         <!--服务商行业分类-->
@@ -26,36 +18,27 @@
                             <dt class="grid_2 omega">
                                     行业分类                            </dt>
                             <dd class="grid_21">
-                                <a href="index.php?do=seller_list&path="    class='selected' >全部 </a>
-                                <a href="index.php?do=seller_list&path=A441" >品牌设计</a>
-                                <a href="index.php?do=seller_list&path=A2" >网站开发</a>
-                                <a href="index.php?do=seller_list&path=A201" >创意祝福</a>
-                                <a href="index.php?do=seller_list&path=A249" >网游服务</a>
-                                <a href="index.php?do=seller_list&path=A3" >文案写作</a>
-                                <a href="index.php?do=seller_list&path=A335" >建筑/装修</a>
-                                <a href="index.php?do=seller_list&path=A211" >头脑风暴</a>
-                                <a href="index.php?do=seller_list&path=A350" >照片美化/编辑</a>
-                                <a href="index.php?do=seller_list&path=A234" >法律服务</a>
-                                <a href="index.php?do=seller_list&path=A160" >起名取名</a>
-                                <a href="index.php?do=seller_list&path=A357" >影视/配音/歌词</a>
-                                <a href="index.php?do=seller_list&path=A192" >生活服务</a>
-                                <a href="index.php?do=seller_list&path=A218" >移动应用</a>
-                                <a href="index.php?do=seller_list&path=A240" >招聘找人</a>
-                                <a href="index.php?do=seller_list&path=A121" >软件开发</a>
-                                 
+                                <a href="index.php?r=seller/sellersearch&shop_type=<?php echo $data['shop_type']?>&indus_id=" class='selected' >全部 </a>
+                                    <?php foreach ($data['indu'] as $key => $v) {
+                                      
+                                    ?>
+                                <a href="index.php?r=seller/sellersearch&indus_id=<?php echo $v["indus_id"]?>&shop_type=<?php echo $data["shop_type"]?>"><?php echo $v['indus_name']?></a>
+                               <?php }?>
                             </dd>
                         </dl>
                          <!--end 分类-->
                        
-                      	  <!--条件1-->
+                          <!--条件1-->
                           <dl class="condition clearfix">
                             <dt class="grid_2 omega">店铺分类</dt>
                             <dd class="grid_21">
-                            	                                <a href="index.php?do=seller_list&path="  class="selected" >全部</a> 
-    <a href="index.php?do=seller_list&path=C1"  >个人店铺</a> 
-                                    <a href="index.php?do=seller_list&path=C2"  >企业店铺</a> 
-                                                                </dd>
-                           </dl>
+                            
+                     <a href="index.php?r=seller/sellersearch&shop_type=&indus_id=<?php echo $data["indus_id"]?>"  class="selected" >全部</a> 
+                     <a href="index.php?r=seller/sellersearch&shop_type=1&indus_id=<?php echo $data["indus_id"]?>"  >个人店铺</a> 
+                     <a href="index.php?r=seller/sellersearch&shop_type=2&indus_id=<?php echo $data["indus_id"]?>"  >企业店铺</a> 
+                     
+                           </dd>
+                          </dl>
    
                           
                            <!--条件2-->
@@ -69,11 +52,11 @@
                        <div class="select_condition clearfix pad10 m_h">
                        
                            <div class="grid_2 omega">
-                           		<h3 class="title">已选条件</h3>
+                              <h3 class="title">已选条件</h3>
                            </div>
                         
-                        	<div class="grid_21">
-                            		<!--当无选择条件时显示span标记-->
+                          <div class="grid_21">
+                                <!--当无选择条件时显示span标记-->
                                     
 <span>您暂无选择筛选条件</span> 
                             </div>
@@ -92,9 +75,9 @@
                     <div class="second_menu container_24 po_ab m_h">
                         <div class="suffix_23 pull_1">
                             <nav class="minor_nav box">
-                                <ul class="nav_group clearfix">                                	
+                                <ul class="nav_group clearfix">                                 
                                     <li>
-                                    	<a href="index.php?do=help&fpid=291" title="帮助中心"><span class="icon16 help"></span></a>
+                                      <a href="index.php?do=help&fpid=291" title="帮助中心"><span class="icon16 help"></span></a>
 </li>
                                 </ul>
                             </nav>
@@ -108,8 +91,8 @@
                                 <div class="grid_20">
                                     <div class="box normal clearfix">
                                         <!--左内容头-->
-                                    	<div class="border_b_c clearfix hidden">
-                                    	<div class="grid_5 omega">
+                                      <div class="border_b_c clearfix hidden">
+                                      <div class="grid_5 omega">
                                             <div class="sum clearfix">
                                                 <p>共<span class="cc00"> 8 </span>条</p>
                                              </div>
@@ -147,315 +130,37 @@
 <a href="index.php?do=seller_list&path=&page_size=20&ord=2"  style="display:none"  title="低好评在前"> 综合指数 | 好评率 ▲</a> 
 <a href="index.php?do=seller_list&path=&page_size=20&ord=1"  title="高好评在前">综合指数 | 好评率 ▼</a>
 
-</li>												
-                                                </ul>
-                                              </dd>
-                            
- 
-                                            <dd class="po_re shop_tags clearfix">
-                                                <ul class="clearfix pt_10">
-                                                    <li class="w4 info ws_break ">
-                                                    	 <div class="img_box fl_l pr_10 m_col2">
-                                                        	<a href="index.php?do=space&member_id=5&view=index">
-                                                        		<img src='http://localhost/yii2.0/data/avatar/system/10_middle.jpg' uid='5' class='pic_middle'></a>
-                                                        </div>
-                                                        <div class="img_des">	
-                                                            <p class=" font14b"><a href="index.php?do=space&member_id=5&view=index" title="我就是我，就在这里">我就是我，就在这里</a></p>
-                                                            <p class="block">
-                                                            	<strong class="c393">个人店铺</strong>
-</p>
-<p>
-<!--能力等级-->
-能力等级：</p>
+</li>                       
+          </ul>
+        </dd>
+  <?php foreach ($data["model"] as $key => $v) {
+                          
+                          ?> 
+               <dd class="po_re shop_tags clearfix">
+                  <ul class="clearfix pt_10">
+                      <li class="w4 info ws_break ">
+                         <div class="img_box fl_l pr_10 m_col2">
+                            <a href="index.php?do=space&member_id=4&view=index">
+                              <img src='http://www.yii.com/weike/data/avatar/000/00/00/04_avatar_middle.jpg' uid='4' class='pic_middle'></a>
+                          </div>
+                         
+                          <div class="img_des"> 
 
-<p></p>			
-                                                        	                                                        </div>
-                                                    </li>
-                                                    <li class="w3d5 skill">
-                                                    	
-                                                        <p>
-技能标签：	<span class="c999">该店铺暂无技能标签</span></p>
-<p>
-<!--地区-->
-地区：</p>
-<p>
-<span class="mr_20">上架商品 ：<strong class="cc00">0</strong></span>
-</p>
-                                                    </li>
-                                                    <li class="w2d5 former">
-                                                    	                                                    	<p>好评率：<span class="cc00">0%  </span> </p>
-                                                    	<p>工作速度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span></span></p>
-<p>工作质量：<span class="cc00">0.0<span class="stars a5 s0"><span class="star_selected"></span></span></span> </p>
-<p>工作态度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span> </span></p>                                                 
-                                                    </li>
-                                                    
-                                                </ul>
-                                                <div class="clear"></div>
-                                              </dd>
-                                             <dd class="po_re shop_tags clearfix">
-                                                <ul class="clearfix pt_10">
-                                                    <li class="w4 info ws_break ">
-                                                    	 <div class="img_box fl_l pr_10 m_col2">
-                                                        	<a href="index.php?do=space&member_id=3&view=index">
-                                                        		<img src='http://localhost/yii2.0/data/avatar/system/1_middle.jpg' uid='3' class='pic_middle'></a>
-                                                        </div>
-                                                        <div class="img_des">	
-                                                            <p class=" font14b"><a href="index.php?do=space&member_id=3&view=index" title="我的小小小店铺">我的小小小店铺</a></p>
-                                                            <p class="block">
-                                                            	<strong class="c393">个人店铺</strong>
-</p>
-<p>
-<!--能力等级-->
-能力等级：</p>
-
-<p></p>			
-                                                        	                                                        </div>
-                                                    </li>
-                                                    <li class="w3d5 skill">
-                                                    	
-                                                        <p>
-技能标签：	<span class="c999">该店铺暂无技能标签</span></p>
-<p>
-<!--地区-->
-地区：</p>
-<p>
-<span class="mr_20">上架商品 ：<strong class="cc00">0</strong></span>
-</p>
-                                                    </li>
-                                                    <li class="w2d5 former">
-                                                    	                                                    	<p>好评率：<span class="cc00">0%  </span> </p>
-                                                    	<p>工作速度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span></span></p>
-<p>工作质量：<span class="cc00">0.0<span class="stars a5 s0"><span class="star_selected"></span></span></span> </p>
-<p>工作态度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span> </span></p>                                                 
-                                                    </li>
-                                                    
-                                                </ul>
-                                                <div class="clear"></div>
-                                              </dd>
-                                             <dd class="po_re shop_tags clearfix">
-                                                <ul class="clearfix pt_10">
-                                                    <li class="w4 info ws_break ">
-                                                    	 <div class="img_box fl_l pr_10 m_col2">
-                                                        	<a href="index.php?do=space&member_id=8&view=index">
-                                                        		<img src='http://localhost/yii2.0/data/avatar/system/7_middle.jpg' uid='8' class='pic_middle'></a>
-                                                        </div>
-                                                        <div class="img_des">	
-                                                            <p class=" font14b"><a href="index.php?do=space&member_id=8&view=index" title="我就是我，就在这里">我就是我，就在这里</a></p>
-                                                            <p class="block">
-                                                            	<strong class="c393">个人店铺</strong>
-</p>
-<p>
-<!--能力等级-->
-能力等级：</p>
-
-<p></p>			
-                                                        	                                                        </div>
-                                                    </li>
-                                                    <li class="w3d5 skill">
-                                                    	
-                                                        <p>
-技能标签：	<span class="c999">该店铺暂无技能标签</span></p>
-<p>
-<!--地区-->
-地区：</p>
-<p>
-<span class="mr_20">上架商品 ：<strong class="cc00">0</strong></span>
-</p>
-                                                    </li>
-                                                    <li class="w2d5 former">
-                                                    	                                                    	<p>好评率：<span class="cc00">0%  </span> </p>
-                                                    	<p>工作速度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span></span></p>
-<p>工作质量：<span class="cc00">0.0<span class="stars a5 s0"><span class="star_selected"></span></span></span> </p>
-<p>工作态度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span> </span></p>                                                 
-                                                    </li>
-                                                    
-                                                </ul>
-                                                <div class="clear"></div>
-                                              </dd>
-                                             <dd class="po_re shop_tags clearfix">
-                                                <ul class="clearfix pt_10">
-                                                    <li class="w4 info ws_break ">
-                                                    	 <div class="img_box fl_l pr_10 m_col2">
-                                                        	<a href="index.php?do=space&member_id=9&view=index">
-                                                        		<img src='http://localhost/yii2.0/data/avatar/system/2_middle.jpg' uid='9' class='pic_middle'></a>
-                                                        </div>
-                                                        <div class="img_des">	
-                                                            <p class=" font14b"><a href="index.php?do=space&member_id=9&view=index" title="想要漂亮小玩具吗，专业制作手工玩具">想要漂亮小玩具吗，专业</a></p>
-                                                            <p class="block">
-                                                            	<strong class="c393">个人店铺</strong>
-</p>
-<p>
-<!--能力等级-->
-能力等级：</p>
-
-<p></p>			
-                                                        	                                                        </div>
-                                                    </li>
-                                                    <li class="w3d5 skill">
-                                                    	
-                                                        <p>
-技能标签：	<span class="c999">该店铺暂无技能标签</span></p>
-<p>
-<!--地区-->
-地区：</p>
-<p>
-<span class="mr_20">上架商品 ：<strong class="cc00">0</strong></span>
-</p>
-                                                    </li>
-                                                    <li class="w2d5 former">
-                                                    	                                                    	<p>好评率：<span class="cc00">0%  </span> </p>
-                                                    	<p>工作速度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span></span></p>
-<p>工作质量：<span class="cc00">0.0<span class="stars a5 s0"><span class="star_selected"></span></span></span> </p>
-<p>工作态度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span> </span></p>                                                 
-                                                    </li>
-                                                    
-                                                </ul>
-                                                <div class="clear"></div>
-                                              </dd>
-                                             <dd class="po_re shop_tags clearfix">
-                                                <ul class="clearfix pt_10">
-                                                    <li class="w4 info ws_break ">
-                                                    	 <div class="img_box fl_l pr_10 m_col2">
-                                                        	<a href="index.php?do=space&member_id=10&view=index">
-                                                        		<img src='http://localhost/yii2.0/data/avatar/system/15_middle.jpg' uid='10' class='pic_middle'></a>
-                                                        </div>
-                                                        <div class="img_des">	
-                                                            <p class=" font14b"><a href="index.php?do=space&member_id=10&view=index" title="最具个性化的店铺，值得一看哦">最具个性化的店铺，值得</a></p>
-                                                            <p class="block">
-                                                            	<strong class="c393">个人店铺</strong>
-</p>
-<p>
-<!--能力等级-->
-能力等级：</p>
-
-<p></p>			
-                                                        	                                                        </div>
-                                                    </li>
-                                                    <li class="w3d5 skill">
-                                                    	
-                                                        <p>
-技能标签：	<span class="c999">该店铺暂无技能标签</span></p>
-<p>
-<!--地区-->
-地区：</p>
-<p>
-<span class="mr_20">上架商品 ：<strong class="cc00">0</strong></span>
-</p>
-                                                    </li>
-                                                    <li class="w2d5 former">
-                                                    	                                                    	<p>好评率：<span class="cc00">0%  </span> </p>
-                                                    	<p>工作速度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span></span></p>
-<p>工作质量：<span class="cc00">0.0<span class="stars a5 s0"><span class="star_selected"></span></span></span> </p>
-<p>工作态度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span> </span></p>                                                 
-                                                    </li>
-                                                    
-                                                </ul>
-                                                <div class="clear"></div>
-                                              </dd>
-                                             <dd class="po_re shop_tags clearfix">
-                                                <ul class="clearfix pt_10">
-                                                    <li class="w4 info ws_break ">
-                                                    	 <div class="img_box fl_l pr_10 m_col2">
-                                                        	<a href="index.php?do=space&member_id=6&view=index">
-                                                        		<img src='http://localhost/yii2.0/data/avatar/system/16_middle.jpg' uid='6' class='pic_middle'></a>
-                                                        </div>
-                                                        <div class="img_des">	
-                                                            <p class=" font14b"><a href="index.php?do=space&member_id=6&view=index" title="我的完美店铺">我的完美店铺</a></p>
-                                                            <p class="block">
-                                                            	<strong class="c393">个人店铺</strong>
-</p>
-<p>
-<!--能力等级-->
-能力等级：</p>
-
-<p></p>			
-                                                        	                                                        </div>
-                                                    </li>
-                                                    <li class="w3d5 skill">
-                                                    	
-                                                        <p>
-技能标签：	<span class="c999">该店铺暂无技能标签</span></p>
-<p>
-<!--地区-->
-地区：</p>
-<p>
-<span class="mr_20">上架商品 ：<strong class="cc00">0</strong></span>
-</p>
-                                                    </li>
-                                                    <li class="w2d5 former">
-                                                    	                                                    	<p>好评率：<span class="cc00">0%  </span> </p>
-                                                    	<p>工作速度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span></span></p>
-<p>工作质量：<span class="cc00">0.0<span class="stars a5 s0"><span class="star_selected"></span></span></span> </p>
-<p>工作态度：<span class="cc00">0.0 <span class="stars a5 s0"><span class="star_selected"></span></span> </span></p>                                                 
-                                                    </li>
-                                                    
-                                                </ul>
-                                                <div class="clear"></div>
-                                              </dd>
-                                             <dd class="po_re shop_tags clearfix">
-                                                <ul class="clearfix pt_10">
-                                                    <li class="w4 info ws_break ">
-                                                    	 <div class="img_box fl_l pr_10 m_col2">
-                                                        	<a href="index.php?do=space&member_id=2&view=index">
-                                                        		<img src='http://localhost/yii2.0/data/avatar/system/2_middle.jpg' uid='2' class='pic_middle'></a>
-                                                        </div>
-                                                        <div class="img_des">	
-                                                            <p class=" font14b"><a href="index.php?do=space&member_id=2&view=index" title="猪八戒的店铺">猪八戒的店铺</a></p>
-                                                            <p class="block">
-                                                            	<strong class="c393">个人店铺</strong>
-</p>
-<p>
-<!--能力等级-->
-能力等级：<img src="data/uploads/sys/mark/228324f3b0872c6f04.gif?fid=2075" align="absmiddle" title="头衔 ：五级威客&#13;&#10;能力值：2057&#13;&#10;等级：5"></p>
-
-<p></p>			
-                                                        	                                                        </div>
-                                                    </li>
-                                                    <li class="w3d5 skill">
-                                                    	
-                                                        <p>
-技能标签：	<span class="c999">该店铺暂无技能标签</span></p>
-<p>
-<!--地区-->
-地区：</p>
-<p>
-<span class="mr_20">上架商品 ：<strong class="cc00">1</strong></span>
-<a href="javascript:void(0);" class="show_sell" onclick="loadSale(2)">查看最新商品▼</a></p>
-<ul class="sell_list mt_10 clearfix" id="sell_list_2"></ul>
-                                                    </li>
-                                                    <li class="w2d5 former">
-                                                    	                                                    	<p>好评率：<span class="cc00">100%  </span> </p>
-                                                    	<p>工作速度：<span class="cc00">5.0 <span class="stars a5 s5"><span class="star_selected"></span></span></span></p>
-<p>工作质量：<span class="cc00">5.0<span class="stars a5 s5"><span class="star_selected"></span></span></span> </p>
-<p>工作态度：<span class="cc00">5.0 <span class="stars a5 s5"><span class="star_selected"></span></span> </span></p>                                                 
-                                                    </li>
-                                                    
-                                                </ul>
-                                                <div class="clear"></div>
-                                              </dd>
-                                             <dd class="po_re shop_tags clearfix">
-                                                <ul class="clearfix pt_10">
-                                                    <li class="w4 info ws_break ">
-                                                    	 <div class="img_box fl_l pr_10 m_col2">
-                                                        	<a href="index.php?do=space&member_id=4&view=index">
-                                                        		<img src='http://localhost/yii2.0/data/avatar/000/00/00/04_avatar_middle.jpg' uid='4' class='pic_middle'></a>
-                                                        </div>
-                                                        <div class="img_des">	
-                                                            <p class=" font14b"><a href="index.php?do=space&member_id=4&view=index" title="SHANGK">SHANGK</a></p>
-                                                            <p class="block">
-                                                            	<strong class="c393">个人店铺</strong>
+                              <p class=" font14b"><a href="index.php?do=space&member_id=4&view=index" title="SHANGK"><?php echo $v["shop_name"]?></a></p>
+                              <p class="block">
+                                <strong class="c393">个人店铺</strong>
 </p>
 <p>
 <!--能力等级-->
 能力等级：<img src="data/uploads/sys/mark/306874f3b082e22fc3.gif?fid=2071" align="absmiddle" title="头衔 ：三级威客&#13;&#10;能力值：594&#13;&#10;等级：3"></p>
 
-<p></p>			
-                                                        	                                                        </div>
-                                                    </li>
-                                                    <li class="w3d5 skill">
-                                                    	
+<p></p>     
+                                                                  </div>
+    </li>
+    <li class="w3d5 skill">
+      
                                                         <p>
-技能标签：	<span class="c999">该店铺暂无技能标签</span></p>
+技能标签： <span class="c999">该店铺暂无技能标签</span></p>
 <p>
 <!--地区-->
 地区：</p>
@@ -465,8 +170,8 @@
 <ul class="sell_list mt_10 clearfix" id="sell_list_1"></ul>
                                                     </li>
                                                     <li class="w2d5 former">
-                                                    	                                                    	<p>好评率：<span class="cc00">100%  </span> </p>
-                                                    	<p>工作速度：<span class="cc00">5.0 <span class="stars a5 s5"><span class="star_selected"></span></span></span></p>
+                                                                                                            <p>好评率：<span class="cc00">100%  </span> </p>
+                                                      <p>工作速度：<span class="cc00">5.0 <span class="stars a5 s5"><span class="star_selected"></span></span></span></p>
 <p>工作质量：<span class="cc00">5.0<span class="stars a5 s5"><span class="star_selected"></span></span></span> </p>
 <p>工作态度：<span class="cc00">5.0 <span class="stars a5 s5"><span class="star_selected"></span></span> </span></p>                                                 
                                                     </li>
@@ -474,9 +179,10 @@
                                                 </ul>
                                                 <div class="clear"></div>
                                               </dd>
-   
+                                                <?php }?>
                                             </dl>    
                                         </div>
+                                        
                                         <!--end 列表主内容-->
 <!--右下角的返回顶部--
                                         <div class="operate mt_10 fl_r">
@@ -488,9 +194,7 @@
                                      
                                     <!--page 翻页 start-->
                                     <div class="page">
-                                        <p class="clearfix">
-                                            <span class="stats">共 8 条 </span>
-                                                                                   </p>
+                                        <?= LinkPager::widget(['pagination' => $pages]); ?>
                                         <div class="clear"></div>
                                     </div>
                                     <!--page 翻页 end-->
@@ -503,22 +207,22 @@
                                 <div class="grid_4 m_h">
                                     
 <div class="mb_10">
-   	<a href="http://localhost/yii2.0/index.php?do=user&view=setting&op=space" class="submit block">开通店铺</a>
+    <a href="http://www.yii.com/weike/index.php?do=user&view=setting&op=space" class="submit block">开通店铺</a>
    </div> 
     
 <div class="box normal2">
                                         <!--任务动态-->
                                         <div class="inner">
-                                        		<div class="box_header">
-                                                	<h3 class="title">服务商动态</h3>
+                                            <div class="box_header">
+                                                  <h3 class="title">服务商动态</h3>
 </div>
                                                 <div class=" pl_10 pr_10 pb_10">
                                                 
                                                    <ul id="history_collect ">
-                                                	                                                </ul>
+                                                                                                  </ul>
 </div>
                                         </div>
-                                    	</div>
+                                      </div>
                                         
 <div class="clear"></div>
 <!--服务商_右侧广告-->
@@ -535,7 +239,7 @@
                                     
                 </section>    
 <div class="clear"></div>
- 		 <div class='adv'><a href='http://www.kppw.cn' target='_blank' title='adv'><img src='data/uploads/sys/ad/adv.jpg' width='' height='' alt='adv' title='adv'></a></div><div class="clear"></div>                
+     <div class='adv'><a href='http://www.kppw.cn' target='_blank' title='adv'><img src='data/uploads/sys/ad/adv.jpg' width='' height='' alt='adv' title='adv'></a></div><div class="clear"></div>                
             </div>  
         </section> 
 </div>  
@@ -585,16 +289,16 @@ return false;
                     $("#tool_show").hide();
                 }
             });
-        }	
+        } 
  $(function(){
- 	 $('.show_sell').toggle(function(){
+   $('.show_sell').toggle(function(){
         $(this).text("收起商品列表▲");
      },function(){
         $(this).text("查看最新商品▼");
      });
  });
  function loadSale(sid){
- 	if(sid){
+  if(sid){
 var url = SITEURL+'/index.php?do=ajax&view=shop&action=load_sale&shop_id='+sid;
 if($('#sell_list_'+sid).html()==''){
 $('#sell_list_'+sid).slideUp().load(url).slideDown();
@@ -603,11 +307,10 @@ $('#sell_list_'+sid).slideToggle();
 }
 }
  }
-</script>		
+</script>   
 <script type="text/javascript"> 
     In.config('serial',true);
 In.add('search',{path:"tpl/default/js/search.js",type:'js'});
 In('search','lazy',function(){loadPics();});
  
 </script>
-

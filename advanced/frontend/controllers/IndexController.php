@@ -26,16 +26,32 @@ class IndexController extends Controller
         $this->layout='@app/views/layouts/colume.php';
         $data["ad"] = $this->actionAd();
         $data["task"] = $this->actionTesklist();
-       // print_r($data["task"]);
+		$data["TastType"] = $this->actionTasttype();
+        $data["shopType"] = $data["TastType"];
         return $this->render('index',["data"=>$data]);
     }
-    public function actionAd(){
+    public function actionAd(){   
        $ad = KekeWitkeyAd::find()->where("ad_position = 'global'")->all();
        return $ad;
     }
     public function actionTesklist(){
-        $task = \app\models\KekeWitkeyTask::find()->orderBy("start_time desc ")->limit("5")->where("1=1")->all();
+        $task = \app\models\KekeWitkeyTask::find()->orderBy("start_time desc ")->limit("15")->where("1=1")->all();
         return $task;
     }
-    
+	public function actionTasttype(){
+		 $TastTypeinfo =\app\models\KekeWitkeyIndustry::findBySql('SELECT indus_id,indus_pid,indus_name FROM keke_witkey_industry')->asArray()->all();
+		 foreach($TastTypeinfo as $key=>$val){
+                    if($val['indus_pid']==0){
+                    $Tastparent[] = $val;
+                 }
+        }
+		foreach($Tastparent as $key=>$val){
+                    foreach($TastTypeinfo as $k=>$v){
+                        if($val['indus_id']==$v["indus_pid"]){
+                            $Tastparent[$key][] = $v;
+                        }
+                    }
+		}
+		return $Tastparent;
+	}
 }

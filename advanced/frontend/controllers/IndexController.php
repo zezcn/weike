@@ -11,7 +11,7 @@ use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-
+use app\models\Service;
 /**
  * Index controller
  */
@@ -23,6 +23,14 @@ class IndexController extends Controller
     public function actionIndex()
     {
         $this->layout='@app/views/layouts/colume.php';
-        return $this->render('index');
+        if(@$_GET['do']){
+            $do = $_GET["do"];
+            $path = $_GET["path"];
+            $title = $_GET["search_key"];            
+            $this->redirect(array($do."/search","title"=>$title));                    
+        }       
+        return $this->render('index');  
+        
     }
+   
 }

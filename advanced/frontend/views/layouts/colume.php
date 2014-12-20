@@ -47,6 +47,7 @@ AppAsset::register($this);
 <script src="lang/cn/script/lang.js" type="text/javascript"></script>
 <script src="resource/js/system/keke.js" type="text/javascript"></script>
 <script src="resource/js/in.js" type="text/javascript"></script>
+<script src="resource/js/jq.js" type="text/javascript"></script>
 <script type="text/javascript">
  //js异步加载预定义
     In.add('mouseDelay',{path:"resource/js/jqplugins/jQuery.mouseDelay.js",type:'js'});
@@ -122,20 +123,20 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                     <div class="search_box">
                         <div class="fl_l search_selcecter">
                             <div id="search_select" class="search_options">
-                                                             <a href="javascript:void(0);" class="selected" rel="task_list"><span>任务</span>▼</a>
-                                     <a href="javascript:void(0);" class="hidden"   rel="task_list">任务</a>
-                                <a href="javascript:void(0);" class="hidden"   rel="shop_list">商品</a>
+                                                             <a href="javascript:void(0);" class="selected" rel="task"><span>任务</span>▼</a>
+                                     <a href="javascript:void(0);" class="hidden"   rel="task">任务</a>
+                                <a href="javascript:void(0);" class="hidden"   rel="shop">商品</a>
                              </div>
                         </div>
-<input type="text" name="search_key" onkeydown="search_keydown(event);" id="search_key" class="fl_l search_input txt_input togg c999"
- value="输入任务/商品" 
-   x-webkit-speech x-webkit-grammar="bUIltin:search" lang="zh-CN">
+<input type="text" name="search_key"  id="search_key" class="fl_l search_input txt_input togg c999"
+ value="输入任务/商品" />
+   
                     </div>
 </form>
                     <!--搜索框和选项 end-->
                     <!--搜索提交 start-->
                     <div class="fl_l header_btn">
-                        <button class="search_btn" id="search_btn" type="button" onclick="topSearch();"><span class="icon magnifier"></span>搜索</button>
+                        <button class="search_btn" id="search_btn" type="button" onclick="Search();"><span class="icon magnifier"></span>搜索</button>
                     </div>
                     <!--搜索提交 end-->
                 </div>
@@ -143,9 +144,22 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
             </div>
             
+<!--<script>
+    function Search(){
+        //var type = $(".hidden").Attr();
+        var keyword = $("#keyword").val();
+        //alert(keyword);die;
+        $.ajax({
+            url:"index.php?r=index/aaa",
+            data:{"keyword":keyword},
+            type:"post",
+            success:function(e){
+                alert(e);
+            }
+        });
 
-
-          
+    }
+</script>    -->   
                 <!--用户登录注册 start-->
                 <div class="user_box clearfix grid_5">
                     <!--注册登录按钮 start-->
@@ -233,12 +247,12 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=renwu/index"  >
+                            <a href="index.php?r=task/index"  >
                             <span>任务大厅</span></a>
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=shop/shop_list"  >
+                            <a href="index.php?r=shop/index"  >
                             <span>威客商城</span></a>
 </li>
 <li class="line"></li>

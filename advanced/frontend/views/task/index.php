@@ -35,9 +35,9 @@
                             <dt class="grid_2 omega">
                                 任务分类                            </dt>
                             <dd class="grid_21">
-                                <a href="index.php?r=task/search&indus_id=0&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"    class='selected' >全部 </a>
+                                <a href="index.php?r=task/search&indus_id=0&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"    class='selected' >全部 </a>
                                 <?php foreach($data['indu'] as $key=>$val){?>
-                                <a href="index.php?r=task/search&indus_id=<?php echo $val['indus_id']?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>" ><?php echo $val["indus_name"]?></a>
+                                <a href="index.php?r=task/search&indus_id=<?php echo $val['indus_id']?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>" ><?php echo $val["indus_name"]?></a>
                                 <?php }?>
                   
                             </dd>
@@ -49,7 +49,7 @@
                                 任务模式                            </dt>
                             <dd class="grid_21">
                                 <span id="single_choice_span" >
-<a href="index.php?r=task/search&indus_id=<?php echo $data['indus_id']?>&model_id=0&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"   class='selected' >全部 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data['indus_id']?>&model_id=0&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"   class='selected' >全部 </a>
 
 <?php foreach($data['model'] as $val){?> 
 <a href="index.php?r=task/search&indus_id=<?php echo $data['indus_id']?>&model_id=<?php echo $val['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"   ><?php echo $val["model_name"]?> </a>

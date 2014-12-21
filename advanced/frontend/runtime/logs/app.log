@@ -5068,3 +5068,1829 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1419046860.224
     'REQUEST_TIME' => 1419046860
 ]
+2014-12-20 09:46:00 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'die' (T_EXIT)' in F:\php\xampp\htdocs\weike\advanced\frontend\views\layouts\colume.php:178
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-20 09:46:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59568'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419065160.55
+    'REQUEST_TIME' => 1419065160
+]
+2014-12-20 09:47:27 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Session' not found' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\IndexController.php:27
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-20 09:47:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59578'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419065247.593
+    'REQUEST_TIME' => 1419065247
+]
+2014-12-20 09:55:19 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: _SESSION' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\IndexController.php:30
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\frontend\controllers\IndexController.php(30): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\php\xampp\ht...', 30, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionIndex()
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
+#6 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-20 09:55:19 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59803'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419065719.201
+    'REQUEST_TIME' => 1419065719
+]
+2014-12-20 09:55:38 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined index: username' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\IndexController.php:30
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\frontend\controllers\IndexController.php(30): yii\base\ErrorHandler->handleError(8, 'Undefined index...', 'F:\php\xampp\ht...', 30, Array)
+#1 [internal function]: frontend\controllers\IndexController->actionIndex()
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('index', Array)
+#5 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/index', Array)
+#6 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-20 09:55:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59808'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_URI' => '/index.php?r=index/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419065737.848
+    'REQUEST_TIME' => 1419065737
+]
+2014-12-20 09:56:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\controllers\Session' not found' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\LoginController.php:28
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-20 09:56:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_POST = [
+    'txt_account' => 'admin'
+    'txt_password' => '密码不可以为空'
+    'pwd_password' => 'admin123'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=login/login'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '116'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59820'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/index.php?r=login/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419065766.634
+    'REQUEST_TIME' => 1419065766
+]
+2014-12-20 09:59:16 [127.0.0.1][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "center/user_index".' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('center/user_ind...', Array)
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "center/user_index".' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-20 09:59:16 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'center/user_index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=index%2Findex'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59859'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=center/user_index'
+    'REQUEST_URI' => '/index.php?r=center/user_index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419065955.925
+    'REQUEST_TIME' => 1419065955
+]
+2014-12-20 10:03:02 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: txt_code' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\RegisterController.php:16
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\frontend\controllers\RegisterController.php(16): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\php\xampp\ht...', 16, Array)
+#1 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#5 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('register/regist...', Array)
+#6 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-20 10:03:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'b3lENC5nWWsVID1uHVQSJClNKGEcIGEHJxINYkAQPx8nMwkMHBBsGQ=='
+    'formhash' => 'ce9abd'
+    'hdn_refer' => 'index.php'
+    'handlekey' => 'register_frm1'
+    'txt_account' => ''
+    'pwd_password' => ''
+    'pwd_password2' => ''
+    'txt_email' => ''
+    'txt_code' => ''
+    'inputtext' => 'on'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '202'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59885'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register/register'
+    'REQUEST_URI' => '/index.php?r=register/register'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066182.747
+    'REQUEST_TIME' => 1419066182
+]
+2014-12-20 10:03:15 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: txt_code' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\RegisterController.php:16
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\frontend\controllers\RegisterController.php(16): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\php\xampp\ht...', 16, Array)
+#1 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#5 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('register/regist...', Array)
+#6 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-20 10:03:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'aTBkdE9ocDQTaR0ufFs7ey8ECCF9L0hYIVstIiEfFkAheilMfR9FRg=='
+    'formhash' => 'ce9abd'
+    'hdn_refer' => 'index.php'
+    'handlekey' => 'register_frm1'
+    'txt_account' => ''
+    'pwd_password' => ''
+    'pwd_password2' => ''
+    'txt_email' => ''
+    'txt_code' => ''
+    'inputtext' => 'on'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '202'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59888'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register/register'
+    'REQUEST_URI' => '/index.php?r=register/register'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066195.727
+    'REQUEST_TIME' => 1419066195
+]
+2014-12-20 10:07:10 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 10:07:10 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][info][application] $_GET = [
+    'do' => 'ajax'
+    'view' => 'code'
+    'txt_code' => '2323'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59971'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=ajax&view=code&txt_code=2323'
+    'REQUEST_URI' => '/index.php?do=ajax&view=code&txt_code=2323'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066430.489
+    'REQUEST_TIME' => 1419066430
+]
+2014-12-20 10:07:12 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 10:07:12 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][info][application] $_GET = [
+    'do' => 'register'
+    'check_username' => '232323'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59972'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_username=232323'
+    'REQUEST_URI' => '/index.php?do=register&check_username=232323'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066432.541
+    'REQUEST_TIME' => 1419066432
+]
+2014-12-20 10:07:50 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 10:07:50 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][info][application] $_GET = [
+    'do' => 'register'
+    'check_username' => 'adminadmin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59975'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_username=adminadmin'
+    'REQUEST_URI' => '/index.php?do=register&check_username=adminadmin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066470.298
+    'REQUEST_TIME' => 1419066470
+]
+2014-12-20 10:08:06 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 10:08:06 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][info][application] $_GET = [
+    'do' => 'register'
+    'check_email' => 'admin@qq.com'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59977'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_email=admin@qq.com'
+    'REQUEST_URI' => '/index.php?do=register&check_email=admin@qq.com'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066486.741
+    'REQUEST_TIME' => 1419066486
+]
+2014-12-20 10:08:36 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 10:08:36 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][info][application] $_GET = [
+    'do' => 'register'
+    'check_username' => 'admin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59980'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_username=admin'
+    'REQUEST_URI' => '/index.php?do=register&check_username=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066516.615
+    'REQUEST_TIME' => 1419066516
+]
+2014-12-20 10:08:45 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 10:08:45 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][info][application] $_GET = [
+    'do' => 'ajax'
+    'view' => 'code'
+    'txt_code' => 'ADMI'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59986'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=ajax&view=code&txt_code=ADMI'
+    'REQUEST_URI' => '/index.php?do=ajax&view=code&txt_code=ADMI'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066525.384
+    'REQUEST_TIME' => 1419066525
+]
+2014-12-20 10:08:48 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 10:08:48 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][info][application] $_GET = [
+    'do' => 'register'
+    'check_email' => 'ADMIN@QQ.COM'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59987'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_email=ADMIN@QQ.COM'
+    'REQUEST_URI' => '/index.php?do=register&check_email=ADMIN@QQ.COM'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066528.174
+    'REQUEST_TIME' => 1419066528
+]
+2014-12-20 10:08:50 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 10:08:50 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][info][application] $_GET = [
+    'do' => 'ajax'
+    'view' => 'code'
+    'txt_code' => 'ADMI'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59988'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=ajax&view=code&txt_code=ADMI'
+    'REQUEST_URI' => '/index.php?do=ajax&view=code&txt_code=ADMI'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066530.257
+    'REQUEST_TIME' => 1419066530
+]
+2014-12-20 10:09:05 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: txt_code' in F:\php\xampp\htdocs\weike\advanced\frontend\controllers\RegisterController.php:16
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\frontend\controllers\RegisterController.php(16): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\php\xampp\ht...', 16, Array)
+#1 [internal function]: frontend\controllers\RegisterController->actionRegister()
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#4 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('register', Array)
+#5 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('register/regist...', Array)
+#6 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-20 10:09:05 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'register/register'
+]
+
+$_POST = [
+    '_csrf' => 'VzVab2ZXT2EtbCM1VWQELhEBNjpUEHcNH14TOQggKRUffxdXVCB6Ew=='
+    'formhash' => 'ce9abd'
+    'hdn_refer' => 'index.php'
+    'handlekey' => 'register_frm1'
+    'txt_account' => ''
+    'pwd_password' => ''
+    'pwd_password2' => ''
+    'txt_email' => ''
+    'txt_code' => ''
+    'inputtext' => 'on'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '202'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59989'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=register/register'
+    'REQUEST_URI' => '/index.php?r=register/register'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066545.007
+    'REQUEST_TIME' => 1419066545
+]
+2014-12-20 10:10:25 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-20 10:10:25 [127.0.0.1][][4ui093q8na93aufha5cd10ofq4][info][application] $_GET = [
+    'do' => 'register'
+    'check_username' => '121212'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '4ui093q8na93aufha5cd10ofq4'
+    '_csrf' => '9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes:32:\"zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=4ui093q8na93aufha5cd10ofq4; _csrf=9132e5121943fb4eb25946877622aed52eba9a6ea1722cd61279e631496b37fes%3A32%3A%22zYyZ33KOF4lU2G8lHkIVnwftHJM82w5r%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59999'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_username=121212'
+    'REQUEST_URI' => '/index.php?do=register&check_username=121212'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419066625.24
+    'REQUEST_TIME' => 1419066625
+]
+2014-12-21 12:11:06 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-21 12:11:06 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][info][application] $_GET = [
+    'do' => 'register'
+    'check_username' => 'admin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajfo986k1ep1g6mvobsgr78610'
+    'kekeshow_cookie' => ''
+    '_csrf' => '58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s:32:\"rHWZiauO5QL7TAhnxSJfaGESxwNAB15e\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=ajfo986k1ep1g6mvobsgr78610; kekeshow_cookie=; _csrf=58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s%3A32%3A%22rHWZiauO5QL7TAhnxSJfaGESxwNAB15e%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51275'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_username=admin'
+    'REQUEST_URI' => '/index.php?do=register&check_username=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419160266.795
+    'REQUEST_TIME' => 1419160266
+]
+2014-12-21 12:11:18 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-21 12:11:18 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][info][application] $_GET = [
+    'do' => 'register'
+    'check_email' => 'admin@qq.com'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajfo986k1ep1g6mvobsgr78610'
+    'kekeshow_cookie' => ''
+    '_csrf' => '58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s:32:\"rHWZiauO5QL7TAhnxSJfaGESxwNAB15e\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=ajfo986k1ep1g6mvobsgr78610; kekeshow_cookie=; _csrf=58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s%3A32%3A%22rHWZiauO5QL7TAhnxSJfaGESxwNAB15e%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51279'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_email=admin@qq.com'
+    'REQUEST_URI' => '/index.php?do=register&check_email=admin@qq.com'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419160278.027
+    'REQUEST_TIME' => 1419160278
+]
+2014-12-21 12:11:36 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-21 12:11:36 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][info][application] $_GET = [
+    'do' => 'register'
+    'check_username' => 'admin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajfo986k1ep1g6mvobsgr78610'
+    'kekeshow_cookie' => ''
+    '_csrf' => '58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s:32:\"rHWZiauO5QL7TAhnxSJfaGESxwNAB15e\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=ajfo986k1ep1g6mvobsgr78610; kekeshow_cookie=; _csrf=58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s%3A32%3A%22rHWZiauO5QL7TAhnxSJfaGESxwNAB15e%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51284'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_username=admin'
+    'REQUEST_URI' => '/index.php?do=register&check_username=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419160296.068
+    'REQUEST_TIME' => 1419160296
+]
+2014-12-21 12:11:48 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-21 12:11:48 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][info][application] $_GET = [
+    'do' => 'register'
+    'check_email' => 'admin@qq.com'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajfo986k1ep1g6mvobsgr78610'
+    'kekeshow_cookie' => ''
+    '_csrf' => '58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s:32:\"rHWZiauO5QL7TAhnxSJfaGESxwNAB15e\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=ajfo986k1ep1g6mvobsgr78610; kekeshow_cookie=; _csrf=58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s%3A32%3A%22rHWZiauO5QL7TAhnxSJfaGESxwNAB15e%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51286'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_email=admin@qq.com'
+    'REQUEST_URI' => '/index.php?do=register&check_email=admin@qq.com'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419160308.357
+    'REQUEST_TIME' => 1419160308
+]
+2014-12-21 12:12:25 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-21 12:12:25 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][info][application] $_GET = [
+    'do' => 'register'
+    'check_username' => 'admin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajfo986k1ep1g6mvobsgr78610'
+    'kekeshow_cookie' => ''
+    '_csrf' => '58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s:32:\"rHWZiauO5QL7TAhnxSJfaGESxwNAB15e\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=ajfo986k1ep1g6mvobsgr78610; kekeshow_cookie=; _csrf=58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s%3A32%3A%22rHWZiauO5QL7TAhnxSJfaGESxwNAB15e%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51292'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_username=admin'
+    'REQUEST_URI' => '/index.php?do=register&check_username=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419160345.501
+    'REQUEST_TIME' => 1419160345
+]
+2014-12-21 12:12:40 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-21 12:12:40 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][info][application] $_GET = [
+    'do' => 'register'
+    'check_email' => 'admin@qq.com'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajfo986k1ep1g6mvobsgr78610'
+    'kekeshow_cookie' => ''
+    '_csrf' => '58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s:32:\"rHWZiauO5QL7TAhnxSJfaGESxwNAB15e\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=ajfo986k1ep1g6mvobsgr78610; kekeshow_cookie=; _csrf=58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s%3A32%3A%22rHWZiauO5QL7TAhnxSJfaGESxwNAB15e%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51293'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_email=admin@qq.com'
+    'REQUEST_URI' => '/index.php?do=register&check_email=admin@qq.com'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419160360.121
+    'REQUEST_TIME' => 1419160360
+]
+2014-12-21 12:14:35 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-21 12:14:35 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][info][application] $_GET = [
+    'do' => 'register'
+    'check_username' => 'admin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajfo986k1ep1g6mvobsgr78610'
+    'kekeshow_cookie' => ''
+    '_csrf' => '58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s:32:\"rHWZiauO5QL7TAhnxSJfaGESxwNAB15e\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=ajfo986k1ep1g6mvobsgr78610; kekeshow_cookie=; _csrf=58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s%3A32%3A%22rHWZiauO5QL7TAhnxSJfaGESxwNAB15e%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51302'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_username=admin'
+    'REQUEST_URI' => '/index.php?do=register&check_username=admin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419160475.394
+    'REQUEST_TIME' => 1419160475
+]
+2014-12-21 12:14:48 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-21 12:14:48 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][info][application] $_GET = [
+    'do' => 'register'
+    'check_email' => 'admin@qq.com'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajfo986k1ep1g6mvobsgr78610'
+    'kekeshow_cookie' => ''
+    '_csrf' => '58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s:32:\"rHWZiauO5QL7TAhnxSJfaGESxwNAB15e\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=ajfo986k1ep1g6mvobsgr78610; kekeshow_cookie=; _csrf=58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s%3A32%3A%22rHWZiauO5QL7TAhnxSJfaGESxwNAB15e%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51303'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_email=admin@qq.com'
+    'REQUEST_URI' => '/index.php?do=register&check_email=admin@qq.com'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419160488.508
+    'REQUEST_TIME' => 1419160488
+]
+2014-12-21 12:19:04 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 F:\php\xampp\htdocs\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\php\xampp\htdocs\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-21 12:19:04 [127.0.0.1][][ajfo986k1ep1g6mvobsgr78610][info][application] $_GET = [
+    'do' => 'register'
+    'check_username' => '朱二州'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'ajfo986k1ep1g6mvobsgr78610'
+    'kekeshow_cookie' => ''
+    '_csrf' => '58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s:32:\"rHWZiauO5QL7TAhnxSJfaGESxwNAB15e\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/php/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/php/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.wk.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.wk.com/index.php?r=register/register'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_COOKIE' => 'PHPSESSID=ajfo986k1ep1g6mvobsgr78610; kekeshow_cookie=; _csrf=58993216d310183358bfce9fbbec1f60a78ab237859d2565dde7525179d5ed49s%3A32%3A%22rHWZiauO5QL7TAhnxSJfaGESxwNAB15e%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\;C:\\Program Files\\Lenovo\\Bluetooth Software\\syswow64;;F:\\php\\第四个月\\linux文件\\svn\\bin;%JAVA;HOME%\\bin;F:\\php\\app\\jre\\bin;C:\\Program Files\\TortoiseGit\\bin;F:\\php\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.wk.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.wk.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/php/xampp/htdocs/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '51339'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=register&check_username=%E6%9C%B1%E4%BA%8C%E5%B7%9E'
+    'REQUEST_URI' => '/index.php?do=register&check_username=%E6%9C%B1%E4%BA%8C%E5%B7%9E'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419160744.794
+    'REQUEST_TIME' => 1419160744
+]

@@ -12,6 +12,7 @@ use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use app\models\KekeWitkeyAd;
+use yii\web\Session;
 
 class LoginController extends \yii\web\Controller
 {
@@ -24,10 +25,11 @@ class LoginController extends \yii\web\Controller
 			 $password=$_POST['pwd_password'];
 			 $info = KekeWitkeySpace::find()->where("username = '".$username."'")->one();
 			 if($info){
-				 if(md5($password)==$info['password']){
-					 $this->redirect(array('index/index'));
-					 SESSION_START();
-					 $_SESSION["username"]=$username;
+				 if(md5($password)==$info['password']){ 
+					$session = new Session();
+                                        $session->open();
+					 $_SESSION["username"] = $username;
+                                         $this->redirect(array('index/index'));
 			   }else{
 					 echo "密码错误";
 				}
@@ -38,6 +40,12 @@ class LoginController extends \yii\web\Controller
 	return $this->render('login');  
 
 
+    }
+    public function actionLoginout() {
+        $session = new Session();
+        $session->open();
+        $session->destroy();
+        $this->redirect(array('index/index'));
     }
 
 }

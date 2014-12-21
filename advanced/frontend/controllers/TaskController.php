@@ -20,7 +20,6 @@ class TaskController extends \yii\web\Controller
         $count = clone $list; 
         $pages = new Pagination(['totalCount' =>$count->count(), 'pageSize' => '2']);
         $data['list'] = $list->offset($pages->offset)->where('1=1')->limit($pages->limit)->all();    
-    	//print_r($data["list"]);die;
         $data["indus_id"]=0; 
     	$data["model_id"]=0;
     	$data["small"]=0;
@@ -33,14 +32,14 @@ class TaskController extends \yii\web\Controller
     public function actionSearch(){
         $this->layout='@app/views/layouts/colume.php';
     	$where = " 1=1";
-    	$indus_id = $_GET['indus_id'];
-    	$model_id = $_GET["model_id"];
-        //echo $model_id;die;
-    	$task_status = $_GET["task_status"];
-    	$small = $_GET['small'];
-    	$big = $_GET['big'];
-        $is_auto = $_GET["is_auto"];
-        $is_top  = $_GET["is_top"];
+        @$title = $_GET['title'];
+    	@$indus_id = $_GET['indus_id'];
+    	@$model_id = $_GET["model_id"];
+    	@$task_status = $_GET["task_status"];
+    	@$small = $_GET['small'];
+    	@$big = $_GET['big'];
+        @$is_auto = $_GET["is_auto"];
+        @$is_top  = $_GET["is_top"];
     	if(!empty($indus_id)){
     		$data["indus_id"] = $_GET["indus_id"];
     	}else{
@@ -78,7 +77,15 @@ class TaskController extends \yii\web\Controller
         }else{
             $data["is_top"] = 0;
         }
+        if(!empty($title)){
+            $data["title"]=$_GET['title'];
+        }else{
+            $data['title'] = 0;
+        }
     	$where = " 1=1";
+        if($data["title"]){
+            $where.=" and task_title like '%".$data['title']."%'";
+        }
     	if($data["indus_id"]){
     		$where.=" and indus_id=".$data["indus_id"];
     	}
@@ -97,6 +104,7 @@ class TaskController extends \yii\web\Controller
         if($data["is_top"]){
             $where.=" and is_top =".$data["is_top"];
         }
+        //echo $where;die;
     	$sql = "select * from keke_witkey_task where ".$where;
     	//$Task = new Task();
     	$data["indu"] = Industry::find()->where(['indus_pid' => '0'])->all();
@@ -110,6 +118,6 @@ class TaskController extends \yii\web\Controller
     }
 
     public function actiontaskadd(){
-        
+
     } 
 }

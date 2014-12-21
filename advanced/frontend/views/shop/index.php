@@ -47,9 +47,9 @@
                             <dt class="grid_2 omega">
                                 商城分类                            </dt>
                             <dd class="grid_21">
-                                <a href="index.php?r=shop/search&indus_id=&con_max=<?php echo $data['con_max']?>&small=<?php echo $data['small']?>&big=<?php echo $data['big']?>"    class='selected' >全部 </a>
+                                <a href="index.php?r=shop/search&indus_id=&con_max=<?php echo $data['con_max']?>&small=<?php echo $data['small']?>&big=<?php echo $data['big']?>&title=<?php echo @$data['title']?>"    class='selected' >全部 </a>
                                 <?php foreach ($data['indu'] as $key=>$val){?>
-                                <a href="index.php?r=shop/search&indus_id=<?php echo $val['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=<?php echo $data['small']?>&big=<?php echo $data['big']?>" ><?php echo $val['indus_name']?></a>
+                                <a href="index.php?r=shop/search&indus_id=<?php echo $val['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=<?php echo $data['small']?>&big=<?php echo $data['big']?>&title=<?php echo @$data['title']?>" ><?php echo $val['indus_name']?></a>
                                 <?php }?>
                                 
                                  
@@ -61,11 +61,11 @@
                           <dl class="condition clearfix">
                             <dt class="grid_2 omega">商品种类</dt>
                             <dd class="grid_21">
-                                                              <a href="index.php?r=shop/search&indus_id=<?php echo $val['indus_id']?>&con_max="  class="selected" >全部</a> 
+                                                              <a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=&small=<?php echo $data['small']?>&big=<?php echo $data['big']?>&title=<?php echo @$data['title']?>"  class="selected" >全部</a> 
     
-    <a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=1&small=<?php echo $data['small']?>&big=<?php echo $data['big']?>"  >服务</a> 
+    <a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=1&small=<?php echo $data['small']?>&big=<?php echo $data['big']?>&title=<?php echo @$data['title']?>"  >服务</a> 
                                     
-    <a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=2&small=<?php echo $data['small']?>&big=<?php echo $data['big']?>"  >作品（源码）</a> 
+    <a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=2&small=<?php echo $data['small']?>&big=<?php echo $data['big']?>&title=<?php echo @$data['title']?>"  >作品（源码）</a> 
                                                                 </dd>
                            </dl>
    
@@ -75,19 +75,19 @@
                             <dt class="grid_2 omega">商品金额</dt>
                             <dd class="grid_21">
                                         <span id="general_search" >
-                                          <a href="index.php?do=shop_list&path="   class="selected" >全部</a>
+                                          <a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=0&big=0&title=<?php echo @$data['title']?>"   class="selected" >全部</a>
  
-<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=0&big=100"  >100元以下 </a>
+<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=0&big=100&title=<?php echo @$data['title']?>"  >100元以下 </a>
  
-<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=100&big=500"  >100-500 </a>
+<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=100&big=500&title=<?php echo @$data['title']?>"  >100-500 </a>
  
-<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=500&big=1000"  >500-1000 </a>
+<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=500&big=1000&title=<?php echo @$data['title']?>"  >500-1000 </a>
  
-<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=1000&big=5000"  >1000-5000 </a>
+<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=1000&big=5000&title=<?php echo @$data['title']?>"  >1000-5000 </a>
  
-<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=5000&big=20000"  >5000-20000 </a>
+<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=5000&big=20000&title=<?php echo @$data['title']?>"  >5000-20000 </a>
  
-<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=20000&big=100000000"  >2万以上 </a>
+<a href="index.php?r=shop/search&indus_id=<?php echo $data['indus_id']?>&con_max=<?php echo $data['con_max']?>&small=20000&big=100000000&title=<?php echo @$data['title']?>"  >2万以上 </a>
 
 <a class="button" style="" onclick="custom_search_cash('shop_list_search_cash')">
                                             <span class="icon cog"></span>自定义</a>

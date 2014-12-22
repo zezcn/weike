@@ -24,16 +24,18 @@ class ShopController extends \yii\web\Controller
         $data["small"]=0;
         $data["big"]=0;
         $data["con_max"]=0;
+		//$data["title"]=0;
         $data["service_status"]=0;
         return $this->render('index',array("data"=>$data,"pages"=>$pages));
     }
     public function actionSearch(){
         $this->layout='@app/views/layouts/colume.php';
         $where = " 1=1";
-        $indus_id = $_GET['indus_id'];
-        $con_max = $_GET["con_max"];
-        $small = $_GET['small'];
-        $big = $_GET['big'];
+        @$indus_id = $_GET['indus_id'];
+        @$con_max = $_GET["con_max"];
+        @$small = $_GET['small'];
+        @$big = $_GET['big'];
+		@$title = $_GET["title"];
         if(!empty($indus_id)){
             $data["indus_id"] = $_GET["indus_id"];
         }else{
@@ -56,7 +58,16 @@ class ShopController extends \yii\web\Controller
         }else{
             $data["con_max"] = 0;
         }
+        if(!empty($title)){
+            $data["title"] = $_GET["title"];
+        }else{
+            $data["title"] = 0;
+        }
         $where = " 1=1";
+       if($data["title"]){
+            $where.=" and title like '%".$data['title']."%'";
+        }
+		//echo $where;die;
         if($data["indus_id"]){
             $where.=" and indus_id=".$data["indus_id"];
         }

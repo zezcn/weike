@@ -53,12 +53,12 @@ use yii\captcha\CaptchaAction;
                     			<form action="index.php?do=register" method="post" id="register_frm" name="register_frm">
                         			<input type="hidden" name="formhash" id="formhash" value="ce9abd">
                         			<input type="hidden" name="hdn_refer" id="hdn_refer" value="index.php">
-<input type="hidden" name="handlekey" value="register_frm1"><!--账号-->
+<input type="hidden" name="data[handlekey]" value="register_frm1"><!--账号-->
                         			<div class="rowElem clearfix po_re">
                             			<label class="grid_4">
                                 			账　　 号：                            			</label>
                             			<div class="fl_l ">
-                                			<input type="text" class="txt txt_input" autocomplete="off" name="txt_account" id="txt_account" limit="required:true;len:2-20;type:string;general:true" msg="用户名输入有误！" ajax="index.php?do=register&check_username=" title="2-20个字符或者汉字，推荐使用中文会员名。" msgArea="login_account_msg" style="width:200px;" />
+                                			<input type="text" class="txt txt_input" autocomplete="off" name="data[txt_account]" id="txt_account" limit="required:true;len:2-20;type:string;general:true" msg="用户名输入有误！" ajax="index.php?do=register&check_username=" title="2-20个字符或者汉字，推荐使用中文会员名。" msgArea="login_account_msg" style="width:200px;" />
                             				<span class="msg" id="login_account_msg"><i></i></span>
 </div>
 
@@ -69,7 +69,7 @@ use yii\captcha\CaptchaAction;
                             			<label class="grid_4">
                                 			密　 　码：                            			</label>
                             			<div class="fl_l  ">
-                                			<input class="txt_input" onKeyup="pwStrength(this.value)" style="width:200px;" type="password" name="pwd_password" id="pwd_password" maxlength="20" limit="required:true;len:6-20" msg="密码输入有误！" title="6-20个字符，请使用字母加数字或符号的组合密码" msgArea="password_msg"/>
+                                			<input class="txt_input" onKeyup="pwStrength(this.value)" style="width:200px;" type="password" name="data[pwd_password]" id="pwd_password" maxlength="20" limit="required:true;len:6-20" msg="密码输入有误！" title="6-20个字符，请使用字母加数字或符号的组合密码" msgArea="password_msg"/>
                             				<span class="msg" id="password_msg"></span>
 </div>
 
@@ -92,7 +92,7 @@ use yii\captcha\CaptchaAction;
                             			<label class="grid_4">
                                 			确认 密码：                            			</label>
                             			<div class="fl_l">
-                                			<input class="txt_input" style="width:200px;" type="password" name="pwd_password2" id="pwd_password2" maxlength="20" limit="required:true;equals:pwd_password" msg="重复密码不正确！" title="再输一次密码" msgArea="password2_msg"/>
+                                			<input class="txt_input" style="width:200px;" type="password" name="data[pwd_password2]" id="pwd_password2" maxlength="20" limit="required:true;equals:pwd_password" msg="重复密码不正确！" title="再输一次密码" msgArea="password2_msg"/>
                             				<span class="msg" id="password2_msg"></span>
 </div>
 
@@ -103,7 +103,7 @@ use yii\captcha\CaptchaAction;
                             			<label class="grid_4">
                                 			邮　 　箱：                            			</label>
                             			<div class="fl_l">
-                                			<input class="txt_input" style="width:200px;" autocomplete="off" type="text" class="txt" name="txt_email" id="txt_email"limit="type:email;required:true;len:6-50" msg="请输入您真实的邮箱地址！" title="请输入您常用的邮箱" ajax="index.php?do=register&check_email=" msgArea="email_msg"/>
+                                			<input class="txt_input" style="width:200px;" autocomplete="off" type="text" class="txt" name="data[txt_email]" id="txt_email"limit="type:email;required:true;len:6-50" msg="请输入您真实的邮箱地址！" title="请输入您常用的邮箱" ajax="index.php?do=register&check_email=" msgArea="email_msg"/>
                             				<span class="" id="email_msg"></span>
 </div>
 

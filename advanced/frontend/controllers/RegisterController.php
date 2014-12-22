@@ -12,12 +12,12 @@ class RegisterController extends \yii\web\Controller
         $this->layout='@app/views/layouts/colume.php';
         // $this->widget('CCaptcha');
         $model = new KekeWitkeySpace();
-        if(!empty($_POST)){ 
-          $this->createAction('captcha')->validate($txt_code, false);
-        //print_r($_POST);die;
-         // $username=$_POST['register_frm'];
-          //$password=$_POST['']    
-             $this->redirect(array('index/index'));
+        if(!empty($_POST)){  
+          $this->createAction('captcha')->validate($_POST["txt_code"], true);
+          print_r($_POST);die;
+          $info = $model->insert($_POST["data"]);
+          var_dump($info);die;
+          $this->redirect(array('index/index'));
         }
         //
          return $this->render('register',["model"=>$model]);

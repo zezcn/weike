@@ -262,7 +262,7 @@
                                                 <ul class="clearfix pt_10">
                                                     <li class="w5 info">
                                                         <div class="img_box">
-                                                          <a href="index.php?do=service&sid=13"><img src="<?php echo $val['pic']?>" onerror='$(this).attr("src","tpl/default/img/shop/shop_default.gif")' title="[图兰朵]婚纱摄影重磅推出 黄金路线启动" width=300 height=300></a>
+                                                            <a href="index.php?r=shop/buy&sid=<?php echo $val["service_id"]?>"><img src="<?php echo $val['pic']?>" onerror='$(this).attr("src","tpl/default/img/shop/shop_default.gif")' title="[图兰朵]婚纱摄影重磅推出 黄金路线启动" width=300 height=300></a>
                                                         </div>
                                                         
                                                       <div class="img_des">

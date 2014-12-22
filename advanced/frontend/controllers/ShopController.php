@@ -7,6 +7,7 @@ use app\models\Model;
 use yii\data\Pagination;
 use yii\db\Query;
 use yii\data\ActiveDataProvider;
+
 class ShopController extends \yii\web\Controller
 {
     //public $enableCsrfValidation = false;
@@ -76,4 +77,27 @@ class ShopController extends \yii\web\Controller
         $data['list'] = $list->offset($pages->offset)->where("$where")->limit($pages->limit)->all();    
         return $this->render('index',array("data"=>$data,"pages"=>$pages));
     }
+    public function actionBuy($sid) {
+         session_start();
+     
+         if(!empty($_POST)){
+             
+             
+         }
+        $this->layout='@app/views/layouts/colume.php';
+        //echo $sid;die;
+         $data = Service::find()->where($sid)->one();
+         return $this->render('buy',["data"=>$data]);
+   }
+       public function actionGoumai($sid) {
+        $this->layout='@app/views/layouts/colume.php';
+       //echo $sid;die;
+         $data = Service::find()->where($sid)->one();
+         return $this->render('shop_order',["data"=>$data]);
+   }
+   public function actionBuydo($sid) {
+      $data = Service::find()->where($sid)->one();
+       
+   }
+   
 }

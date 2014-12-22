@@ -28,6 +28,7 @@ class LoginController extends \yii\web\Controller
 					 $this->redirect(array('index/index'));
 					 SESSION_START();
 					 $_SESSION["username"]=$username;
+                                         $_SESSION["uid"]=$info["uid"];
 			   }else{
 					 echo "密码错误";
 				}

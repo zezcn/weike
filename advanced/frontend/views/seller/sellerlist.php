@@ -2,10 +2,24 @@
 use yii\widgets\LinkPager;
 ?>
 
-<section class="clearfix content">
-            <div class="container_24">
-      <div class="clear"></div>
 <div class="clear"></div>
+<link href="tpl/default/css/shop.css" rel="stylesheet" type="text/css">
+<div class="wrapper">      
+        <!--页面头部-->
+        <header class="clearfix page_header">
+          <div class="container_24">
+            <!--服务商_头部广告-->
+            <div class='adv'><a href='http://www.kppw.cn' target='_blank' title='adv'><img src='data/uploads/sys/ad/adv.jpg' width='' height='' alt='adv' title='adv'></a></div>            <!--页面导航-->
+            <div class="breadcrumbs clearfix">
+                <a href="index.php">首页</a> &gt; <span>服务商</span>
+              </div>
+            <!--end 页面导航-->
+          </div>
+        </header> 
+<section class="clearfix content">
+      <div class="container_24">
+      <div class="clear"></div>
+      <div class="clear"></div>
                 <div class="mb_10 clearfix">
                   <div class="grid_24">
                     <!--筛选条件-->
@@ -18,7 +32,9 @@ use yii\widgets\LinkPager;
                             <dt class="grid_2 omega">
                                     行业分类                            </dt>
                             <dd class="grid_21">
-                                <a href="index.php?r=seller/sellersearch&shop_type=<?php echo $data['shop_type']?>&indus_id=" class='selected' >全部 </a>
+                             
+                                <a href="index.php?r=seller/sellersearch&shop_type=
+                                <?php echo $data['shop_type']?>&indus_id=" class='selected' >全部 </a>
                                     <?php foreach ($data['indu'] as $key => $v) {
                                       
                                     ?>
@@ -68,9 +84,6 @@ use yii\widgets\LinkPager;
  
                     </div>
                 </div>
-
-            
-            
                 <section class="clearfix section"> 
                     <div class="second_menu container_24 po_ab m_h">
                         <div class="suffix_23 pull_1">

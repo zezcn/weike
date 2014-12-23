@@ -47,6 +47,7 @@ AppAsset::register($this);
 <script src="lang/cn/script/lang.js" type="text/javascript"></script>
 <script src="resource/js/system/keke.js" type="text/javascript"></script>
 <script src="resource/js/in.js" type="text/javascript"></script>
+<script src="resource/js/jq.js" type="text/javascript"></script>
 <script type="text/javascript">
  //js异步加载预定义
     In.add('mouseDelay',{path:"resource/js/jqplugins/jQuery.mouseDelay.js",type:'js'});
@@ -122,20 +123,20 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                     <div class="search_box">
                         <div class="fl_l search_selcecter">
                             <div id="search_select" class="search_options">
-                                                             <a href="javascript:void(0);" class="selected" rel="task_list"><span>任务</span>▼</a>
-                                     <a href="javascript:void(0);" class="hidden"   rel="task_list">任务</a>
-                                <a href="javascript:void(0);" class="hidden"   rel="shop_list">商品</a>
+                                                             <a href="javascript:void(0);" class="selected" rel="task"><span>任务</span>▼</a>
+                                     <a href="javascript:void(0);" class="hidden"   rel="task">任务</a>
+                                <a href="javascript:void(0);" class="hidden"   rel="shop">商品</a>
                              </div>
                         </div>
-<input type="text" name="search_key" onkeydown="search_keydown(event);" id="search_key" class="fl_l search_input txt_input togg c999"
- value="输入任务/商品" 
-   x-webkit-speech x-webkit-grammar="bUIltin:search" lang="zh-CN">
+<input type="text" name="search_key"  id="search_key" class="fl_l search_input txt_input togg c999"
+ value="输入任务/商品" />
+   
                     </div>
 </form>
                     <!--搜索框和选项 end-->
                     <!--搜索提交 start-->
                     <div class="fl_l header_btn">
-                        <button class="search_btn" id="search_btn" type="button" onclick="topSearch();"><span class="icon magnifier"></span>搜索</button>
+                        <button class="search_btn" id="search_btn" type="button" onclick="Search();"><span class="icon magnifier"></span>搜索</button>
                     </div>
                     <!--搜索提交 end-->
                 </div>
@@ -143,18 +144,31 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
             </div>
             
+<!--<script>
+    function Search(){
+        //var type = $(".hidden").Attr();
+        var keyword = $("#keyword").val();
+        //alert(keyword);die;
+        $.ajax({
+            url:"index.php?r=index/aaa",
+            data:{"keyword":keyword},
+            type:"post",
+            success:function(e){
+                alert(e);
+            }
+        });
 
-
-          
+    }
+</script>    -->   
                 <!--用户登录注册 start-->
                 <div class="user_box clearfix grid_5">
                     <!--注册登录按钮 start-->
                           <?php $session = new Session();
                                 $session->open();
-                                if($session["username"]==""){
+                                if($session['user']["user_name"]==""){
                                 ?>
                     <ul id="login_sub" class="user_login ">
-                        <li><a href="index.php?r=register/register" class="m_h">免费注册</a></li>
+                        <li><a href="index.php?r=login/regist" class="m_h">免费注册</a></li>
                         <li><a href="index.php?r=login/login">登录</a></li>
                         
                     </ul>
@@ -174,11 +188,10 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                         <ul class="user_logined clearfix">
                             <li id="avatar">
                                 <a href="index.php?do=user" title="" rel="user_menu">
-                                    <img src=' data/avatar/default/man_small.jpg' uid='11' class='pic_small'>
-									
+                                    <img src=' data/avatar/default/man_small.jpg' uid='11' class='pic_small'> 
                                         <span class="user_named m_h"><?php $session = new Session();
                                         $session->open();
-                                        echo $session["username"];?></span>
+                                        echo $session['user']["user_name"];?></span>
                                 </a>
 <!--用户登录后导航菜单 start-->
                     <div id="user_menu" class="user_nav_pop grid_5 alpha omega hidden m_h">
@@ -190,7 +203,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 <li class="clearfix"><a href="index.php?r=center/user_index" title="用户中心"><div class="icon16 cog reverse"></div>用户中心</a></li>
 <li class="clearfix"><a href=" index.php?do=space&member_id=11" title="我的店铺" id="space"><div class="icon16 compass reverse"></div>我的店铺</a></li>
 <!--<li class="clearfix"><a href="index.php?do=user&view=message" title="站内信"><div class="icon16 mail reverse"></div>站内信</a></li>-->
-<li class="clearfix"><a  title="退出" href="index.php?r=login/loginout">退出</a></li>
+<li class="clearfix"><a  title="退出" href="index.php?r=login/tuichu">退出</a></li>
                          </ul>
                     </div>
                     <!--用户登录后导航菜单 end-->
@@ -244,7 +257,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=seller/sellerlist"  >
+                            <a href="index.php?r=index/seller_list"  >
                             <span>服务商</span></a>
 </li>
 <li class="line"></li>
@@ -259,12 +272,12 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=square/square"  >
+                            <a href="index.php?do=square"  >
                             <span>广场</span></a>
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=prom/prom"  >
+                            <a href="index.php?do=prom"  >
                             <span>推广</span></a>
 </li>
 <li class="line"></li>

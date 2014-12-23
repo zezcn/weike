@@ -25,11 +25,13 @@ class LoginController extends \yii\web\Controller
 			 $password=$_POST['pwd_password'];
 			 $info = KekeWitkeySpace::find()->where("username = '".$username."'")->one();
 			 if($info){
-				 if(md5($password)==$info['password']){ 
-					$session = new Session();
-                                        $session->open();
-					 $_SESSION["username"] = $username;
-                                         $this->redirect(array('index/index'));
+
+				 if(md5($password)==$info['password']){
+					 $this->redirect(array('index/index'));
+					 SESSION_START();
+					 $_SESSION["username"]=$username;
+                     $_SESSION["uid"]=$info["uid"];
+
 			   }else{
 					 echo "密码错误";
 				}

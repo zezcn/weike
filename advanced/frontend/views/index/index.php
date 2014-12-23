@@ -40,7 +40,7 @@
               <tr>
                 <td>
                    <h2>海量服务商提交稿件，任您选！</h2>
-                    <p><a href="index.php?do=release" class="submit block mar10">发布任务</a></p>
+                    <p><a href="index.php?r=task/taskadd1" class="submit block mar10">发布任务</a></p>
                     <p>客客出品专业威客系统</p>
                 </td>
               </tr>

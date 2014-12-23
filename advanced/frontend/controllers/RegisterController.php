@@ -19,7 +19,7 @@ class RegisterController extends \yii\web\Controller
           //$this->createAction('captcha')->validate($_POST["txt_code"], true);
           //print_r($_POST["data"]);die;
           $info = $model->insert();
-          var_dump($info);die;
+          //var_dump($info);die;
           $this->redirect(array('index/index'));
         }
         //

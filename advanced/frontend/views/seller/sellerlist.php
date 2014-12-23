@@ -154,7 +154,7 @@ use yii\widgets\LinkPager;
                       <li class="w4 info ws_break ">
                          <div class="img_box fl_l pr_10 m_col2">
                             <a href="index.php?do=space&member_id=4&view=index">
-                              <img src='http://www.yii.com/weike/data/avatar/000/00/00/04_avatar_middle.jpg' uid='4' class='pic_middle'></a>
+                              <img src='/data/avatar/000/00/00/04_avatar_middle.jpg' uid='4' class='pic_middle'></a>
                           </div>
                          
                           <div class="img_des"> 

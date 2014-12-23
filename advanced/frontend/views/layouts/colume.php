@@ -64,7 +64,7 @@ In.add('tipsy',{path:"resource/js/jqplugins/tipsy/jquery.tipsy.js",type:'js'});
 In.add('autoIMG',{path:"resource/js/jqplugins/autoimg/jQuery.autoIMG.min.js",type:'js'});
     In.add('slides',{path:"resource/js/jqplugins/slides.min.jquery.js",type:'js'});
 In.add('ajaxfileupload',{path:"resource/js/system/ajaxfileupload.js",type:'js'});
-//In.add('header_top',{path:"resource/js/system/header_top.js",type:'js',rely:['mouseDelay']}); 
+In.add('header_top',{path:"resource/js/system/header_top.js",type:'js',rely:['mouseDelay']}); 
 In.add('lazy',{path:"resource/js/system/lazy.js",type:'js'});
 In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
         
@@ -166,16 +166,17 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 		location.href=link;
 	}
 }
-</script>  
+</script> 
+
                 <!--用户登录注册 start-->
                 <div class="user_box clearfix grid_5">
                     <!--注册登录按钮 start-->
                           <?php $session = new Session();
                                 $session->open();
-                                if($session['user']["user_name"]==""){
+                                if($session["username"]==""){
                                 ?>
                     <ul id="login_sub" class="user_login ">
-                        <li><a href="index.php?r=login/regist" class="m_h">免费注册</a></li>
+                        <li><a href="index.php?r=register/register" class="m_h">免费注册</a></li>
                         <li><a href="index.php?r=login/login">登录</a></li>
                         
                     </ul>
@@ -198,7 +199,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                                     <img src=' data/avatar/default/man_small.jpg' uid='11' class='pic_small'> 
                                         <span class="user_named m_h"><?php $session = new Session();
                                         $session->open();
-                                        echo $session['user']["user_name"];?></span>
+                                        echo $session["username"];?></span>
                                 </a>
 <!--用户登录后导航菜单 start-->
                     <div id="user_menu" class="user_nav_pop grid_5 alpha omega hidden m_h">
@@ -217,6 +218,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
                             <li class="line m_h"></li>
                             <li class="logout m_h"><a title="站内信" href="index.php?do=user&view=message">站内信</a></li>
+                            <li class="logout m_o"><a title="退出" href="index.php?r=login/loginout">退出</a></li>
                             <li class="clear"></li>
                         </ul>
                         <!--用户登录后内容 end-->
@@ -242,6 +244,9 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
         </div>
     </header>
+<script>
+    
+</script>
     <!--头部 end-->
         <!--tool_E-->
  <nav id="nav" class="nav m_h">

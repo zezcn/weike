@@ -64,7 +64,7 @@ In.add('tipsy',{path:"resource/js/jqplugins/tipsy/jquery.tipsy.js",type:'js'});
 In.add('autoIMG',{path:"resource/js/jqplugins/autoimg/jQuery.autoIMG.min.js",type:'js'});
     In.add('slides',{path:"resource/js/jqplugins/slides.min.jquery.js",type:'js'});
 In.add('ajaxfileupload',{path:"resource/js/system/ajaxfileupload.js",type:'js'});
-In.add('header_top',{path:"resource/js/system/header_top.js",type:'js',rely:['mouseDelay']}); 
+//In.add('header_top',{path:"resource/js/system/header_top.js",type:'js',rely:['mouseDelay']}); 
 In.add('lazy',{path:"resource/js/system/lazy.js",type:'js'});
 In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
         
@@ -143,23 +143,30 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                 <!--主搜索 end-->
 
             </div>
-            
-<!--<script>
-    function Search(){
-        //var type = $(".hidden").Attr();
-        var keyword = $("#keyword").val();
-        //alert(keyword);die;
-        $.ajax({
-            url:"index.php?r=index/aaa",
-            data:{"keyword":keyword},
-            type:"post",
-            success:function(e){
-                alert(e);
-            }
-        });
+<script>
+	$("#search_select a.selected").click(function(){
+		$(this).nextAll("a").removeClass("hidden");
+	});
 
-    }
-</script>    -->   
+	$("#search_select a").not(".selected").click(function(){
+		$("#search_select .selected").attr("rel",$(this).attr("rel")).children("span").html($(this).html()).end().nextAll("a").addClass("hidden");
+	}) 
+	$("#search_key").click(function(){
+		$(this).removeAttr("value");
+	})
+</script>           
+<script>
+    function topSearch(){
+	var searchKey = $.trim($("#search_key").val());
+	//alert(searchKey);
+	if(searchKey&&searchKey!=L.input_task_service){
+		var type      = $("#search_select .selected").attr("rel");
+		var link    = "index.php?r="+type+"/search&title="+searchKey;
+			$("#frm_search").attr("action",link);
+		location.href=link;
+	}
+}
+</script>  
                 <!--用户登录注册 start-->
                 <div class="user_box clearfix grid_5">
                     <!--注册登录按钮 start-->

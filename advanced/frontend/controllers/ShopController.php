@@ -30,7 +30,7 @@ class ShopController extends \yii\web\Controller
     public function actionSearch(){
         $this->layout='@app/views/layouts/colume.php';
         $where = " 1=1";
-		echo $_GET["title"];die;
+		//echo $_GET["title"];die;
         @$indus_id = $_GET['indus_id'];
         @$con_max = $_GET["con_max"];
         @$small = $_GET['small'];

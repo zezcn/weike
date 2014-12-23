@@ -145,16 +145,7 @@
        
                            <!--end 条件4-->
    <!--条件5-->
-                                    <dl class="condition clearfix border_n">
-                                        <dt class="grid_2 omega">
-                                         地区搜索
-                                        </dt>
-                                        <dd class="grid_21">
-                                          <a href="index.php?do=shop_list&path=&max=&min="   class="selected" >全部 </a>
-                                           <select name="province" id="province"></select><select name="city" id="city"></select><select name="area" id="area"></select>
-   <a class="button" style="" onclick="search_address()"><span class="magnifier icon"></span>搜索　</a>
-                                        </dd>
-                                    </dl>
+                                   
                                     <!--end 条件5-->
 </div>
 <!--工具栏-->

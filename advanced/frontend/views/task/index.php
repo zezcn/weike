@@ -52,7 +52,7 @@
 <a href="index.php?r=task/search&indus_id=<?php echo $data['indus_id']?>&model_id=0&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"   class='selected' >全部 </a>
 
 <?php foreach($data['model'] as $val){?> 
-<a href="index.php?r=task/search&indus_id=<?php echo $data['indus_id']?>&model_id=<?php echo $val['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"   ><?php echo $val["model_name"]?> </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data['indus_id']?>&model_id=<?php echo $val['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"   ><?php echo $val["model_name"]?> </a>
 <?php }?> 
 
 </span>
@@ -86,19 +86,19 @@
                                    任务赏金                                </dt>
                                     <dd class="grid_21">
                                         <span id="general_search" >
-                                        	<a href="index.php?do=task_list&path="   class="selected" >全部 </a>
+                                        	<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=&big=&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"   class="selected" >全部 </a>
  
-<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=0&big=100&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"  >100元以下 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=0&big=100&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >100元以下 </a>
  
-<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=100&big=500&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"  >100-500 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=100&big=500&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >100-500 </a>
  
-<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=500&big=1000&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"  >500-1000 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=500&big=1000&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >500-1000 </a>
  
-<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=1000&big=5000&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"  >1000-5000 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=1000&big=5000&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >1000-5000 </a>
  
-<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=5000&big=20000&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"  >5000-20000 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=5000&big=20000&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >5000-20000 </a>
  
-<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=20000&big=10000000&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>"  >2万以上 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=20000&big=10000000&is_auto=<?php echo $data['is_auto']?>&task_status=<?php echo $data["task_status"]?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >2万以上 </a>
 
 <a class="button" style="" onclick="custom_search_cash('task_list_search_cash')">
                                         	<span class="icon cog"></span>自定义</a></span>
@@ -150,11 +150,11 @@
                                         <dt class="grid_2 omega">
                                             赏金托管                                        </dt>
                                         <dd class="grid_21">
-                                                                                        	<a href="index.php?do=task_list&path="   class="selected" >全部 </a>
+                                                                                        	<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=&task_status=<?php echo $data['task_status']?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"   class="selected" >全部 </a>
                                                                                          
-                                            <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=<?php echo $data['task_status']?>&is_top=<?php echo $data['is_top']?>"  >未托管 </a>
+                                            <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=<?php echo $data['task_status']?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >未托管 </a>
                                                                                          
-                                            <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=1&task_status=<?php echo $data['task_status']?>&is_top=<?php echo $data['is_top']?>"  >已托管 </a>
+                                            <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=1&task_status=<?php echo $data['task_status']?>&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >已托管 </a>
                                                                                     </dd>
                                     </dl>
                                     <!--end 条件3--><!--条件4-->
@@ -164,11 +164,11 @@
                                         <dt class="grid_2 omega">
                                             任务状态                                        </dt>
                                         <dd class="grid_21">
-                                            <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=&is_top=<?php echo $data['is_top']?>"   class="selected" >全部 </a>
-                                                                                        <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=0&is_top=<?php echo $data['is_top']?>"  >交稿中 </a>
-                                                                                        <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=2&is_top=<?php echo $data['is_top']?>"  >选稿中 </a>
-                                                                                        <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=8&is_top=<?php echo $data['is_top']?>"  >交付中 </a>
-                                                                                        <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=9&is_top=<?php echo $data['is_top']?>"  >已结束 </a>
+                                            <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"   class="selected" >全部 </a>
+                                                                                        <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=0&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >交稿中 </a>
+                                                                                        <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=2&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >选稿中 </a>
+                                                                                        <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=8&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >交付中 </a>
+                                                                                        <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=9&is_top=<?php echo $data['is_top']?>&title=<?php echo @$data['title']?>"  >已结束 </a>
                                              
                                         </dd>
                                     </dl>
@@ -177,27 +177,18 @@
                                         <dt class="grid_2 omega">
                                             其他选项                                        </dt>
                                         <dd class="grid_21">
-                                            <a href="index.php?do=task_list&path="   class="selected" >全部 </a>
+                                            <a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=<?php echo $data['task_status']?>&is_top=&title=<?php echo @$data['title']?>"   class="selected" >全部 </a>
                                              
-<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=<?php echo $data['task_status']?>&is_top=1" >置顶的 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=<?php echo $data['task_status']?>&is_top=1&title=<?php echo @$data['title']?>" >置顶的 </a>
                                              
-<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=<?php echo $data['task_status']?>&is_top=0" >延期加价 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=<?php echo $data['task_status']?>&is_top=0&title=<?php echo @$data['title']?>" >延期加价 </a>
                                              
-<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=<?php echo $data['task_status']?>&is_top=2" >加急任务 </a>
+<a href="index.php?r=task/search&indus_id=<?php echo $data["indus_id"]?>&model_id=<?php echo $data['model_id']?>&small=<?php echo $data["small"]?>&big=<?php echo $data['big']?>&is_auto=0&task_status=<?php echo $data['task_status']?>&is_top=2&title=<?php echo @$data['title']?>" >加急任务 </a>
                                              
                                         </dd>
                                     </dl>
                                     <!--end 条件5--><!--条件6-->
-                                    <dl class="condition clearfix border_n">
-                                        <dt class="grid_2 omega">
-                                         地区搜索
-                                        </dt>
-                                        <dd class="grid_21">
-                                        	<a href="index.php?do=task_list&path=&max=&min="   class="selected" >全部 </a>
-                                           <select name="province" id="province"></select><select name="city" id="city"></select><select name="area" id="area"></select>
-   <a class="button" style="" onclick="search_address()"><span class="magnifier icon"></span>搜  索　</a>
-                                        </dd>
-                                    </dl>
+
                                     <!--end 条件6-->
                                 </div>
                                 <!--end 隐藏层-->
@@ -317,7 +308,7 @@
                                                     	<li class="w2 cf60 bounty font14b">
                                                           	￥<?php echo $val['task_cash']?>元                                                         </li>
                                                         <li class="w4 info">
-                                                            <a href="index.php?do=task&task_id=57" title="<?php echo $val['task_title']?>" class="font14 task_title"><?php echo $val['task_title']?></a>
+                                                            <a href="index.php?r=task/show&task_id=<?php echo $val['task_id']?>" title="<?php echo $val['task_title']?>" class="font14 task_title"><?php echo $val['task_title']?></a>
                                                             <!-- <span class="block m_h">[#57]</span> -->
                                                                                                                                                                                	                                                                   
     </li>

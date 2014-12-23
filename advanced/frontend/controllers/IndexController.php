@@ -27,7 +27,7 @@ class IndexController extends Controller
         $this->layout='@app/views/layouts/colume.php';
         $data["ad"] = $this->actionAd();
         $data["task"] = $this->actionTesklist();
-	$data["TastType"] = $this->actionTasttype();
+		$data["TastType"] = $this->actionTasttype();
         $data["shopType"] = $data["TastType"];
         return $this->render('index',["data"=>$data]);
     }

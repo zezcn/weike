@@ -165,10 +165,10 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                     <!--注册登录按钮 start-->
                           <?php $session = new Session();
                                 $session->open();
-                                if($session['user']["user_name"]==""){
+                                if($session["username"]==""){
                                 ?>
                     <ul id="login_sub" class="user_login ">
-                        <li><a href="index.php?r=login/regist" class="m_h">免费注册</a></li>
+                        <li><a href="index.php?r=register/register" class="m_h">免费注册</a></li>
                         <li><a href="index.php?r=login/login">登录</a></li>
                         
                     </ul>
@@ -188,10 +188,11 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                         <ul class="user_logined clearfix">
                             <li id="avatar">
                                 <a href="index.php?do=user" title="" rel="user_menu">
-                                    <img src=' data/avatar/default/man_small.jpg' uid='11' class='pic_small'> 
+                                    <img src=' data/avatar/default/man_small.jpg' uid='11' class='pic_small'>
+									
                                         <span class="user_named m_h"><?php $session = new Session();
                                         $session->open();
-                                        echo $session['user']["user_name"];?></span>
+                                        echo $session["username"];?></span>
                                 </a>
 <!--用户登录后导航菜单 start-->
                     <div id="user_menu" class="user_nav_pop grid_5 alpha omega hidden m_h">
@@ -203,7 +204,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 <li class="clearfix"><a href="index.php?r=center/user_index" title="用户中心"><div class="icon16 cog reverse"></div>用户中心</a></li>
 <li class="clearfix"><a href=" index.php?do=space&member_id=11" title="我的店铺" id="space"><div class="icon16 compass reverse"></div>我的店铺</a></li>
 <!--<li class="clearfix"><a href="index.php?do=user&view=message" title="站内信"><div class="icon16 mail reverse"></div>站内信</a></li>-->
-<li class="clearfix"><a  title="退出" href="index.php?r=login/tuichu">退出</a></li>
+<li class="clearfix"><a  title="退出" href="index.php?r=login/loginout">退出</a></li>
                          </ul>
                     </div>
                     <!--用户登录后导航菜单 end-->
@@ -257,7 +258,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?r=index/seller_list"  >
+                            <a href="index.php?r=seller/sellerlist"  >
                             <span>服务商</span></a>
 </li>
 <li class="line"></li>
@@ -272,12 +273,12 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?do=square"  >
+                            <a href="index.php?r=square/square"  >
                             <span>广场</span></a>
 </li>
 <li class="line"></li>
                         <li>
-                            <a href="index.php?do=prom"  >
+                            <a href="index.php?r=prom/prom"  >
                             <span>推广</span></a>
 </li>
 <li class="line"></li>

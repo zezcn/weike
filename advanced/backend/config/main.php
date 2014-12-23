@@ -8,10 +8,10 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
+    //默认访问index.php
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
-    'bootstrap' => ['log'],
-    'modules' => [],
+  
     'components' => [
         'user' => [
             'identityClass' => 'common\models\User',

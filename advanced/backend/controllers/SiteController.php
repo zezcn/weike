@@ -55,11 +55,16 @@ class SiteController extends Controller
 
     public function actionIndex()
     {
-        return $this->render('index');
+       
+       echo 123;die;
+        //return $this->render('index');
     }
 
     public function actionLogin()
     {
+  //$password='hackerftg@126.com';
+//      $hash = Yii::$app->getSecurity()->generatePasswordHash($password);
+//        var_dump($hash);die;
         if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }

@@ -91,28 +91,29 @@
      
      <div class="clear"></div>
                 <!-- {ad_show(HOME_CENTAL_ONE,首页_中部一栏广告)} -->
-      <div class="grid_24 mb_10">
-        <div class="box model blue">
-          <!--任务列表 start-->
-           <div class="task clearfix">
-            <!--头部 start-->
-             <header class="box_header clearfix">
-               <div class="grid_4 alpha">
-                 <!--标题 start-->
-                  <h1 class="box_title"><span>任务</span>Task</h1>
-                 <!--标题 end-->
-               </div>
-                 <!--按钮区域 start-->
-                   <div class="btns">
-                      <a href="index.php?do=release" class="button primary"><span class="plus icon"></span>发布任务</a><a href="index.php?do=task_list" class="button"><span class="rightarrow icon"></span>进入任务大厅</a>
-                   </div>
-                 <!--按钮区域 end-->
-            </header>
-          <!--头部 end-->
-          <!--任务推荐-->
+<div class="grid_24 mb_10">
+<div class="box model blue">
+<!--任务列表 start-->
+<div class="task clearfix">
+<!--头部 start-->
+<header class="box_header clearfix">
+<div class="grid_4 alpha">
+<!--标题 start-->
+<h1 class="box_title"><span>任务</span>Task</h1>
+<!--标题 end-->
+</div>
+<!--按钮区域 start-->
+<div class="btns">
+  <a href="index.php?do=release" class="button primary"><span class="plus icon"></span>发布任务</a><a href="index.php?do=task_list" class="button"><span class="rightarrow icon"></span>进入任务大厅</a>
+</div>
+<!--按钮区域 end-->
+</header>
+<!--头部 end-->
+<!--任务推荐-->
 
 <article class="box_detail clearfix">
 <div class="grid_5 alpha">
+
                <div class="category">
                    <ul class="indus_list">
                                                                      <li>
@@ -1075,9 +1076,33 @@
                            
                    
                </div>
+
+<div class="category">
+<ul class="indus_list">	
+<?php foreach($data["TastType"] as $key=>$val):?>
+<li>
+ <a href="index.php?do=task_list&path=A441" target="_blank"><?php echo $val["indus_name"]?></a>
+ <?php //print_r($val);?>
+ <div class="s_nav hidden">
+<div class="indus">	
+<?php foreach($val as $k=>$v):?>
+<?php if(is_array($v)):?>
+<a href="index.php?do=task_list&path=A441&indus_id=8"><?php echo $v["indus_name"];?></a>
+<?php endif;?>
+<?php endforeach;?>
+
+</div>
+</li>
+<?php endforeach;?>
+<p class="all_list" style="line-height:50px;">
+	   <a href="index.php?do=shop" target="_blank" class="button">更多商城分类&gt;&gt;</a>
+   </p>
+</div>
+
            </div>
    
 <div class="grid_19 alpha omega ">
+
 
            <!--顶部推荐3条任务内容 start-->
            
@@ -1092,11 +1117,94 @@
     
    
         <!--顶部推荐3条任务内容 end-->
+
+           
+<!--顶部推荐3条任务内容 start-->
+
+
+<!--列表 start-->
+
+<ul class=" tops clearfix">
+<li class="col3">
+<!--单条内容 start-->
+<div class="item">
+<!--任务金额 start-->
+<strong class="money">
+￥100 ~ 1000元            			</strong>
+<!--任务金额 end-->
+<!--任务标题 start-->
+<h2 class="task_title"><a href="index.php?do=task&task_id=29" title="交友网站制作" target="_blank">交友网站制作</a></h2>
+<!--任务标题 end-->
+<!--任务发布者 start-->
+<span class="publisher"><a href="http://www.dashixun.com/one/weike/index.php?do=space&member_id=3" title="樱桃小丸子" target="_blank">樱桃小丸子</a></span>
+<!--任务发布者 end-->
+<!--任务模型 start-->
+<span class="task_mode">订金招标</span>
+<!--任务模型 end-->
+
+</div>
+<!--单条内容 end-->
+</li>
+
+<li class="line"></li>
+<li class="col3">
+<!--单条内容 start-->
+<div class="item">
+<!--任务金额 start-->
+<strong class="money">
+￥1 ~ 1000元            			</strong>
+<!--任务金额 end-->
+<!--任务标题 start-->
+<h2 class="task_title"><a href="index.php?do=task&task_id=27" title="棋牌类伪原创，能写的来" target="_blank">棋牌类伪原创，能写的来</a></h2>
+<!--任务标题 end-->
+<!--任务发布者 start-->
+<span class="publisher"><a href="http://www.dashixun.com/one/weike/index.php?do=space&member_id=2" title="猪八戒" target="_blank">猪八戒</a></span>
+<!--任务发布者 end-->
+<!--任务模型 start-->
+<span class="task_mode">普通招标</span>
+<!--任务模型 end-->
+
+</div>
+<!--单条内容 end-->
+</li>
+
+<li class="line"></li>
+<li class="col3">
+<!--单条内容 start-->
+<div class="item">
+<!--任务金额 start-->
+<strong class="money">
+￥100 ~ 1000元            			</strong>
+<!--任务金额 end-->
+<!--任务标题 start-->
+<h2 class="task_title"><a href="index.php?do=task&task_id=26" title="化妆工作室取名" target="_blank">化妆工作室取名</a></h2>
+<!--任务标题 end-->
+<!--任务发布者 start-->
+<span class="publisher"><a href="http://www.dashixun.com/one/weike/index.php?do=space&member_id=2" title="猪八戒" target="_blank">猪八戒</a></span>
+<!--任务发布者 end-->
+<!--任务模型 start-->
+<span class="task_mode">订金招标</span>
+<!--任务模型 end-->
+
+</div>
+<!--单条内容 end-->
+</li>
+
+<li class="line"></li>
+</ul>
+
+
+<!--列表 end-->
+
+
+<!--顶部推荐3条任务内容 end-->
+
                         
       <!--detail内容 start-->
 
          <!--列表内容 33条 start-->
            <ul class="small_list clearfix">
+
                           <li class="col3 clearfix">
              <!--单条内容 start-->
                 <div class="item clearfix">
@@ -1115,6 +1223,31 @@
                  </div>
               <!--单条内容 end-->
               </li>
+
+		    <?php foreach ($data["task"] as $k=>$v):?>
+             <li class="col3 clearfix">
+             <!--单条内容 start-->
+            
+                <div class="item clearfix">
+                  <a href="index.php?do=task&task_id=77" title="sadasdasd" target="_blank">&nbsp;    
+        <!--任务标题 start-->
+                   <strong class="money">
+                    <?php echo $v["task_title"]?> 
+                   </strong>
+      <!--任务金额 start-->
+                 <strong class="money">
+                    ￥<?php echo $v["task_cash"]?>.00元 
+                   </strong>
+     <!--任务金额 end-->
+  
+    <!--任务标题 end-->
+        </a>
+                 </div>
+             
+              <!--单条内容 end-->
+              </li>
+			  <?php  endforeach;?>
+
                       </ul>
        <!--列表内容 33条 end-->
 
@@ -1124,6 +1257,11 @@
 
 
    </div>
+
+   </article> 
+
+
+
    </article> 
 
   </div>
@@ -1152,6 +1290,7 @@
           <!--头部 end-->
            
    
+
    
     <article class="box_detail clearfix" >
 
@@ -1525,7 +1664,35 @@
                </div>
            </div>   
 
-                
+   <!--任务推荐-->
+
+<article class="box_detail clearfix">
+<div class="grid_5 alpha">
+<div class="category">
+<ul class="indus_list">	
+<?php foreach($data["TastType"] as $key=>$val):?>
+<li>
+ <a href="index.php?do=task_list&path=A441" target="_blank"><?php echo $val["indus_name"]?></a>
+ <?php //print_r($val);?>
+ <div class="s_nav hidden">
+<div class="indus">	
+<?php foreach($val as $k=>$v):?>
+<?php if(is_array($v)):?>
+<a href="index.php?do=task_list&path=A441&indus_id=8"><?php echo $v["indus_name"];?></a>
+<?php endif;?>
+<?php endforeach;?>
+
+
+</div>
+</li>
+<?php endforeach;?>
+   <p class="all_list">
+	   <a href="index.php?do=shop" target="_blank" class="button">更多商城分类&gt;&gt;</a>
+   </p>
+   
+  
+</div>
+</div>  
          <!--detail内容 start-->
  
              <!--商城列表 12条 start-->

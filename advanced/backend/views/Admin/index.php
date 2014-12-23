@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>KPPW 2.2--后台管理 - 客客专业威客系统</title>
-<link rel="shortcut icon" href="./resource/img/system/logo.ico" />
-<link rel="apple-touch-icon" href="./resource/img/system/logo.ico"/>
+<link rel="shortcut icon" href="/resource/img/system/logo.ico" />
+<link rel="apple-touch-icon" href="/resource/img/system/logo.ico"/>
 <link href="./tpl/css/admin_management.css" rel="stylesheet" type="text/css" />
 <link href="./resource/css/button/stylesheets/css3buttons.css" rel="stylesheet" type="text/css" />
 <link title="style1" href="./tpl/skin/default/style.css" rel="stylesheet" type="text/css" />

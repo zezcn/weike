@@ -13,9 +13,12 @@ class RegisterController extends \yii\web\Controller
         // $this->widget('CCaptcha');
         $model = new KekeWitkeySpace();
         if(!empty($_POST)){  
-          $this->createAction('captcha')->validate($_POST["txt_code"], true);
-          print_r($_POST);die;
-          $info = $model->insert($_POST["data"]);
+          $model->password = md5($_POST["data"]["password"]);
+          $model->username = $_POST["data"]["username"];
+          $model->email = $_POST["data"]["email"];
+          //$this->createAction('captcha')->validate($_POST["txt_code"], true);
+          //print_r($_POST["data"]);die;
+          $info = $model->insert();
           var_dump($info);die;
           $this->redirect(array('index/index'));
         }

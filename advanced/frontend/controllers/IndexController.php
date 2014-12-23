@@ -11,10 +11,8 @@ use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-use app\models\Service;
 use app\models\KekeWitkeyAd;
 use yii\web\Session;
-
 
 /**
  * Index controller
@@ -27,20 +25,9 @@ class IndexController extends Controller
     public function actionIndex()
     {
         $this->layout='@app/views/layouts/colume.php';
-
-        if(@$_GET['do']){
-            $do = $_GET["do"];
-            $path = $_GET["path"];
-            $title = $_GET["search_key"];            
-            $this->redirect(array($do."/search","title"=>$title));                    
-        }       
-        return $this->render('index');  
-        
-    }
-   
         $data["ad"] = $this->actionAd();
         $data["task"] = $this->actionTesklist();
-		$data["TastType"] = $this->actionTasttype();
+	$data["TastType"] = $this->actionTasttype();
         $data["shopType"] = $data["TastType"];
         return $this->render('index',["data"=>$data]);
     }
@@ -68,5 +55,7 @@ class IndexController extends Controller
 		}
 		return $Tastparent;
 	}
-
+        public function actionService(){
+          //  KekeWitkey
+        }
 }

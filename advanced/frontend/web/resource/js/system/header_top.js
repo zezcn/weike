@@ -97,7 +97,7 @@ function topSearch(){
  
 	if(searchKey&&searchKey!=L.input_task_service){
 		var type      = $("#search_select .selected").attr("rel");
-		var link    = "index.php?do="+type+"&path=H2&search_key="+searchKey;
+		var link    = "index.php?r="+type+"/search&title="+searchKey;
 			$("#frm_search").attr("action",link);
 		location.href=link;
 	}

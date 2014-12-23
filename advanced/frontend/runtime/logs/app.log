@@ -11079,3 +11079,1222 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1419332378.071
     'REQUEST_TIME' => 1419332378
 ]
+2014-12-23 12:30:22 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare frontend\controllers\TaskController::actionTaskadd2pro()' in D:\weike\advanced\frontend\controllers\TaskController.php:195
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-23 12:30:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'task/taskadd2'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55331'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=task/taskadd2'
+    'REQUEST_URI' => '/index.php?r=task/taskadd2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419334221.958
+    'REQUEST_TIME' => 1419334221
+]
+2014-12-23 12:34:31 [127.0.0.1][][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('succ', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('task/succ', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 12:34:31 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'task/succ'
+    'task_id' => '82'
+]
+
+$_POST = [
+    'formhash' => '679ee3'
+    'item_type' => 'buy'
+    'payitem_ids' => [
+        'urgent' => ''
+        'top' => ''
+        'map' => ''
+    ]
+    'px' => '30.51667'
+    'py' => '114.31667'
+    'zo' => '10'
+    'point' => ''
+    'province' => ''
+    'ago_total' => '80'
+    'is_submit' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=task/addthree&task_id=82'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '198'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55371'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=task/succ&task_id=82'
+    'REQUEST_URI' => '/index.php?r=task/succ&task_id=82'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419334471.383
+    'REQUEST_TIME' => 1419334471
+]
+2014-12-23 12:34:45 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 12:34:45 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'release'
+    'pub_mode' => 'professional'
+    't_id' => ''
+    'model_id' => '1'
+    'r_step' => 'step3'
+]
+
+$_POST = [
+    'ajax' => 'save_payitem'
+    'item_id' => '3'
+    'item_name' => ''
+    'item_cash' => '0'
+    'item_code' => 'urgent'
+    'item_num' => '0'
+    'item_type' => 'buy'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=task/addthree&task_id=82'
+    'CONTENT_LENGTH' => '92'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55386'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=release&pub_mode=professional&t_id=&model_id=1&r_step=step3'
+    'REQUEST_URI' => '/index.php?do=release&pub_mode=professional&t_id=&model_id=1&r_step=step3'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419334485.033
+    'REQUEST_TIME' => 1419334485
+]
+2014-12-23 12:34:45 [127.0.0.1][][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('succ', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('task/succ', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 12:34:45 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'task/succ'
+    'task_id' => '82'
+]
+
+$_POST = [
+    'formhash' => '679ee3'
+    'item_type' => 'buy'
+    'payitem_ids' => [
+        'urgent' => ''
+        'top' => ''
+        'map' => ''
+    ]
+    'px' => '30.51667'
+    'py' => '114.31667'
+    'zo' => '10'
+    'point' => ''
+    'province' => ''
+    'ago_total' => '80'
+    'is_submit' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=task/addthree&task_id=82'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '198'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55387'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=task/succ&task_id=82'
+    'REQUEST_URI' => '/index.php?r=task/succ&task_id=82'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419334485.079
+    'REQUEST_TIME' => 1419334485
+]
+2014-12-23 12:53:39 [127.0.0.1][][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('succ', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('task/succ', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 12:53:39 [127.0.0.1][][-][info][application] $_GET = [
+    'r' => 'task/succ'
+    'task_id' => '83'
+]
+
+$_POST = [
+    'formhash' => '679ee3'
+    'item_type' => 'buy'
+    'payitem_ids' => [
+        'urgent' => ''
+        'top' => ''
+        'map' => ''
+    ]
+    'px' => '30.51667'
+    'py' => '114.31667'
+    'zo' => '10'
+    'point' => ''
+    'province' => ''
+    'ago_total' => '80'
+    'is_submit' => ''
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=task/addthree&task_id=83'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '198'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55568'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=task/succ&task_id=83'
+    'REQUEST_URI' => '/index.php?r=task/succ&task_id=83'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419335619.715
+    'REQUEST_TIME' => 1419335619
+]
+2014-12-23 13:13:13 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:13 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square/square'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55798'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336793.922
+    'REQUEST_TIME' => 1419336793
+]
+2014-12-23 13:13:19 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:19 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55795'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336799.358
+    'REQUEST_TIME' => 1419336799
+]
+2014-12-23 13:13:24 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:24 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55802'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336804.358
+    'REQUEST_TIME' => 1419336804
+]
+2014-12-23 13:13:29 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:29 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55803'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336809.358
+    'REQUEST_TIME' => 1419336809
+]
+2014-12-23 13:13:34 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:34 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55805'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336814.358
+    'REQUEST_TIME' => 1419336814
+]
+2014-12-23 13:13:39 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:39 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55806'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336819.358
+    'REQUEST_TIME' => 1419336819
+]
+2014-12-23 13:13:44 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:44 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55809'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336824.358
+    'REQUEST_TIME' => 1419336824
+]
+2014-12-23 13:13:49 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:49 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336829.36
+    'REQUEST_TIME' => 1419336829
+]
+2014-12-23 13:13:54 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:54 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55812'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336834.35
+    'REQUEST_TIME' => 1419336834
+]
+2014-12-23 13:13:59 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:13:59 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55813'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336839.35
+    'REQUEST_TIME' => 1419336839
+]
+2014-12-23 13:14:04 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:14:04 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55816'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336844.352
+    'REQUEST_TIME' => 1419336844
+]
+2014-12-23 13:14:09 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in D:\weike\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 D:\weike\advanced\frontend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-23 13:14:09 [127.0.0.1][][1nejp58lco8hkd8qnfafe14es7][info][application] $_GET = [
+    'do' => 'square'
+    'view' => 'index'
+    't' => 'all'
+    'op' => 'get_data'
+    'last_id' => '85'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '1nejp58lco8hkd8qnfafe14es7'
+    '_csrf' => 'b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s:32:\"UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weik.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:34.0) Gecko/20100101 Firefox/34.0'
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.weik.com/index.php?r=square%2Fsquare&page=2'
+    'HTTP_COOKIE' => 'PHPSESSID=1nejp58lco8hkd8qnfafe14es7; _csrf=b981ae6396a054a5dddfc4c8da951c5ad66aed4e465b5dd6b5fb95ece3282734s%3A32%3A%22UrjKXU-k5j8lO8PBPOp2jsYaNk4CngjR%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'CONTENT_LENGTH' => '0'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;F:\\svn\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weik.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weik.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced/frontend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '55817'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'do=square&view=index&t=all&op=get_data&last_id=85'
+    'REQUEST_URI' => '/index.php?do=square&view=index&t=all&op=get_data&last_id=85'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1419336849.352
+    'REQUEST_TIME' => 1419336849
+]

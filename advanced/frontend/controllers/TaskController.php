@@ -8,6 +8,7 @@ use yii\data\Pagination;
 use yii\db\Query;
 use yii\data\ActiveDataProvider;
 use app\models\kekeWitkeyTask;
+use yii\web\Session;
 
 class TaskController extends \yii\web\Controller
 {
@@ -120,13 +121,21 @@ class TaskController extends \yii\web\Controller
     }
 
     public function actionTaskadd1(){
+        $session = new Session();
+        $session->open();
+        if(empty($session["uid"])){
+            $this->redirect(array('login/login'));
+        }
         $this->layout='@app/views/layouts/colume.php';
         return $this->render("add1");
     }
     public function actionTaskadd1pro(){
-
         $model = new Task();
+        $session = new Session();
+        $session->open();
         $end_time = $_GET["end_time"];
+        $model->uid = $session["uid"];
+        $model->username = $session["username"];
         $model->start_time = time();
         $model->end_time = time($end_time);
         $model->task_cash = $_GET['price'];
@@ -171,15 +180,66 @@ class TaskController extends \yii\web\Controller
         return $this->render("addthree",array("data"=>$data));
     }
     public function actionTaskadd2(){
+        $session = new Session();
+        $session->open();
+        if(empty($session["uid"])){
+            $this->redirect(array('login/login'));
+        }
         $this->layout='@app/views/layouts/colume.php';
         return $this->render("add2");
     }
+
     public function actionTaskadd2pro(){
+
+        $model = new Task();
+        $session = new Session();
+        $session->open();
+        $end_time = $_GET["end_time"];
+        $model->uid = $session["uid"];
+        $model->username = $session["username"];
+        $model->start_time = time();
+        $model->end_time = time($end_time);
+        $model->task_cash = $_GET['price'];
+        $model->model_id = $_GET['model_id'];
+        $model->work_num = $_GET["num"];
+        $model->cash_cost = $_GET["gprice"];
+        if($model->insert()){
+            echo $model->primaryKey;
+        }else{
+            echo 2;
+        }
         
-    } 
+    }
+
     public function actionTaskadd3(){
+        $session = new Session();
+        $session->open();
+        if(empty($session["uid"])){
+            $this->redirect(array('login/login'));
+        }
         $this->layout='@app/views/layouts/colume.php';
         return $this->render("add3");
+    }
+    public function actionTaskadd3pro(){
+
+        $model = new Task();
+        $session = new Session();
+        $session->open();
+        $end_time = $_GET["end_time"];
+        $model->uid = $session["uid"];
+        $model->username = $session["username"];
+        $model->start_time = time();
+        $model->end_time = time($end_time);
+        $model->task_cash = $_GET['price'];
+        $model->model_id = $_GET['model_id'];
+        $model->work_num = $_GET["prize_num"];
+        $model->cash_cost = $_GET["prize_cash"];
+        if($model->insert()){
+            echo $model->primaryKey;
+        }else{
+            echo 2;
+        }
+        
     }
     public function actionAddtwo(){
         $this->layout='@app/views/layouts/colume.php';

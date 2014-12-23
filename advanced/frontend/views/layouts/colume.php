@@ -136,7 +136,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                     <!--搜索框和选项 end-->
                     <!--搜索提交 start-->
                     <div class="fl_l header_btn">
-                        <button class="search_btn" id="search_btn" type="button" onclick="Search();"><span class="icon magnifier"></span>搜索</button>
+                        <button class="search_btn" id="search_btn" type="button" onclick="topSearch()"><span class="icon magnifier"></span>搜索</button>
                     </div>
                     <!--搜索提交 end-->
                 </div>

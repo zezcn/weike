@@ -94,7 +94,7 @@ $("#search_btn").click(function(){topSearch();})
 
 function topSearch(){
 	var searchKey = $.trim($("#search_key").val());
- 
+	alert(searchKey);
 	if(searchKey&&searchKey!=L.input_task_service){
 		var type      = $("#search_select .selected").attr("rel");
 		var link    = "index.php?r="+type+"/search&title="+searchKey;

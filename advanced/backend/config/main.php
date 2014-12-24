@@ -11,7 +11,7 @@ return [
     //默认访问index.php
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
-  
+	'defaultRoute'=>'admin',
     'components' => [
         'user' => [
             'identityClass' => 'common\models\User',

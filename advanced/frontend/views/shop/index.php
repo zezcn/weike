@@ -145,7 +145,16 @@
        
                            <!--end 条件4-->
    <!--条件5-->
-                                   
+                                    <dl class="condition clearfix border_n">
+                                        <dt class="grid_2 omega">
+                                         地区搜索
+                                        </dt>
+                                        <dd class="grid_21">
+                                          <a href="index.php?do=shop_list&path=&max=&min="   class="selected" >全部 </a>
+                                           <select name="province" id="province"></select><select name="city" id="city"></select><select name="area" id="area"></select>
+   <a class="button" style="" onclick="search_address()"><span class="magnifier icon"></span>搜索　</a>
+                                        </dd>
+                                    </dl>
                                     <!--end 条件5-->
 </div>
 <!--工具栏-->
@@ -253,7 +262,7 @@
                                                 <ul class="clearfix pt_10">
                                                     <li class="w5 info">
                                                         <div class="img_box">
-                                                          <a href="index.php?do=service&sid=13"><img src="<?php echo $val['pic']?>" onerror='$(this).attr("src","tpl/default/img/shop/shop_default.gif")' title="[图兰朵]婚纱摄影重磅推出 黄金路线启动" width=300 height=300></a>
+                                                            <a href="index.php?r=shop/buy&sid=<?php echo $val["service_id"]?>"><img src="<?php echo $val['pic']?>" onerror='$(this).attr("src","tpl/default/img/shop/shop_default.gif")' title="[图兰朵]婚纱摄影重磅推出 黄金路线启动" width=300 height=300></a>
                                                         </div>
                                                         
                                                       <div class="img_des">

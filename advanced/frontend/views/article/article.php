@@ -1,5 +1,7 @@
 
-
+<?php
+    use yii\widgets\LinkPager;
+?>
     <body id="article">
 
 <div class="blue_style" id="wrapper">
@@ -74,17 +76,24 @@
                         <div class="box normal1 clearfix bord_c">
                             <!--资讯缩略-->
                             <div class="news_list">
-                                <!--新闻-->                                <div class="item clearfix">
+                                <!--新闻-->        
+                      <?php foreach ($data as $key=>$val):?> 
+                       
+
+
+     
+                                       
+                                <div class="item clearfix">
                                     <div class="news_article">
                                         <h3 class="news_title ws_break">
                                         	                                        		<a title="警惕交易诈骗，注意帐户安全" href="index.php?do=article&view=article_info&art_cat_id=203&art_id=227">
-                                        	                                        	警惕交易诈骗，注意帐户安全<font color="red">[荐]</font></a>
+                                        	                                        	<?php echo $val['art_title']?><font color="red"></font></a>
 </h3>
                                         <p class="clearfix">
-                                        	<span class="c999">2012-02-17 </span>
+                                        	<span class="c999"><?php echo date("Y-m-d",time())?></span>
                                         	
                                         	                                        		<a href="index.php?do=article&view=article_list&art_cat_id=203">
-                                        	[ 安全交易 ]</a>
+                                        	[ <?php echo $val['cat_name']?> ]</a>
                                             
                                             
                                         </p>
@@ -95,147 +104,30 @@
                                     	</div>
                                         <div class="news_content">
                                             <p>
-                                            	警惕交易诈骗，注意帐户安全                                            </p>
+                                            	<?php echo $val['art_title']?>                                         </p>
                                         </div>
 <div class="clear"></div>
 <div class="m_h">
 
-54关注人数                                        	                                        		<a href="index.php?do=article&view=article_info&art_cat_id=203&art_id=227">阅读全文</a>
+<?php echo $val['views']?>关注人数                                        	                                        		<a href="index.php?r=article/yuedu&art_id=<?php echo $val['art_id']?>">阅读全文</a>
                                         	
 </div>
 </div>
-                                </div>
-                                <div class="item clearfix">
-                                    <div class="news_article">
-                                        <h3 class="news_title ws_break">
-                                        	                                        		<a title="唯冠召开iPad维权发布会：起诉苹果是维权" href="index.php?do=article&view=article_info&art_cat_id=358&art_id=225">
-                                        	                                        	唯冠召开iPad维权发布会：起诉苹果<font color="red">[荐]</font></a>
-</h3>
-                                        <p class="clearfix">
-                                        	<span class="c999">2012-02-17 </span>
-                                        	
-                                        	                                        		<a href="index.php?do=article&view=article_list&art_cat_id=358">
-                                        	[ 新闻列表 ]</a>
-                                            
-                                            
-                                        </p>
-<div class="news_img">
-                                        	                                        		<a href="index.php?do=article&view=article_info&art_cat_id=358&art_id=225" class="ov_hide mt_10"></a>
-                                        												
-                                        	
-                                    	</div>
-                                        <div class="news_content">
-                                            <p>
-                                            	唯冠召开iPad维权发布会：起诉苹果是维权                                            </p>
-                                        </div>
-<div class="clear"></div>
-<div class="m_h">
-
-14关注人数                                        	                                        		<a href="index.php?do=article&view=article_info&art_cat_id=358&art_id=225">阅读全文</a>
-                                        	
-</div>
-</div>
-                                </div>
-                                <div class="item clearfix">
-                                    <div class="news_article">
-                                        <h3 class="news_title ws_break">
-                                        	                                        		<a title="中金香港直销Facebook股权：初定100万股门槛" href="index.php?do=article&view=article_info&art_cat_id=358&art_id=250">
-                                        	                                        	中金香港直销Facebook股权：初定10</a>
-</h3>
-                                        <p class="clearfix">
-                                        	<span class="c999">2012-02-17 </span>
-                                        	
-                                        	                                        		<a href="index.php?do=article&view=article_list&art_cat_id=358">
-                                        	[ 新闻列表 ]</a>
-                                            
-                                            
-                                        </p>
-<div class="news_img">
-                                        	                                        		<a href="index.php?do=article&view=article_info&art_cat_id=358&art_id=250" class="ov_hide mt_10"></a>
-                                        												
-                                        	
-                                    	</div>
-                                        <div class="news_content">
-                                            <p>
-                                            	中金香港直销Facebook股权：初定100万股门槛                                            </p>
-                                        </div>
-<div class="clear"></div>
-<div class="m_h">
-
-7关注人数                                        	                                        		<a href="index.php?do=article&view=article_info&art_cat_id=358&art_id=250">阅读全文</a>
-                                        	
-</div>
-</div>
-                                </div>
-                                <div class="item clearfix">
-                                    <div class="news_article">
-                                        <h3 class="news_title ws_break">
-                                        	                                        		<a title="依法诚信纳税共建和谐社会" href="index.php?do=article&view=article_info&art_cat_id=5&art_id=249">
-                                        	                                        	依法诚信纳税共建和谐社会</a>
-</h3>
-                                        <p class="clearfix">
-                                        	<span class="c999">2012-02-17 </span>
-                                        	
-                                        	                                        		<a href="index.php?do=article&view=article_list&art_cat_id=5">
-                                        	[ 行业动态 ]</a>
-                                            
-                                            
-                                        </p>
-<div class="news_img">
-                                        	                                        		<a href="index.php?do=article&view=article_info&art_cat_id=5&art_id=249" class="ov_hide mt_10"></a>
-                                        												
-                                        	
-                                    	</div>
-                                        <div class="news_content">
-                                            <p>
-                                            	                                            </p>
-                                        </div>
-<div class="clear"></div>
-<div class="m_h">
-
-3关注人数                                        	                                        		<a href="index.php?do=article&view=article_info&art_cat_id=5&art_id=249">阅读全文</a>
-                                        	
-</div>
-</div>
-                                </div>
-                                <div class="item clearfix">
-                                    <div class="news_article">
-                                        <h3 class="news_title ws_break">
-                                        	                                        		<a title="诚信体系之诚信保障" href="index.php?do=article&view=article_info&art_cat_id=4&art_id=248">
-                                        	                                        	诚信体系之诚信保障</a>
-</h3>
-                                        <p class="clearfix">
-                                        	<span class="c999">2012-02-17 </span>
-                                        	
-                                        	                                        		<a href="index.php?do=article&view=article_list&art_cat_id=4">
-                                        	[ 政策法规 ]</a>
-                                            
-                                            
-                                        </p>
-<div class="news_img">
-                                        	                                        		<a href="index.php?do=article&view=article_info&art_cat_id=4&art_id=248" class="ov_hide mt_10"></a>
-                                        												
-                                        	
-                                    	</div>
-                                        <div class="news_content">
-                                            <p>
-                                            	                                            </p>
-                                        </div>
-<div class="clear"></div>
-<div class="m_h">
-
-5关注人数                                        	                                        		<a href="index.php?do=article&view=article_info&art_cat_id=4&art_id=248">阅读全文</a>
-                                        	
-</div>
-</div>
-                                </div>
-<!--end 新闻-->
-                            </div><!--end 资讯缩略-->
+         </div>
+   <?php endforeach;?>
+                                
+       </div><!--end 资讯缩略-->
                         </div>
                         <!--page 翻页 start-->
                         <div class="page">
                             <p class="clearfix">
-                                <a class="selected">1</a><a href="http://localhost/yii2.0/index.php?do=article&page_size=5&page=2">2</a> <a href="http://localhost/yii2.0/index.php?do=article&page_size=5&page=3">3</a> <a href="http://localhost/yii2.0/index.php?do=article&page_size=5&page=4">4</a> <a href="http://localhost/yii2.0/index.php?do=article&page_size=5&page=5">5</a> <a href="http://localhost/yii2.0/index.php?do=article&page_size=5&page=2">下一页>></a><span class="fl_l"> 1 / 5页</span>                             </p>
+  <?= LinkPager::widget(['pagination' => $pages]); ?>
+                            
+                            
+                            </p>
+
+                                
+                                
                             <div class="clear">
                             </div>
                         </div>

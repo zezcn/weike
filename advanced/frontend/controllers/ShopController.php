@@ -7,6 +7,7 @@ use app\models\Model;
 use yii\data\Pagination;
 use yii\db\Query;
 use yii\data\ActiveDataProvider;
+use app\models\KekeWitkeyOrder;
 
 class ShopController extends \yii\web\Controller
 {
@@ -90,11 +91,6 @@ class ShopController extends \yii\web\Controller
     }
     public function actionBuy($sid) {
          session_start();
-     
-         if(!empty($_POST)){
-             
-             
-         }
         $this->layout='@app/views/layouts/colume.php';
         //echo $sid;die;
          $data = Service::find()->where($sid)->one();
@@ -107,7 +103,29 @@ class ShopController extends \yii\web\Controller
          return $this->render('shop_order',["data"=>$data]);
    }
    public function actionBuydo($sid) {
+       $this->layout='@app/views/layouts/colume.php';
       $data = Service::find()->where($sid)->one();
+       SESSION_START();
+      $info = \app\models\KekeWitkeySpace::find()->where($_SESSION["uid"])->one();
+      if($data["price"] > $info["balance"]){
+          $row["pay"] = 0;
+      }else{
+          $model = new KekeWitkeyOrder();
+          $model->order_name = $data["title"];
+          $model->order_time = time();
+          $model->order_status = "wait";
+          $model->order_uid = $info["uid"];
+          $model->order_username = $info["username"];
+          $model->to_seller_message = $_GET["comm"];
+          //$model->insert();
+          $order_info = $model->find()->orderBy("order_id desc")->one();
+         // print_r($order_info["order_id"]);die;
+          $row["order_id"] = $order_info["order_id"];
+          $row["pay"] = 1;
+      }
+      return $this->render('buydo',["row"=>$row,"data"=>$data,"info"=>$info]);
+   }
+   public function actionPay_order() {
        
    }
    

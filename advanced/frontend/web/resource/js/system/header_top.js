@@ -13,7 +13,7 @@ var browser = {
 		presto : u.indexOf('Presto') > -1, //opera内核                                 
 		webKit : u.indexOf('AppleWebKit') > -1, //苹果、谷歌内核                                 
 		gecko : u.indexOf('Gecko') > -1 && u.indexOf('KHTML') == -1, //火狐内核                                
-		mobile : !!u.match(/AppleWebKit.*Mobile.*/)||!!u.match(/AppleWebKit/), //是否为移动终端                                 
+		mobile : !!u.match(/AppleWebKit.*Mobile.)||!!u.match(/AppleWebKit/), //是否为移动终端                                 
 		ios : !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios终端                 
 		android : u.indexOf('Android') > -1 || u.indexOf('Linux') > -1, //android终端或者uc浏览器                                 
 		iPhone : u.indexOf('iPhone') > -1 || u.indexOf('Mac') > -1, //是否为iPhone或者QQHD浏览器                    
@@ -94,10 +94,9 @@ $("#search_btn").click(function(){topSearch();})
 
 function topSearch(){
 	var searchKey = $.trim($("#search_key").val());
- 
 	if(searchKey&&searchKey!=L.input_task_service){
 		var type      = $("#search_select .selected").attr("rel");
-		var link    = "index.php?do="+type+"&path=H2&search_key="+searchKey;
+		var link    = "index.php?r="+type+"/search&title="+searchKey;
 			$("#frm_search").attr("action",link);
 		location.href=link;
 	}

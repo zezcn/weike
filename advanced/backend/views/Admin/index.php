@@ -422,10 +422,10 @@ window.onload = function(){
                     <dt><i class="arrow_r">&nbsp;</i>广场管理</dt>
                   <dd>
                         <ul >
-                          <li><a href="index.php?do=app&view=task_list" target="display_frame" r_id="163">免费需求</a></li>
-<li><a href="index.php?do=app&view=service_list" target="display_frame" r_id="164">免费服务</a></li>
+                          <li><a href="index.php?r=yingyong/mianfei" target="display_frame" r_id="163">免费需求</a></li>
+
 <li><a href="index.php?do=app&view=message_list" target="display_frame" r_id="165">留言管理</a></li>
-<li><a href="index.php?do=app&view=weibo_list" target="display_frame" r_id="166">动态管理</a></li>
+<li><a href="index.php?r=yingyong/dongtai" target="display_frame" r_id="166">动态管理</a></li>
 <li><a href="index.php?do=app&view=denounce_list" target="display_frame" r_id="167">举报管理</a></li>
                             </ul>
                   </dd>

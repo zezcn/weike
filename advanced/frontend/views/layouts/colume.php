@@ -47,6 +47,7 @@ AppAsset::register($this);
 <script src="lang/cn/script/lang.js" type="text/javascript"></script>
 <script src="resource/js/system/keke.js" type="text/javascript"></script>
 <script src="resource/js/in.js" type="text/javascript"></script>
+<script src="resource/js/jq.js" type="text/javascript"></script>
 <script type="text/javascript">
  //js异步加载预定义
     In.add('mouseDelay',{path:"resource/js/jqplugins/jQuery.mouseDelay.js",type:'js'});
@@ -122,30 +123,51 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                     <div class="search_box">
                         <div class="fl_l search_selcecter">
                             <div id="search_select" class="search_options">
-                                                             <a href="javascript:void(0);" class="selected" rel="task_list"><span>任务</span>▼</a>
-                                     <a href="javascript:void(0);" class="hidden"   rel="task_list">任务</a>
-                                <a href="javascript:void(0);" class="hidden"   rel="shop_list">商品</a>
+                                                             <a href="javascript:void(0);" class="selected" rel="task"><span>任务</span>▼</a>
+                                     <a href="javascript:void(0);" class="hidden"   rel="task">任务</a>
+                                <a href="javascript:void(0);" class="hidden"   rel="shop">商品</a>
                              </div>
                         </div>
-<input type="text" name="search_key" onkeydown="search_keydown(event);" id="search_key" class="fl_l search_input txt_input togg c999"
- value="输入任务/商品" 
-   x-webkit-speech x-webkit-grammar="bUIltin:search" lang="zh-CN">
+<input type="text" name="search_key"  id="search_key" class="fl_l search_input txt_input togg c999"
+ value="输入任务/商品" />
+   
                     </div>
 </form>
                     <!--搜索框和选项 end-->
                     <!--搜索提交 start-->
                     <div class="fl_l header_btn">
-                        <button class="search_btn" id="search_btn" type="button" onclick="topSearch();"><span class="icon magnifier"></span>搜索</button>
+                        <button class="search_btn" id="search_btn" type="button" onclick="topSearch()"><span class="icon magnifier"></span>搜索</button>
                     </div>
                     <!--搜索提交 end-->
                 </div>
                 <!--主搜索 end-->
 
             </div>
-            
+<script>
+	$("#search_select a.selected").click(function(){
+		$(this).nextAll("a").removeClass("hidden");
+	});
 
+	$("#search_select a").not(".selected").click(function(){
+		$("#search_select .selected").attr("rel",$(this).attr("rel")).children("span").html($(this).html()).end().nextAll("a").addClass("hidden");
+	}) 
+	$("#search_key").click(function(){
+		$(this).removeAttr("value");
+	})
+</script>           
+<script>
+    function topSearch(){
+	var searchKey = $.trim($("#search_key").val());
+	//alert(searchKey);
+	if(searchKey&&searchKey!=L.input_task_service){
+		var type      = $("#search_select .selected").attr("rel");
+		var link    = "index.php?r="+type+"/search&title="+searchKey;
+			$("#frm_search").attr("action",link);
+		location.href=link;
+	}
+}
+</script> 
 
-          
                 <!--用户登录注册 start-->
                 <div class="user_box clearfix grid_5">
                     <!--注册登录按钮 start-->
@@ -174,8 +196,7 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
                         <ul class="user_logined clearfix">
                             <li id="avatar">
                                 <a href="index.php?do=user" title="" rel="user_menu">
-                                    <img src=' data/avatar/default/man_small.jpg' uid='11' class='pic_small'>
-									
+                                    <img src=' data/avatar/default/man_small.jpg' uid='11' class='pic_small'> 
                                         <span class="user_named m_h"><?php $session = new Session();
                                         $session->open();
                                         echo $session["username"];?></span>
@@ -190,13 +211,14 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 <li class="clearfix"><a href="index.php?r=center/user_index" title="用户中心"><div class="icon16 cog reverse"></div>用户中心</a></li>
 <li class="clearfix"><a href=" index.php?do=space&member_id=11" title="我的店铺" id="space"><div class="icon16 compass reverse"></div>我的店铺</a></li>
 <!--<li class="clearfix"><a href="index.php?do=user&view=message" title="站内信"><div class="icon16 mail reverse"></div>站内信</a></li>-->
-<li class="clearfix"><a  title="退出" href="index.php?r=login/loginout">退出</a></li>
+<li class="clearfix"><a  title="退出" href="index.php?r=login/tuichu">退出</a></li>
                          </ul>
                     </div>
                     <!--用户登录后导航菜单 end-->
 </li>
                             <li class="line m_h"></li>
                             <li class="logout m_h"><a title="站内信" href="index.php?do=user&view=message">站内信</a></li>
+                            <li class="logout m_o"><a title="退出" href="index.php?r=login/loginout">退出</a></li>
                             <li class="clear"></li>
                         </ul>
                         <!--用户登录后内容 end-->
@@ -222,6 +244,9 @@ In.add('pcas',{path:"resource/js/system/PCASClass.js",type:'js'});
 
         </div>
     </header>
+<script>
+    
+</script>
     <!--头部 end-->
         <!--tool_E-->
  <nav id="nav" class="nav m_h">

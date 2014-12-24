@@ -1,5 +1,5 @@
 
-    <body id="prom">
+<body id="prom">
 
 <div class="blue_style" id="wrapper">
 
@@ -135,9 +135,9 @@
             <div class="prom_detail clearfix">
             	<div class="prom_list">
             	<ul>
-            	<li> <a href="index.php?do=prom"  class="selected">新手任务</a></li>
-            	<li> <a href="index.php?do=prom&view=task" >任务推广</a></li>
-            	<li> <a href="index.php?do=prom&view=good" >商品推广</a></li>
+            	<li> <a href="index.php?r=prom/prom_new" class="selected">新手任务</a></li>
+            	<li> <a href="index.php?r=prom/prom_task" >任务推广</a></li>
+            	<li> <a href="index.php?r=prom/prom" >商品推广</a></li>
             	</ul>
 </div>
             </div>

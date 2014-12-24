@@ -1,3 +1,6 @@
+<?php
+use yii\widgets\LinkPager;
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -20,8 +23,8 @@
 <div class="page_title">	
     	<h1>网站公告管理</h1>
          <div class="tool">
-            <a href="index.php?do=article&view=list&type=bulletin" class="here" >网站公告列表</a>
-            <a href="index.php?do=article&view=edit&type=bulletin" >网站公告添加</a>
+            <a href="index.php?r=article/gonggao" class="here" >网站公告列表</a>
+            <a href="index.php?r=article/gonggao_add" >网站公告添加</a>
     	</div>
 </div>
     <!--页头结束-->
@@ -41,6 +44,7 @@
  
                 <table cellspacing="0" cellpadding="0">
 <tbody>
+
                         <tr>
                             <th>作者</th>
                             <td><input type="text" value="" name="w[username]" class="txt"/></td>
@@ -104,79 +108,23 @@
                   </tr>
   </thead>
                   <tbody>
+                    <?php foreach($data as $k=>$v){?>
                                     <tr class="item">
-                  	<td><input type="checkbox" name="ckb[]" value="308" class="checkbox">308</td>
-                    <td class="td28 wraphide">
-                    	网站公告</td>
+                  	<td><input type="checkbox" name="ckb[]" value="" class="checkbox"></td>
+                    <td class="td28 wraphide"><?php echo $v['cat_name'];?></td>
                     <td>
-                    	<a href="index.php?do=article&view=edit&art_id=308&type=bulletin&page=1" >
-</a>
-</td>
-                    <td class="wraphide">6</td>
-                    <td class="wraphide">客客族</td>
-                    <td class="ws_break">2013-04-03</td>
+                    	<a href="index.php?do=article&view=edit&art_id=308&type=bulletin&page=1" ><?php echo $v['art_title']?></a>
+                    <td class="wraphide"><?php echo $v['views']?></td>
+                    <td class="wraphide"><?php echo $v['username']?></td>
+                    <td class="ws_break"><?php echo date("Y-m-d",$v['pub_time'])?></td>
                     <td>
                     	 
-<a href="./index.php?do=single&art_id=308" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
+<a href="index.php?r=article/gonggao_show&art_id=<?php echo $v['art_id']?>" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
 <a href="index.php?do=article&view=edit&art_id=308&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
 <a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=308&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
 </td>
-                  </tr>
-                                    <tr class="item">
-                  	<td><input type="checkbox" name="ckb[]" value="304" class="checkbox">304</td>
-                    <td class="td28 wraphide">
-                    	网站公告</td>
-                    <td>
-                    	<a href="index.php?do=article&view=edit&art_id=304&type=bulletin&page=1" >
-震撼上线4</a>
-</td>
-                    <td class="wraphide">6</td>
-                    <td class="wraphide">客客族</td>
-                    <td class="ws_break">2012-08-31</td>
-                    <td>
-                    	 
-<a href="./index.php?do=single&art_id=304" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
-<a href="index.php?do=article&view=edit&art_id=304&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
-<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=304&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
-</td>
-                  </tr>
-                                    <tr class="item">
-                  	<td><input type="checkbox" name="ckb[]" value="303" class="checkbox">303</td>
-                    <td class="td28 wraphide">
-                    	网站公告</td>
-                    <td>
-                    	<a href="index.php?do=article&view=edit&art_id=303&type=bulletin&page=1" >
-震撼上线3</a>
-</td>
-                    <td class="wraphide">6</td>
-                    <td class="wraphide">客客族</td>
-                    <td class="ws_break">2012-08-31</td>
-                    <td>
-                    	 
-<a href="./index.php?do=single&art_id=303" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
-<a href="index.php?do=article&view=edit&art_id=303&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
-<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=303&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
-</td>
-                  </tr>
-                                    <tr class="item">
-                  	<td><input type="checkbox" name="ckb[]" value="302" class="checkbox">302</td>
-                    <td class="td28 wraphide">
-                    	网站公告</td>
-                    <td>
-                    	<a href="index.php?do=article&view=edit&art_id=302&type=bulletin&page=1" >
-震撼上线2</a>
-</td>
-                    <td class="wraphide">4</td>
-                    <td class="wraphide">客客族</td>
-                    <td class="ws_break">2012-08-31</td>
-                    <td>
-                    	 
-<a href="./index.php?do=single&art_id=302" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
-<a href="index.php?do=article&view=edit&art_id=302&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
-<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=302&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
-</td>
-                  </tr>
-                                    </tbody>
+                  </tr><?php }?>
+</tbody>
   <tfoot>
                   <tr>
                     <td colspan="7">
@@ -190,7 +138,9 @@
                   </tr>
                 </tfoot>
               </table>
-  <div class="page"></div>
+  <div class="page">
+      <?= LinkPager::widget(['pagination' => $pages]); ?>
+</div>
   </div>
         	</form>
         </div>       

@@ -40,7 +40,7 @@
               <tr>
                 <td>
                    <h2>海量服务商提交稿件，任您选！</h2>
-                    <p><a href="index.php?do=release" class="submit block mar10">发布任务</a></p>
+                    <p><a href="index.php?r=task/taskadd1" class="submit block mar10">发布任务</a></p>
                     <p>客客出品专业威客系统</p>
                 </td>
               </tr>
@@ -123,7 +123,8 @@
 <div class="indus">	
 <?php foreach($val as $k=>$v):?>
 <?php if(is_array($v)):?>
-<a href="index.php?do=task_list&path=A441&indus_id=8"><?php echo $v["indus_name"];?></a>
+    
+    <a href="index.php?r=task/search&indus_id=<?php echo $v['indus_id']?>&small=0&is_auto=0&task_status=0&is_top=0"><?php echo $v["indus_name"];?></a>
 <?php endif;?>
 <?php endforeach;?>
 
@@ -131,7 +132,7 @@
 </li>
 <?php endforeach;?>
 <p class="all_list" style="line-height:50px;">
-	   <a href="index.php?do=shop" target="_blank" class="button">更多商城分类&gt;&gt;</a>
+	   <a href="index.php?r=task/index" target="_blank" class="button">更多任务分类&gt;&gt;</a>
    </p>
 </div>
            </div>
@@ -297,7 +298,7 @@
 <div class="indus">	
 <?php foreach($val as $k=>$v):?>
 <?php if(is_array($v)):?>
-<a href="index.php?do=task_list&path=A441&indus_id=8"><?php echo $v["indus_name"];?></a>
+    <a href="index.php?r=shop/search&indus_id=<?php echo $v['indus_id']?>"><?php echo $v["indus_name"];?></a>
 <?php endif;?>
 <?php endforeach;?>
 
@@ -316,115 +317,21 @@
              <!--商城列表 12条 start-->
              <ul class="small_list clearfix">
                  <!--第一条商品 start--><!--第一条商品 end-->
-                   <li class="item clearfix">
-                        <a href="index.php?do=service&sid=15" title="eeeee">
-  
-  <img src="tpl/default/img/shop/shop_default_big.jpg" alt="eeeee" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
-  <strong class="money">￥10.00元/个</strong>
-                      <strong class="title">
-                             eeeee                         </strong>
-                         
+                  
+<li class="item clearfix">
+<a href="index.php?do=service&sid=13" title="[图兰朵]婚纱摄影重磅推出 黄金路线启动">
+<img src="data/uploads/2013/04/09/210_2282751640079d7d50.jpg" alt="[图兰朵]婚纱摄影重磅推出 黄金路线启动" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
+<span class="shop_item_info">
+<strong class="money">￥2,000.00元/个</strong>
+<strong class="title">
+[图兰朵]婚纱摄影重磅推出 黄金路线启动
+</strong>                
  </span>
  </a>
-                                      </li>
-                                  <li class="item clearfix">
-                        <a href="index.php?do=service&sid=13" title="[图兰朵]婚纱摄影重磅推出 黄金路线启动">
+</li>
+                                 
   
-  <img src="data/uploads/2013/04/09/210_2282751640079d7d50.jpg" alt="[图兰朵]婚纱摄影重磅推出 黄金路线启动" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
-  <strong class="money">￥2,000.00元/个</strong>
-                      <strong class="title">
-                             [图兰朵]婚纱摄影重磅推出 黄金路线启动                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                        <a href="index.php?do=service&sid=12" title="商务|贸易|通用PPT模板">
-  
-  <img src="data/uploads/2013/04/09/210_69285163fcde4fe35.jpg" alt="商务|贸易|通用PPT模板" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
-  <strong class="money">￥100.00元/个</strong>
-                      <strong class="title">
-                             商务|贸易|通用PPT模板                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                        <a href="index.php?do=service&sid=9" title="【创意】【澎 R26; 然心动】宣传册页设计">
-  
-  <img src="data/uploads/2013/04/09/210_34715163f16eaa527.png" alt="【创意】【澎 R26; 然心动】宣传册页设计" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
-  <strong class="money">￥100.00元/个</strong>
-                      <strong class="title">
-                             【创意】【澎 R26; 然心动】宣传册页设计                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                        <a href="index.php?do=service&sid=8" title="家庭装修设计作品-1">
-  
-  <img src="data/uploads/2013/04/09/210_198065163f0bc185b1.jpg" alt="家庭装修设计作品-1" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
-  <strong class="money">￥1,000.00元/个</strong>
-                      <strong class="title">
-                             家庭装修设计作品-1                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                        <a href="index.php?do=service&sid=7" title="【创意】企业网站定制开发">
-  
-  <img src="data/uploads/2013/04/09/210_192895163e866c4dc9.jpg" alt="【创意】企业网站定制开发" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
-  <strong class="money">￥10,000.00元/个</strong>
-                      <strong class="title">
-                             【创意】企业网站定制开发                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                        <a href="index.php?do=service&sid=5" title="【创意】网络视频">
-  
-  <img src="data/uploads/2013/04/09/210_201825163e6a867205.png" alt="【创意】网络视频" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
-  <strong class="money">￥100.00元/个</strong>
-                      <strong class="title">
-                             【创意】网络视频                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                        <a href="index.php?do=service&sid=2" title="【创意】LOGO设计">
-  
-  <img src="data/uploads/2013/04/09/210_16875163e52fe2415.jpg" alt="【创意】LOGO设计" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
-  <strong class="money">￥100.00元/个</strong>
-                      <strong class="title">
-                             【创意】LOGO设计                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
-                        <a href="index.php?do=service&sid=1" title="【创意】海报设计">
-  
-  <img src="data/uploads/2013/04/09/210_314595163e47017e15.jpg" alt="【创意】海报设计" onerror="this.src='tpl/default/img/shop/shop_default.gif'">
- <span class="shop_item_info">
-  <strong class="money">￥1,000.00元/个</strong>
-                      <strong class="title">
-                             【创意】海报设计                         </strong>
-                         
- </span>
- </a>
-                                      </li>
-                                  <li class="item clearfix">
+   <li class="item clearfix">
                         <a href="javascript:void(0);" title="暂无商品"><img name="lazyImg" src="tpl/default/img/shop/shop_default_big.jpg" onerror="this.src='tpl/default/img/shop/shop_default.gif'" alt="暂无商品"></a>
                   </li>
                                   <li class="item clearfix">
